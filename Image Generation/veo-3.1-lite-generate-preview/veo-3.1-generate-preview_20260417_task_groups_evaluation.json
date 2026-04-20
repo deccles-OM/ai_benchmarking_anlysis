@@ -1,0 +1,2622 @@
+{
+  "source_file": "response_models\\veo-3.1-generate-preview_20260417_task_groups.json",
+  "total_score": 2033.085771836485,
+  "max_score": 3770,
+  "average_score": 0.5392800455799696,
+  "percentage": 53.92800455799696,
+  "category_breakdown": {
+    "Data Understanding": {
+      "score": 19.201858950795568,
+      "max_points": 50,
+      "percentage": 38.403717901591136
+    },
+    "Data Cleaning": {
+      "score": 30.38167341865817,
+      "max_points": 60,
+      "percentage": 50.63612236443028
+    },
+    "Exploratory Data Analysis": {
+      "score": 43.57039180596402,
+      "max_points": 75,
+      "percentage": 58.09385574128536
+    },
+    "Statistical Analysis": {
+      "score": 42.44194759875383,
+      "max_points": 80,
+      "percentage": 53.05243449844228
+    },
+    "SQL & Query Logic": {
+      "score": 22.9,
+      "max_points": 80,
+      "percentage": 28.625
+    },
+    "Business Insight": {
+      "score": 48.796276881142795,
+      "max_points": 80,
+      "percentage": 60.995346101428495
+    },
+    "Instruction Following": {
+      "score": 50.885022157854884,
+      "max_points": 135,
+      "percentage": 37.69260900581843
+    },
+    "Dataform Development": {
+      "score": 55.325,
+      "max_points": 145,
+      "percentage": 38.1551724137931
+    },
+    "SQL Dialect Specificity": {
+      "score": 61.800000000000004,
+      "max_points": 120,
+      "percentage": 51.5
+    },
+    "Complex SQL": {
+      "score": 123.1875,
+      "max_points": 180,
+      "percentage": 68.4375
+    },
+    "Prompt Efficiency": {
+      "score": 58.52478788871896,
+      "max_points": 95,
+      "percentage": 61.605039882862066
+    },
+    "Document Reading & Extraction": {
+      "score": 61.99216793021715,
+      "max_points": 120,
+      "percentage": 51.660139941847625
+    },
+    "Website Development": {
+      "score": 79.7625,
+      "max_points": 120,
+      "percentage": 66.46875
+    },
+    "Pipeline Development": {
+      "score": 42.95,
+      "max_points": 115,
+      "percentage": 37.34782608695652
+    },
+    "Architecture & Design": {
+      "score": 47.6231444743552,
+      "max_points": 100,
+      "percentage": 47.6231444743552
+    },
+    "Debugging & Troubleshooting": {
+      "score": 68.45842336413453,
+      "max_points": 120,
+      "percentage": 57.048686136778784
+    },
+    "Performance Optimization": {
+      "score": 67.94375712746327,
+      "max_points": 120,
+      "percentage": 56.61979760621939
+    },
+    "Code Review & Issue Detection": {
+      "score": 69.19787081787868,
+      "max_points": 115,
+      "percentage": 60.172061580764066
+    },
+    "Library & Dependency Management": {
+      "score": 72.89089274616397,
+      "max_points": 120,
+      "percentage": 60.74241062180331
+    },
+    "Communication & Documentation": {
+      "score": 66.20570040017537,
+      "max_points": 120,
+      "percentage": 55.17141700014615
+    },
+    "Security & Best Practices": {
+      "score": 68.91503061506731,
+      "max_points": 115,
+      "percentage": 59.926113578319395
+    },
+    "Testing & Quality Assurance": {
+      "score": 68.19748739565254,
+      "max_points": 120,
+      "percentage": 56.831239496377115
+    },
+    "Saturation & Complexity Limits": {
+      "score": 123.39746543778803,
+      "max_points": 225,
+      "percentage": 54.843317972350235
+    },
+    "Long-Context Handling": {
+      "score": 129.14405715044012,
+      "max_points": 230,
+      "percentage": 56.14959006540875
+    },
+    "Sustained Performance & Fatigue": {
+      "score": 179.276090378628,
+      "max_points": 325,
+      "percentage": 55.161873962654774
+    },
+    "Context Switching & Task Clarity": {
+      "score": 155.21672529663311,
+      "max_points": 275,
+      "percentage": 56.44244556241205
+    },
+    "Writing & Content Generation": {
+      "score": 174.90000000000003,
+      "max_points": 330,
+      "percentage": 53.000000000000014
+    }
+  },
+  "performance_summary": {
+    "questions_with_perf": 145,
+    "avg_response_time_seconds": 0.07571724137931035,
+    "median_response_time_seconds": 0.073,
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tokens": 0,
+    "avg_input_tokens": 0.0,
+    "avg_output_tokens": 0.0,
+    "avg_total_tokens": 0.0
+  },
+  "results": [
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_01",
+      "category": "Data Understanding",
+      "combined_score": 0.5472661870503597,
+      "accuracy": 0.04316546762589928,
+      "reasoning": 0.8,
+      "weighted_points": 5.472661870503597,
+      "max_points": 10,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.22,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_02",
+      "category": "Data Understanding",
+      "combined_score": 0.28,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 2.8000000000000003,
+      "max_points": 10,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.074,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_03",
+      "category": "Data Understanding",
+      "combined_score": 0.5329197080291971,
+      "accuracy": 0.0072992700729927005,
+      "reasoning": 0.8,
+      "weighted_points": 5.329197080291971,
+      "max_points": 10,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.088,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_04",
+      "category": "Data Understanding",
+      "combined_score": 0.28,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 2.8000000000000003,
+      "max_points": 10,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.067,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_05",
+      "category": "Data Understanding",
+      "combined_score": 0.28,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 2.8000000000000003,
+      "max_points": 10,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.102,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_01",
+      "category": "Data Cleaning",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 7.95,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.099,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_02",
+      "category": "Data Cleaning",
+      "combined_score": 0.30527075812274374,
+      "accuracy": 0.036101083032490974,
+      "reasoning": 0.8,
+      "weighted_points": 4.579061371841156,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.109,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_03",
+      "category": "Data Cleaning",
+      "combined_score": 0.5913569321533924,
+      "accuracy": 0.15339233038348082,
+      "reasoning": 0.8,
+      "weighted_points": 8.870353982300886,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.087,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_04",
+      "category": "Data Cleaning",
+      "combined_score": 0.5988172043010752,
+      "accuracy": 0.17204301075268819,
+      "reasoning": 0.8,
+      "weighted_points": 8.982258064516127,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.101,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_01",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.5677358490566038,
+      "accuracy": 0.09433962264150944,
+      "reasoning": 0.8,
+      "weighted_points": 8.516037735849057,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.094,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_02",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.6095698924731182,
+      "accuracy": 0.1989247311827957,
+      "reasoning": 0.8,
+      "weighted_points": 9.143548387096773,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.082,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_03",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.5836443148688046,
+      "accuracy": 0.13411078717201166,
+      "reasoning": 0.8,
+      "weighted_points": 8.75466472303207,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.138,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_04",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.6080487804878049,
+      "accuracy": 0.1951219512195122,
+      "reasoning": 0.8,
+      "weighted_points": 9.120731707317074,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.088,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_05",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.535693950177936,
+      "accuracy": 0.014234875444839857,
+      "reasoning": 0.8,
+      "weighted_points": 8.035409252669039,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.083,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_01",
+      "category": "Statistical Analysis",
+      "combined_score": 0.28,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 5.6000000000000005,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.11,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_02",
+      "category": "Statistical Analysis",
+      "combined_score": 0.6162745098039216,
+      "accuracy": 0.21568627450980393,
+      "reasoning": 0.8,
+      "weighted_points": 12.325490196078432,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.092,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_03",
+      "category": "Statistical Analysis",
+      "combined_score": 0.6336674816625917,
+      "accuracy": 0.2591687041564792,
+      "reasoning": 0.8,
+      "weighted_points": 12.673349633251833,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.079,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_04",
+      "category": "Statistical Analysis",
+      "combined_score": 0.592155388471178,
+      "accuracy": 0.15538847117794485,
+      "reasoning": 0.8,
+      "weighted_points": 11.84310776942356,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.078,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_01",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.29,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 5.8,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.072,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_02",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.29,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 5.8,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.09,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_03",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.23000000000000004,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 4.6000000000000005,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.092,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_04",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.335,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 6.7,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.091,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_01",
+      "category": "Business Insight",
+      "combined_score": 0.5725316455696202,
+      "accuracy": 0.10632911392405063,
+      "reasoning": 0.8,
+      "weighted_points": 11.450632911392404,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.08,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_02",
+      "category": "Business Insight",
+      "combined_score": 0.6019346049046321,
+      "accuracy": 0.17983651226158037,
+      "reasoning": 0.8,
+      "weighted_points": 12.038692098092643,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.089,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_03",
+      "category": "Business Insight",
+      "combined_score": 0.6305347593582887,
+      "accuracy": 0.25133689839572193,
+      "reasoning": 0.8,
+      "weighted_points": 12.610695187165774,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.071,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_04",
+      "category": "Business Insight",
+      "combined_score": 0.6348128342245989,
+      "accuracy": 0.2620320855614973,
+      "reasoning": 0.8,
+      "weighted_points": 12.696256684491978,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.081,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_01",
+      "category": "Instruction Following",
+      "combined_score": 0.40320665083135393,
+      "accuracy": 0.1330166270783848,
+      "reasoning": 0.8,
+      "weighted_points": 8.064133016627078,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.072,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_02",
+      "category": "Instruction Following",
+      "combined_score": 0.41754617414248024,
+      "accuracy": 0.16886543535620052,
+      "reasoning": 0.8,
+      "weighted_points": 10.438654353562006,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.059,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_03",
+      "category": "Instruction Following",
+      "combined_score": 0.4140949554896142,
+      "accuracy": 0.16023738872403562,
+      "reasoning": 0.8,
+      "weighted_points": 10.352373887240356,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.07,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_04",
+      "category": "Instruction Following",
+      "combined_score": 0.36988527724665393,
+      "accuracy": 0.0497131931166348,
+      "reasoning": 0.8,
+      "weighted_points": 11.096558317399618,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.057,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_05",
+      "category": "Instruction Following",
+      "combined_score": 0.312380073800738,
+      "accuracy": 0.01845018450184502,
+      "reasoning": 0.8,
+      "weighted_points": 10.93330258302583,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.061,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_01",
+      "category": "Dataform Development",
+      "combined_score": 0.335,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 8.375,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.079,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_02",
+      "category": "Dataform Development",
+      "combined_score": 0.44,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 11.0,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.083,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_03",
+      "category": "Dataform Development",
+      "combined_score": 0.3950000000000001,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 11.850000000000001,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.087,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_04",
+      "category": "Dataform Development",
+      "combined_score": 0.3950000000000001,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 11.850000000000001,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.102,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_05",
+      "category": "Dataform Development",
+      "combined_score": 0.35000000000000003,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 12.250000000000002,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.082,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_01",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.44000000000000006,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 8.8,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.056,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_02",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.071,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_03",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 13.25,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.084,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_04",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 13.25,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.063,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_05",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.084,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_01",
+      "category": "Complex SQL",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 20.925,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.099,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_02",
+      "category": "Complex SQL",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 20.925,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.073,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_03",
+      "category": "Complex SQL",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 24.4125,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.081,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_04",
+      "category": "Complex SQL",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 27.9,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.09,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_05",
+      "category": "Complex SQL",
+      "combined_score": 0.645,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 29.025000000000002,
+      "max_points": 45,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.057,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_01",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6014975845410627,
+      "accuracy": 0.178743961352657,
+      "reasoning": 0.8,
+      "weighted_points": 9.02246376811594,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.055,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_02",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.594321608040201,
+      "accuracy": 0.16080402010050251,
+      "reasoning": 0.8,
+      "weighted_points": 8.914824120603015,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.093,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_03",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6225,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 12.450000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.069,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_04",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6225,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 12.450000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.072,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_05",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6275,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 15.687499999999998,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.082,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_01",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.4061776447105789,
+      "accuracy": 0.027944111776447105,
+      "reasoning": 0.8,
+      "weighted_points": 8.123552894211578,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.072,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_02",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.6251541850220265,
+      "accuracy": 0.23788546255506607,
+      "reasoning": 0.8,
+      "weighted_points": 12.503083700440529,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.074,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_03",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.45726415094339623,
+      "accuracy": 0.15566037735849056,
+      "reasoning": 0.8,
+      "weighted_points": 11.431603773584905,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.07,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_04",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.45568965517241383,
+      "accuracy": 0.15172413793103448,
+      "reasoning": 0.8,
+      "weighted_points": 11.392241379310345,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.079,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_05",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.6180562060889929,
+      "accuracy": 0.22014051522248243,
+      "reasoning": 0.8,
+      "weighted_points": 18.54168618266979,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.085,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_01",
+      "category": "Website Development",
+      "combined_score": 0.645,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 12.9,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.055,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_02",
+      "category": "Website Development",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 13.95,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.078,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_03",
+      "category": "Website Development",
+      "combined_score": 0.645,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 16.125,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.081,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_04",
+      "category": "Website Development",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 17.4375,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.06,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_05",
+      "category": "Website Development",
+      "combined_score": 0.645,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 19.35,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.07,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_01",
+      "category": "Pipeline Development",
+      "combined_score": 0.395,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 7.9,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.075,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_02",
+      "category": "Pipeline Development",
+      "combined_score": 0.395,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 7.9,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.06,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_02",
+      "category": "Pipeline Development",
+      "combined_score": 0.395,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 7.9,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.065,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_04",
+      "category": "Pipeline Development",
+      "combined_score": 0.35,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 8.75,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.073,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_05",
+      "category": "Pipeline Development",
+      "combined_score": 0.35000000000000003,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.500000000000002,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.076,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_01",
+      "category": "Architecture & Design",
+      "combined_score": 0.4059589041095891,
+      "accuracy": 0.0273972602739726,
+      "reasoning": 0.8,
+      "weighted_points": 8.119178082191782,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.076,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_02",
+      "category": "Architecture & Design",
+      "combined_score": 0.4999773755656109,
+      "accuracy": 0.26244343891402716,
+      "reasoning": 0.8,
+      "weighted_points": 12.499434389140273,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.066,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_02",
+      "category": "Architecture & Design",
+      "combined_score": 0.4999773755656109,
+      "accuracy": 0.26244343891402716,
+      "reasoning": 0.8,
+      "weighted_points": 12.499434389140273,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.056,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_04",
+      "category": "Architecture & Design",
+      "combined_score": 0.48350325379609543,
+      "accuracy": 0.22125813449023862,
+      "reasoning": 0.8,
+      "weighted_points": 14.505097613882864,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.069,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_01",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.5367796610169492,
+      "accuracy": 0.01694915254237288,
+      "reasoning": 0.8,
+      "weighted_points": 10.735593220338984,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.077,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_02",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.541522633744856,
+      "accuracy": 0.02880658436213992,
+      "reasoning": 0.8,
+      "weighted_points": 10.83045267489712,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.086,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_03",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.604040632054176,
+      "accuracy": 0.18510158013544017,
+      "reasoning": 0.8,
+      "weighted_points": 15.1010158013544,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.068,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_04",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.5383857442348008,
+      "accuracy": 0.020964360587002098,
+      "reasoning": 0.8,
+      "weighted_points": 13.45964360587002,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.068,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_05",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.6110572687224669,
+      "accuracy": 0.2026431718061674,
+      "reasoning": 0.8,
+      "weighted_points": 18.331718061674007,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.059,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_01",
+      "category": "Performance Optimization",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.151,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_02",
+      "category": "Performance Optimization",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.066,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_03",
+      "category": "Performance Optimization",
+      "combined_score": 0.5875280898876404,
+      "accuracy": 0.14382022471910114,
+      "reasoning": 0.8,
+      "weighted_points": 14.68820224719101,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.079,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_04",
+      "category": "Performance Optimization",
+      "combined_score": 0.5872748267898383,
+      "accuracy": 0.14318706697459585,
+      "reasoning": 0.8,
+      "weighted_points": 14.681870669745958,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.079,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_05",
+      "category": "Performance Optimization",
+      "combined_score": 0.5791228070175438,
+      "accuracy": 0.12280701754385964,
+      "reasoning": 0.8,
+      "weighted_points": 17.373684210526314,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.066,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_01",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.578780487804878,
+      "accuracy": 0.12195121951219512,
+      "reasoning": 0.8,
+      "weighted_points": 11.57560975609756,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.068,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_02",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.6031182795698925,
+      "accuracy": 0.1827956989247312,
+      "reasoning": 0.8,
+      "weighted_points": 12.06236559139785,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.084,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_03",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.6068,
+      "accuracy": 0.192,
+      "reasoning": 0.8,
+      "weighted_points": 15.17,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.088,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_01",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.578780487804878,
+      "accuracy": 0.12195121951219512,
+      "reasoning": 0.8,
+      "weighted_points": 11.57560975609756,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.08,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_05",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.6271428571428571,
+      "accuracy": 0.24285714285714285,
+      "reasoning": 0.8,
+      "weighted_points": 18.814285714285713,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.052,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_01",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.5938297872340426,
+      "accuracy": 0.1595744680851064,
+      "reasoning": 0.8,
+      "weighted_points": 11.876595744680852,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.086,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_02",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.5798644986449865,
+      "accuracy": 0.12466124661246612,
+      "reasoning": 0.8,
+      "weighted_points": 11.597289972899729,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.07,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_03",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.6286595174262735,
+      "accuracy": 0.24664879356568364,
+      "reasoning": 0.8,
+      "weighted_points": 15.716487935656836,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.06,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_04",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.6010659898477156,
+      "accuracy": 0.17766497461928935,
+      "reasoning": 0.8,
+      "weighted_points": 15.026649746192891,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.09,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_05",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.6224623115577889,
+      "accuracy": 0.23115577889447236,
+      "reasoning": 0.8,
+      "weighted_points": 18.673869346733667,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.073,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_01",
+      "category": "Communication & Documentation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.089,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_02",
+      "category": "Communication & Documentation",
+      "combined_score": 0.540126582278481,
+      "accuracy": 0.02531645569620253,
+      "reasoning": 0.8,
+      "weighted_points": 10.80253164556962,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.06,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_03",
+      "category": "Communication & Documentation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 13.25,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.071,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_04",
+      "category": "Communication & Documentation",
+      "combined_score": 0.5384745762711864,
+      "accuracy": 0.0211864406779661,
+      "reasoning": 0.8,
+      "weighted_points": 13.461864406779661,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.073,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_05",
+      "category": "Communication & Documentation",
+      "combined_score": 0.6030434782608697,
+      "accuracy": 0.1826086956521739,
+      "reasoning": 0.8,
+      "weighted_points": 18.09130434782609,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.063,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_01",
+      "category": "Security & Best Practices",
+      "combined_score": 0.6055555555555555,
+      "accuracy": 0.18888888888888888,
+      "reasoning": 0.8,
+      "weighted_points": 12.11111111111111,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.063,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_02",
+      "category": "Security & Best Practices",
+      "combined_score": 0.611994459833795,
+      "accuracy": 0.20498614958448755,
+      "reasoning": 0.8,
+      "weighted_points": 12.2398891966759,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.065,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_03",
+      "category": "Security & Best Practices",
+      "combined_score": 0.6034908136482939,
+      "accuracy": 0.1837270341207349,
+      "reasoning": 0.8,
+      "weighted_points": 15.087270341207349,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.081,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_01",
+      "category": "Security & Best Practices",
+      "combined_score": 0.6055555555555555,
+      "accuracy": 0.18888888888888888,
+      "reasoning": 0.8,
+      "weighted_points": 12.11111111111111,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.075,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_05",
+      "category": "Security & Best Practices",
+      "combined_score": 0.578854961832061,
+      "accuracy": 0.12213740458015267,
+      "reasoning": 0.8,
+      "weighted_points": 17.36564885496183,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.078,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_01",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.059,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_01",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.076,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_03",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.6364220183486239,
+      "accuracy": 0.26605504587155965,
+      "reasoning": 0.8,
+      "weighted_points": 15.910550458715598,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.084,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_04",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.6074774774774775,
+      "accuracy": 0.19369369369369369,
+      "reasoning": 0.8,
+      "weighted_points": 15.186936936936938,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.059,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_05",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.059,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_01",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 21.200000000000003,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.066,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_02",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 23.85,
+      "max_points": 45,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.061,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_03",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 26.5,
+      "max_points": 50,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.06,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_04",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.6129493087557604,
+      "accuracy": 0.2073732718894009,
+      "reasoning": 0.8,
+      "weighted_points": 30.647465437788018,
+      "max_points": 50,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.064,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_01",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 21.200000000000003,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.072,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_01",
+      "category": "Long-Context Handling",
+      "combined_score": 0.6168085106382978,
+      "accuracy": 0.2170212765957447,
+      "reasoning": 0.8,
+      "weighted_points": 24.67234042553191,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.083,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_02",
+      "category": "Long-Context Handling",
+      "combined_score": 0.5366528066528067,
+      "accuracy": 0.016632016632016633,
+      "reasoning": 0.8,
+      "weighted_points": 24.1493762993763,
+      "max_points": 45,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.076,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_03",
+      "category": "Long-Context Handling",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 26.5,
+      "max_points": 50,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.067,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_01",
+      "category": "Long-Context Handling",
+      "combined_score": 0.6168085106382978,
+      "accuracy": 0.2170212765957447,
+      "reasoning": 0.8,
+      "weighted_points": 24.67234042553191,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.063,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_05",
+      "category": "Long-Context Handling",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 29.150000000000002,
+      "max_points": 55,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.065,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_01",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.07,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_02",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.061,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_03",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.5781012658227848,
+      "accuracy": 0.12025316455696203,
+      "reasoning": 0.8,
+      "weighted_points": 11.562025316455696,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.059,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_04",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.075,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_05",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.5784848484848485,
+      "accuracy": 0.12121212121212122,
+      "reasoning": 0.8,
+      "weighted_points": 20.246969696969696,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.073,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_06",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.570378548895899,
+      "accuracy": 0.10094637223974763,
+      "reasoning": 0.8,
+      "weighted_points": 19.963249211356466,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.06,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_07",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.073,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_08",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.6038461538461538,
+      "accuracy": 0.18461538461538463,
+      "reasoning": 0.8,
+      "weighted_points": 24.153846153846153,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.081,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_09",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 23.85,
+      "max_points": 45,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.066,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_10",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 23.85,
+      "max_points": 45,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.056,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_01",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.056,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_02",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.6043661971830986,
+      "accuracy": 0.18591549295774648,
+      "reasoning": 0.8,
+      "weighted_points": 12.087323943661971,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.068,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_03",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.599047619047619,
+      "accuracy": 0.17261904761904762,
+      "reasoning": 0.8,
+      "weighted_points": 14.976190476190476,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.057,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_04",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.6001754385964911,
+      "accuracy": 0.17543859649122806,
+      "reasoning": 0.8,
+      "weighted_points": 15.004385964912279,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.075,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_01",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.063,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_06",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.6186486486486487,
+      "accuracy": 0.22162162162162163,
+      "reasoning": 0.8,
+      "weighted_points": 15.466216216216216,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.061,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_07",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.6060869565217392,
+      "accuracy": 0.19021739130434784,
+      "reasoning": 0.8,
+      "weighted_points": 18.182608695652174,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.075,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_08",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.078,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_09",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.075,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_10",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 21.200000000000003,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.059,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_01",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.06,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_02",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.073,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_03",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.066,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_04",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.073,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_05",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.065,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_06",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.069,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_07",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.067,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_02",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.064,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_09",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.083,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_10",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 21.200000000000003,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/veo-3.1-generate-preview is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.058,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    }
+  ]
+}
