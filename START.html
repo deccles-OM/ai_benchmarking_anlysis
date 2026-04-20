@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Model Benchmark Analysis - Start Here</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #4caf50 0%, #2e7d32 100%);
+            color: #333;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 50px;
+            box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #4caf50;
+            text-align: center;
+            font-size: 2.8em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 40px;
+        }
+        
+        .hero-box {
+            background: linear-gradient(135deg, #4caf50 0%, #2e7d32 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        .hero-box p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        
+        h2 {
+            color: #4caf50;
+            font-size: 2em;
+            margin-top: 40px;
+            margin-bottom: 25px;
+            border-bottom: 3px solid #4caf50;
+            padding-bottom: 15px;
+        }
+        
+        .decision-section {
+            margin: 40px 0;
+        }
+        
+        .quick-paths {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .path-card {
+            background: #f0f7f4;
+            border: 2px solid #4caf50;
+            border-radius: 10px;
+            padding: 25px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .path-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(76, 175, 80, 0.3);
+            border-color: #2e7d32;
+        }
+        
+        .path-card h3 {
+            color: #4caf50;
+            margin-bottom: 12px;
+            font-size: 1.2em;
+        }
+        
+        .path-card .time {
+            color: #999;
+            font-size: 0.9em;
+            margin-bottom: 12px;
+        }
+        
+        .path-card p {
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        
+        .path-card a {
+            display: inline-block;
+            background: #4caf50;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .path-card a:hover {
+            background: #2e7d32;
+            transform: translateX(3px);
+        }
+        
+        .all-reports {
+            margin-top: 50px;
+        }
+        
+        .report-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        .report-table th {
+            background: #4caf50;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .report-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .report-table tr:hover {
+            background: #f5f5f5;
+        }
+        
+        .report-link {
+            color: #4caf50;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .report-link:hover {
+            text-decoration: underline;
+        }
+        
+        .features {
+            background: #e8f5e9;
+            border-left: 5px solid #4caf50;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+        
+        .features h3 {
+            color: #2e7d32;
+            margin-top: 0;
+        }
+        
+        .features ul {
+            margin-left: 20px;
+        }
+        
+        .features li {
+            margin: 8px 0;
+            color: #555;
+        }
+        
+        .footer-note {
+            background: #fff9e6;
+            border: 2px solid #ff9800;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        
+        .footer-note strong {
+            color: #ff6f00;
+        }
+        
+        .emoji {
+            font-size: 1.3em;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><span class="emoji">🎯</span>AI Model Benchmark Analysis</h1>
+        <p class="subtitle">Complete Analysis of 24 AI Models Across 145+ Tasks</p>
+        
+        <div class="hero-box">
+            <p>📊 Welcome! This analysis contains everything you need to understand AI model performance and make informed decisions about which model to use.</p>
+            <p style="margin-top: 15px;">👇 Choose your path below based on your needs:</p>
+        </div>
+        
+        <div class="decision-section">
+            <h2><span class="emoji">🚀</span>Choose Your Path</h2>
+            
+            <div class="quick-paths">
+                <div class="path-card">
+                    <h3>⏱️ I'm in a hurry</h3>
+                    <div class="time">2-3 minutes</div>
+                    <p>Get quick answers to your key questions and the most important rankings.</p>
+                    <a href="Reports/Executive_Summary.html">📄 Executive Summary</a>
+                </div>
+                
+                <div class="path-card">
+                    <h3>🎯 Help me pick a model</h3>
+                    <div class="time">5 minutes</div>
+                    <p>Decision matrices and practical comparison tables to help you choose.</p>
+                    <a href="Reports/Quick_Reference.html">📋 Quick Reference</a>
+                </div>
+                
+                <div class="path-card">
+                    <h3>🔍 I want to explore</h3>
+                    <div class="time">10-15 minutes</div>
+                    <p>Interactive dashboard - click buttons, filter models, explore data.</p>
+                    <a href="Reports/AI_Model_Dashboard_Interactive.html">🎨 Interactive Dashboard</a>
+                </div>
+                
+                <div class="path-card">
+                    <h3>📊 Show me everything</h3>
+                    <div class="time">15-20 minutes</div>
+                    <p>Comprehensive analysis with all rankings, details, and insights.</p>
+                    <a href="Reports/AI_Model_Analysis_Report.html">📈 Full Analysis</a>
+                </div>
+                
+                <div class="path-card">
+                    <h3>📉 Visual presentation</h3>
+                    <div class="time">10 minutes</div>
+                    <p>Charts and graphs for understanding trends and comparisons.</p>
+                    <a href="Reports/AI_Model_Analysis_Report_Interactive.html">📊 Charts & Graphs</a>
+                </div>
+                
+                <div class="path-card">
+                    <h3>❓ I'm confused</h3>
+                    <div class="time">5 minutes</div>
+                    <p>Guide explaining each report and what information it contains.</p>
+                    <a href="Reports/Navigation_Guide.html">🗺️ Navigation Guide</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="all-reports">
+            <h2><span class="emoji">📂</span>All Reports Available</h2>
+            
+            <table class="report-table">
+                <thead>
+                    <tr>
+                        <th>Report Name</th>
+                        <th>Best For</th>
+                        <th>Time Needed</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Executive Summary</strong></td>
+                        <td>Quick answers to main questions</td>
+                        <td>2-3 min</td>
+                        <td><a href="Reports/Executive_Summary.html" class="report-link">Open →</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Quick Reference</strong></td>
+                        <td>Picking the right model</td>
+                        <td>5 min</td>
+                        <td><a href="Reports/Quick_Reference.html" class="report-link">Open →</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Interactive Dashboard</strong></td>
+                        <td>Exploring data interactively</td>
+                        <td>10-15 min</td>
+                        <td><a href="Reports/AI_Model_Dashboard_Interactive.html" class="report-link">Open →</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Full Analysis Report</strong></td>
+                        <td>Comprehensive deep dive</td>
+                        <td>15-20 min</td>
+                        <td><a href="Reports/AI_Model_Analysis_Report.html" class="report-link">Open →</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Charts & Graphs</strong></td>
+                        <td>Visual presentations</td>
+                        <td>10 min</td>
+                        <td><a href="Reports/AI_Model_Analysis_Report_Interactive.html" class="report-link">Open →</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Navigation Guide</strong></td>
+                        <td>Understanding the reports</td>
+                        <td>5 min</td>
+                        <td><a href="Reports/Navigation_Guide.html" class="report-link">Open →</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="features">
+            <h3>✨ What You'll Find</h3>
+            <ul>
+                <li>✅ Complete ranking of all 24 AI models</li>
+                <li>✅ Performance scores and comparisons</li>
+                <li>✅ Gemini version progression analysis</li>
+                <li>✅ Pro vs Flash trade-off analysis</li>
+                <li>✅ Text/Image/Audio/Embedding modality breakdown</li>
+                <li>✅ Decision matrices and recommendations</li>
+                <li>✅ Interactive charts and visualizations</li>
+                <li>✅ Best practices and optimization tips</li>
+            </ul>
+        </div>
+        
+        <div class="features" style="background: #e3f2fd; border-color: #2196F3;">
+            <h3 style="color: #1565c0;">💡 Pro Tips</h3>
+            <ul>
+                <li>💚 All reports use a clean <strong>green theme</strong></li>
+                <li>📱 Works on any device (desktop, tablet, mobile)</li>
+                <li>🌐 Can be opened offline</li>
+                <li>🔗 All links work perfectly</li>
+                <li>⏱️ Time estimates help you choose what to read</li>
+            </ul>
+        </div>
+        
+        <div class="footer-note">
+            <strong>🎯 Recommendation:</strong> If you're new to this, start with <strong>Executive Summary</strong> or <strong>Quick Reference</strong> (both under 5 minutes). Then explore other reports as needed!
+        </div>
+    </div>
+</body>
+</html>
