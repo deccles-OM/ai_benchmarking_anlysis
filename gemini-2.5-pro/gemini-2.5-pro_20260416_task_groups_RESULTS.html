@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benchmark Results</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1, h2, h3, h4 {
+            color: #1F1E57;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        h1 {
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            margin: 15px 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        thead {
+            background: #1F1E57;
+            color: white;
+        }
+        th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 2px solid #667eea;
+        }
+        td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        tbody tr:hover {
+            background: #f9f9f9;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        pre {
+            background: #1F1E57;
+            color: #e0e0e0;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        pre code {
+            background: none;
+            color: #e0e0e0;
+            padding: 0;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 30px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        strong {
+            color: #667eea;
+            font-weight: 600;
+        }
+        .metric {
+            display: inline-block;
+            background: white;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            border-left: 4px solid #667eea;
+        }
+        .emoji {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+<h1>Benchmark Evaluation Results</h1>
+<strong>Model:</strong> gemini-2.5-pro<em>20260416</em>task_groups
+<strong>Date:</strong> March 16, 2026
+<h2>Key Results</h2>
+<strong>Overall Score:</strong> 2174.8 / 3770 points <strong>(57.7%)</strong>
+<h3>Performance by Category</h3>
+<table>
+<thead><tr>
+<th>Category</th>
+<th>Score</th>
+<th>Status</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>🟢 <strong>Data Understanding</strong></td>
+<td><strong>90.60%</strong></td>
+<td>Best</td>
+</tr>
+<tr>
+<td>🟢 Complex SQL</td>
+<td>80.80%</td>
+<td>Excellent</td>
+</tr>
+<tr>
+<td>🟡 Website Development</td>
+<td>78.85%</td>
+<td>Good</td>
+</tr>
+<tr>
+<td>🟡 Data Cleaning</td>
+<td>69.77%</td>
+<td>Good</td>
+</tr>
+<tr>
+<td>🟡 Prompt Efficiency</td>
+<td>67.55%</td>
+<td>Good</td>
+</tr>
+<tr>
+<td>🟡 Business Insight</td>
+<td>63.47%</td>
+<td>Good</td>
+</tr>
+<tr>
+<td>🟡 Security & Best Practices</td>
+<td>60.84%</td>
+<td>Good</td>
+</tr>
+<tr>
+<td>🟡 Code Review & Issue Detection</td>
+<td>59.47%</td>
+<td>Fair</td>
+</tr>
+<tr>
+<td>🟡 Library & Dependency Management</td>
+<td>59.43%</td>
+<td>Fair</td>
+</tr>
+<tr>
+<td>🟡 Exploratory Data Analysis</td>
+<td>59.17%</td>
+<td>Fair</td>
+</tr>
+<tr>
+<td>🟡 Long-Context Handling</td>
+<td>58.58%</td>
+<td>Fair</td>
+</tr>
+<tr>
+<td>🟡 Debugging & Troubleshooting</td>
+<td>58.39%</td>
+<td>Fair</td>
+</tr>
+<tr>
+<td>🟡 Saturation & Complexity Limits</td>
+<td>58.10%</td>
+<td>Fair</td>
+</tr>
+<tr>
+<td>🟡 Context Switching & Task Clarity</td>
+<td>57.75%</td>
+<td>Fair</td>
+</tr>
+<tr>
+<td>🟡 Testing & Quality Assurance</td>
+<td>56.65%</td>
+<td>Fair</td>
+</tr>
+<tr>
+<td>🟡 Sustained Performance & Fatigue</td>
+<td>56.55%</td>
+<td>Fair</td>
+</tr>
+<tr>
+<td>🟡 Performance Optimization</td>
+<td>56.43%</td>
+<td>Fair</td>
+</tr>
+<tr>
+<td>🟡 Communication & Documentation</td>
+<td>56.30%</td>
+<td>Fair</td>
+</tr>
+<tr>
+<td>🟡 Statistical Analysis</td>
+<td>53.25%</td>
+<td>Fair</td>
+</tr>
+<tr>
+<td>🟡 Writing & Content Generation</td>
+<td>52.53%</td>
+<td>Fair</td>
+</tr>
+<tr>
+<td>🟡 SQL & Query Logic</td>
+<td>50.88%</td>
+<td>Fair</td>
+</tr>
+<tr>
+<td>🟡 Document Reading & Extraction</td>
+<td>50.37%</td>
+<td>Fair</td>
+</tr>
+<tr>
+<td>🔴 Dataform Development</td>
+<td>49.55%</td>
+<td>Weak</td>
+</tr>
+<tr>
+<td>🔴 SQL Dialect Specificity</td>
+<td>48.58%</td>
+<td>Weak</td>
+</tr>
+<tr>
+<td>🔴 Architecture & Design</td>
+<td>45.49%</td>
+<td>Weak</td>
+</tr>
+<tr>
+<td>🔴 Pipeline Development</td>
+<td>43.70%</td>
+<td>Weak</td>
+</tr>
+<tr>
+<td>🔴 Instruction Following</td>
+<td><strong>40.15%</strong></td>
+<td>Weakest</td>
+</tr>
+</tbody>
+</table>
+<h3>Quick Findings</h3>
+<strong>Strengths:</strong>
+<p>✅ Data Understanding: 90.60%</p>
+<p>✅ Complex SQL: 80.80%</p>
+<p>✅ Website Development: 78.85%</p>
+<strong>Weaknesses:</strong>
+<p>❌ Pipeline Development: 43.70%</p>
+<p>❌ Instruction Following: 40.15%</p>
+<h2>Detailed Analysis</h2>
+<h3>In-Depth Insights</h3>
+<strong>Data Understanding (90.60%)</strong>
+<ul>
+<li>Demonstrates excellent capability and understanding</li>
+<li>Data Understanding is the strongest performing area</li>
+</ul>
+<strong>Instruction Following (40.15%)</strong>
+<ul>
+<li>Shows significant weaknesses and requires substantial improvement</li>
+<li>Instruction Following is the weakest performing area</li>
+</ul>
+<strong>Performance Consistency:</strong> 50.5% spread between strongest and weakest
+<ul>
+<li>High variability indicates inconsistent capabilities across task domains</li>
+</ul>
+<h3>Overall Assessment</h3>
+<p>The model demonstrates <strong>moderate overall performance</strong> at 57.7%, with significant variation across task categories and room for improvement.</p>
+<h3>Performance Tier Summary</h3>
+<table>
+<thead><tr>
+<th>Tier</th>
+<th>Count</th>
+<th>Percentage</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Excellent (≥80%)</td>
+<td>2</td>
+<td>7%</td>
+</tr>
+<tr>
+<td>Good (60-79%)</td>
+<td>5</td>
+<td>19%</td>
+</tr>
+<tr>
+<td>Fair (50-59%)</td>
+<td>15</td>
+<td>56%</td>
+</tr>
+<tr>
+<td>Poor (<50%)</td>
+<td>5</td>
+<td>19%</td>
+</tr>
+</tbody>
+</table>
+<h2>Recommendations</h2>
+<h3>Priority Improvement Areas</h3>
+<strong>Priority 1: Architecture & Design (45.49%)</strong>
+<ul>
+<li>Focus on improving architecture & design</li>
+<li>Current performance: 45.49% - needs development</li>
+</ul>
+<strong>Priority 2: Pipeline Development (43.70%)</strong>
+<ul>
+<li>Focus on improving pipeline development</li>
+<li>Current performance: 43.70% - needs development</li>
+</ul>
+<strong>Priority 3: Instruction Following (40.15%)</strong>
+<ul>
+<li>Focus on improving instruction following</li>
+<li>Current performance: 40.15% - needs development</li>
+</ul>
+<h3>General Improvement Strategy</h3>
+<p>1. <strong>Address Inconsistency</strong>: The large performance gap suggests variable capabilities. Focus on consistent improvement across all domains.</p>
+<p>2. <strong>Bridge Performance Gaps</strong>: Implement targeted training for weaker categories.</p>
+<p>3. <strong>Iterative Testing</strong>: Re-evaluate regularly to track improvement progress.</p>
+<em>Report generated from gemini-2.5-pro<em>20260416</em>task_groups.json</em>
+<em>Evaluation Date: March 16, 2026</em>
+<h2>Performance Metrics</h2>
+<ul>
+<li>Questions counted: 145 (with perf data: 145)</li>
+<li>Average response time (s): 34.900</li>
+<li>Median response time (s): 25.887</li>
+<li>Total tokens (in/out/total): 780922/127180/908102</li>
+<li>Average tokens per question (in/out/total): 5385.7/877.1/6262.8</li>
+</ul>
+<h3>Per-category performance averages</h3>
+<ul>
+<li>Data Understanding: avg<em>time</em>s=9.126, avg_tokens(in/out/total)=17346.8/6.4/17353.2 (n=5)</li>
+<li>Complex SQL: avg<em>time</em>s=22.083, avg_tokens(in/out/total)=24963.6/603.8/25567.4 (n=5)</li>
+<li>Website Development: avg<em>time</em>s=35.828, avg_tokens(in/out/total)=125.0/2066.6/2191.6 (n=5)</li>
+<li>Data Cleaning: avg<em>time</em>s=48.335, avg_tokens(in/out/total)=36344.5/466.5/36811.0 (n=4)</li>
+<li>Prompt Efficiency: avg<em>time</em>s=12.960, avg_tokens(in/out/total)=97.2/306.4/403.6 (n=5)</li>
+<li>Business Insight: avg<em>time</em>s=90.993, avg_tokens(in/out/total)=6144.5/366.5/6511.0 (n=4)</li>
+<li>Security & Best Practices: avg<em>time</em>s=24.031, avg_tokens(in/out/total)=122.4/820.6/943.0 (n=5)</li>
+<li>Code Review & Issue Detection: avg<em>time</em>s=21.300, avg_tokens(in/out/total)=138.2/653.4/791.6 (n=5)</li>
+<li>Library & Dependency Management: avg<em>time</em>s=27.734, avg_tokens(in/out/total)=123.8/1103.8/1227.6 (n=5)</li>
+<li>Exploratory Data Analysis: avg<em>time</em>s=87.830, avg_tokens(in/out/total)=28202.6/371.4/28574.0 (n=5)</li>
+<li>Long-Context Handling: avg<em>time</em>s=38.521, avg_tokens(in/out/total)=136.8/1956.0/2092.8 (n=5)</li>
+<li>Debugging & Troubleshooting: avg<em>time</em>s=29.487, avg_tokens(in/out/total)=129.4/952.0/1081.4 (n=5)</li>
+<li>Saturation & Complexity Limits: avg<em>time</em>s=46.029, avg_tokens(in/out/total)=136.6/3403.6/3540.2 (n=5)</li>
+<li>Context Switching & Task Clarity: avg<em>time</em>s=21.876, avg_tokens(in/out/total)=128.5/1021.3/1149.8 (n=10)</li>
+<li>Testing & Quality Assurance: avg<em>time</em>s=30.305, avg_tokens(in/out/total)=121.8/1592.6/1714.4 (n=5)</li>
+<li>Sustained Performance & Fatigue: avg<em>time</em>s=32.281, avg_tokens(in/out/total)=121.3/914.7/1036.0 (n=10)</li>
+<li>Performance Optimization: avg<em>time</em>s=23.227, avg_tokens(in/out/total)=9257.4/880.8/10138.2 (n=5)</li>
+<li>Communication & Documentation: avg<em>time</em>s=26.281, avg_tokens(in/out/total)=121.6/1156.6/1278.2 (n=5)</li>
+<li>Statistical Analysis: avg<em>time</em>s=229.094, avg_tokens(in/out/total)=2053.2/15.0/2068.2 (n=4)</li>
+<li>Writing & Content Generation: avg<em>time</em>s=22.876, avg_tokens(in/out/total)=135.6/536.2/671.8 (n=10)</li>
+<li>SQL & Query Logic: avg<em>time</em>s=4.808, avg_tokens(in/out/total)=17581.0/36.8/17617.8 (n=4)</li>
+<li>Document Reading & Extraction: avg<em>time</em>s=12.850, avg_tokens(in/out/total)=1042.0/486.6/1528.6 (n=5)</li>
+<li>Dataform Development: avg<em>time</em>s=23.756, avg_tokens(in/out/total)=23232.6/530.8/23763.4 (n=5)</li>
+<li>SQL Dialect Specificity: avg<em>time</em>s=16.328, avg_tokens(in/out/total)=132.0/209.6/341.6 (n=5)</li>
+<li>Architecture & Design: avg<em>time</em>s=29.635, avg_tokens(in/out/total)=95.8/812.8/908.5 (n=4)</li>
+<li>Pipeline Development: avg<em>time</em>s=31.231, avg_tokens(in/out/total)=131.2/1725.4/1856.6 (n=5)</li>
+<li>Instruction Following: avg<em>time</em>s=16.837, avg_tokens(in/out/total)=77.4/307.2/384.6 (n=5)</li>
+</ul>
+</body>
+</html>

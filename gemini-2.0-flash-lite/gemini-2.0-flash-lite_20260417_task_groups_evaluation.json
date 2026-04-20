@@ -1,0 +1,2622 @@
+{
+  "source_file": "response_models\\gemini-2.0-flash-lite_20260417_task_groups.json",
+  "total_score": 2030.8898183970998,
+  "max_score": 3770,
+  "average_score": 0.5386975645615649,
+  "percentage": 53.869756456156495,
+  "category_breakdown": {
+    "Data Understanding": {
+      "score": 19.22362372372857,
+      "max_points": 50,
+      "percentage": 38.44724744745714
+    },
+    "Data Cleaning": {
+      "score": 30.46397993311037,
+      "max_points": 60,
+      "percentage": 50.773299888517286
+    },
+    "Exploratory Data Analysis": {
+      "score": 42.78680255364069,
+      "max_points": 75,
+      "percentage": 57.04907007152092
+    },
+    "Statistical Analysis": {
+      "score": 42.273410668287305,
+      "max_points": 80,
+      "percentage": 52.841763335359126
+    },
+    "SQL & Query Logic": {
+      "score": 22.9,
+      "max_points": 80,
+      "percentage": 28.625
+    },
+    "Business Insight": {
+      "score": 49.243453201353205,
+      "max_points": 80,
+      "percentage": 61.55431650169151
+    },
+    "Instruction Following": {
+      "score": 50.86312553013478,
+      "max_points": 135,
+      "percentage": 37.676389281581315
+    },
+    "Dataform Development": {
+      "score": 55.325,
+      "max_points": 145,
+      "percentage": 38.1551724137931
+    },
+    "SQL Dialect Specificity": {
+      "score": 61.800000000000004,
+      "max_points": 120,
+      "percentage": 51.5
+    },
+    "Complex SQL": {
+      "score": 123.1875,
+      "max_points": 180,
+      "percentage": 68.4375
+    },
+    "Prompt Efficiency": {
+      "score": 59.09566147433085,
+      "max_points": 95,
+      "percentage": 62.20595944666406
+    },
+    "Document Reading & Extraction": {
+      "score": 61.924496512815196,
+      "max_points": 120,
+      "percentage": 51.60374709401266
+    },
+    "Website Development": {
+      "score": 79.7625,
+      "max_points": 120,
+      "percentage": 66.46875
+    },
+    "Pipeline Development": {
+      "score": 42.95,
+      "max_points": 115,
+      "percentage": 37.34782608695652
+    },
+    "Architecture & Design": {
+      "score": 46.81796317310221,
+      "max_points": 100,
+      "percentage": 46.81796317310221
+    },
+    "Debugging & Troubleshooting": {
+      "score": 68.02997099580237,
+      "max_points": 120,
+      "percentage": 56.691642496501984
+    },
+    "Performance Optimization": {
+      "score": 69.14572831886807,
+      "max_points": 120,
+      "percentage": 57.621440265723386
+    },
+    "Code Review & Issue Detection": {
+      "score": 70.33860009015552,
+      "max_points": 115,
+      "percentage": 61.16400007839611
+    },
+    "Library & Dependency Management": {
+      "score": 72.28917161870649,
+      "max_points": 120,
+      "percentage": 60.24097634892207
+    },
+    "Communication & Documentation": {
+      "score": 65.70230175375778,
+      "max_points": 120,
+      "percentage": 54.751918128131486
+    },
+    "Security & Best Practices": {
+      "score": 68.3654196856744,
+      "max_points": 115,
+      "percentage": 59.44819103102121
+    },
+    "Testing & Quality Assurance": {
+      "score": 68.25591341108044,
+      "max_points": 120,
+      "percentage": 56.879927842567035
+    },
+    "Saturation & Complexity Limits": {
+      "score": 123.57432432432434,
+      "max_points": 225,
+      "percentage": 54.92192192192192
+    },
+    "Long-Context Handling": {
+      "score": 128.28490070703353,
+      "max_points": 230,
+      "percentage": 55.77604378566675
+    },
+    "Sustained Performance & Fatigue": {
+      "score": 179.0593630446207,
+      "max_points": 325,
+      "percentage": 55.09518862911407
+    },
+    "Context Switching & Task Clarity": {
+      "score": 154.32660767657387,
+      "max_points": 275,
+      "percentage": 56.118766427845046
+    },
+    "Writing & Content Generation": {
+      "score": 174.90000000000003,
+      "max_points": 330,
+      "percentage": 53.000000000000014
+    }
+  },
+  "performance_summary": {
+    "questions_with_perf": 145,
+    "avg_response_time_seconds": 0.19425517241379311,
+    "median_response_time_seconds": 0.178,
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tokens": 0,
+    "avg_input_tokens": 0.0,
+    "avg_output_tokens": 0.0,
+    "avg_total_tokens": 0.0
+  },
+  "results": [
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_01",
+      "category": "Data Understanding",
+      "combined_score": 0.5491235059760956,
+      "accuracy": 0.04780876494023904,
+      "reasoning": 0.8,
+      "weighted_points": 5.491235059760956,
+      "max_points": 10,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.364,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_02",
+      "category": "Data Understanding",
+      "combined_score": 0.28,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 2.8000000000000003,
+      "max_points": 10,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.153,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_03",
+      "category": "Data Understanding",
+      "combined_score": 0.5332388663967611,
+      "accuracy": 0.008097165991902834,
+      "reasoning": 0.8,
+      "weighted_points": 5.3323886639676115,
+      "max_points": 10,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.155,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_04",
+      "category": "Data Understanding",
+      "combined_score": 0.28,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 2.8000000000000003,
+      "max_points": 10,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.269,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_05",
+      "category": "Data Understanding",
+      "combined_score": 0.28,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 2.8000000000000003,
+      "max_points": 10,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.367,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_01",
+      "category": "Data Cleaning",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 7.95,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.284,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_02",
+      "category": "Data Cleaning",
+      "combined_score": 0.30800000000000005,
+      "accuracy": 0.04,
+      "reasoning": 0.8,
+      "weighted_points": 4.620000000000001,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.212,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_03",
+      "category": "Data Cleaning",
+      "combined_score": 0.5864102564102563,
+      "accuracy": 0.14102564102564102,
+      "reasoning": 0.8,
+      "weighted_points": 8.796153846153846,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.277,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_04",
+      "category": "Data Cleaning",
+      "combined_score": 0.6065217391304348,
+      "accuracy": 0.19130434782608696,
+      "reasoning": 0.8,
+      "weighted_points": 9.097826086956523,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.172,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_01",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.5602405498281787,
+      "accuracy": 0.07560137457044673,
+      "reasoning": 0.8,
+      "weighted_points": 8.403608247422682,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.204,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_02",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.6088405797101449,
+      "accuracy": 0.19710144927536233,
+      "reasoning": 0.8,
+      "weighted_points": 9.132608695652173,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.252,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_03",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.5730379746835442,
+      "accuracy": 0.10759493670886076,
+      "reasoning": 0.8,
+      "weighted_points": 8.595569620253164,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.224,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_04",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.5698671096345514,
+      "accuracy": 0.09966777408637874,
+      "reasoning": 0.8,
+      "weighted_points": 8.548006644518273,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.165,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_05",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.5404672897196262,
+      "accuracy": 0.026168224299065422,
+      "reasoning": 0.8,
+      "weighted_points": 8.107009345794394,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.154,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_01",
+      "category": "Statistical Analysis",
+      "combined_score": 0.28,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 5.6000000000000005,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.188,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_02",
+      "category": "Statistical Analysis",
+      "combined_score": 0.6013910761154856,
+      "accuracy": 0.1784776902887139,
+      "reasoning": 0.8,
+      "weighted_points": 12.027821522309711,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.18,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_03",
+      "category": "Statistical Analysis",
+      "combined_score": 0.6012041884816753,
+      "accuracy": 0.17801047120418848,
+      "reasoning": 0.8,
+      "weighted_points": 12.024083769633506,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.149,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_04",
+      "category": "Statistical Analysis",
+      "combined_score": 0.6310752688172042,
+      "accuracy": 0.25268817204301075,
+      "reasoning": 0.8,
+      "weighted_points": 12.621505376344084,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.183,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_01",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.29,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 5.8,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.178,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_02",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.29,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 5.8,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_03",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.23000000000000004,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 4.6000000000000005,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.183,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_04",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.335,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 6.7,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.182,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_01",
+      "category": "Business Insight",
+      "combined_score": 0.6169565217391304,
+      "accuracy": 0.21739130434782608,
+      "reasoning": 0.8,
+      "weighted_points": 12.339130434782607,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.219,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_02",
+      "category": "Business Insight",
+      "combined_score": 0.61,
+      "accuracy": 0.2,
+      "reasoning": 0.8,
+      "weighted_points": 12.2,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.281,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_03",
+      "category": "Business Insight",
+      "combined_score": 0.599164265129683,
+      "accuracy": 0.1729106628242075,
+      "reasoning": 0.8,
+      "weighted_points": 11.98328530259366,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.163,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_04",
+      "category": "Business Insight",
+      "combined_score": 0.6360518731988473,
+      "accuracy": 0.26512968299711814,
+      "reasoning": 0.8,
+      "weighted_points": 12.721037463976945,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.288,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_01",
+      "category": "Instruction Following",
+      "combined_score": 0.4373096446700508,
+      "accuracy": 0.2182741116751269,
+      "reasoning": 0.8,
+      "weighted_points": 8.746192893401016,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.163,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_02",
+      "category": "Instruction Following",
+      "combined_score": 0.40454545454545454,
+      "accuracy": 0.13636363636363635,
+      "reasoning": 0.8,
+      "weighted_points": 10.113636363636363,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.14,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_03",
+      "category": "Instruction Following",
+      "combined_score": 0.39903225806451614,
+      "accuracy": 0.12258064516129032,
+      "reasoning": 0.8,
+      "weighted_points": 9.975806451612904,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.218,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_04",
+      "category": "Instruction Following",
+      "combined_score": 0.3693548387096774,
+      "accuracy": 0.04838709677419355,
+      "reasoning": 0.8,
+      "weighted_points": 11.080645161290322,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.148,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_05",
+      "category": "Instruction Following",
+      "combined_score": 0.31276699029126215,
+      "accuracy": 0.019417475728155338,
+      "reasoning": 0.8,
+      "weighted_points": 10.946844660194175,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.196,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_01",
+      "category": "Dataform Development",
+      "combined_score": 0.335,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 8.375,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.265,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_02",
+      "category": "Dataform Development",
+      "combined_score": 0.44,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 11.0,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.162,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_03",
+      "category": "Dataform Development",
+      "combined_score": 0.3950000000000001,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 11.850000000000001,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.178,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_04",
+      "category": "Dataform Development",
+      "combined_score": 0.3950000000000001,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 11.850000000000001,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.179,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_05",
+      "category": "Dataform Development",
+      "combined_score": 0.35000000000000003,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 12.250000000000002,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.184,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_01",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.44000000000000006,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 8.8,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.176,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_02",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.137,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_03",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 13.25,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.168,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_04",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 13.25,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.287,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_05",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.267,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_01",
+      "category": "Complex SQL",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 20.925,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.191,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_02",
+      "category": "Complex SQL",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 20.925,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.239,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_03",
+      "category": "Complex SQL",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 24.4125,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.175,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_04",
+      "category": "Complex SQL",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 27.9,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.167,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_05",
+      "category": "Complex SQL",
+      "combined_score": 0.645,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 29.025000000000002,
+      "max_points": 45,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.248,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_01",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.5982170542635659,
+      "accuracy": 0.17054263565891473,
+      "reasoning": 0.8,
+      "weighted_points": 8.973255813953488,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.154,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_02",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6356603773584906,
+      "accuracy": 0.2641509433962264,
+      "reasoning": 0.8,
+      "weighted_points": 9.534905660377358,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.191,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_03",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6225,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 12.450000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.163,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_04",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6225,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 12.450000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.28,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_05",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6275,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 15.687499999999998,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.181,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_01",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.41187763713080167,
+      "accuracy": 0.04219409282700422,
+      "reasoning": 0.8,
+      "weighted_points": 8.237552742616034,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.227,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_02",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.6143091334894614,
+      "accuracy": 0.2107728337236534,
+      "reasoning": 0.8,
+      "weighted_points": 12.286182669789227,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.178,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_03",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.4534382871536524,
+      "accuracy": 0.14609571788413098,
+      "reasoning": 0.8,
+      "weighted_points": 11.33595717884131,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.233,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_04",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.4753921568627451,
+      "accuracy": 0.20098039215686275,
+      "reasoning": 0.8,
+      "weighted_points": 11.884803921568627,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.168,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_05",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.606,
+      "accuracy": 0.19,
+      "reasoning": 0.8,
+      "weighted_points": 18.18,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.162,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_01",
+      "category": "Website Development",
+      "combined_score": 0.645,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 12.9,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.164,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_02",
+      "category": "Website Development",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 13.95,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.149,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_03",
+      "category": "Website Development",
+      "combined_score": 0.645,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 16.125,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.171,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_04",
+      "category": "Website Development",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 17.4375,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.159,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_05",
+      "category": "Website Development",
+      "combined_score": 0.645,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 19.35,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.209,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_01",
+      "category": "Pipeline Development",
+      "combined_score": 0.395,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 7.9,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.149,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_02",
+      "category": "Pipeline Development",
+      "combined_score": 0.395,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 7.9,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.14,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_02",
+      "category": "Pipeline Development",
+      "combined_score": 0.395,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 7.9,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.18,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_04",
+      "category": "Pipeline Development",
+      "combined_score": 0.35,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 8.75,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.169,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_05",
+      "category": "Pipeline Development",
+      "combined_score": 0.35000000000000003,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.500000000000002,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.176,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_01",
+      "category": "Architecture & Design",
+      "combined_score": 0.4065702479338843,
+      "accuracy": 0.028925619834710745,
+      "reasoning": 0.8,
+      "weighted_points": 8.131404958677686,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.165,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_02",
+      "category": "Architecture & Design",
+      "combined_score": 0.49138554216867475,
+      "accuracy": 0.24096385542168675,
+      "reasoning": 0.8,
+      "weighted_points": 12.284638554216869,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.144,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_02",
+      "category": "Architecture & Design",
+      "combined_score": 0.49138554216867475,
+      "accuracy": 0.24096385542168675,
+      "reasoning": 0.8,
+      "weighted_points": 12.284638554216869,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.227,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_04",
+      "category": "Architecture & Design",
+      "combined_score": 0.47057603686635946,
+      "accuracy": 0.1889400921658986,
+      "reasoning": 0.8,
+      "weighted_points": 14.117281105990784,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.155,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_01",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.537191011235955,
+      "accuracy": 0.017977528089887642,
+      "reasoning": 0.8,
+      "weighted_points": 10.743820224719101,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.282,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_02",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.5422004357298474,
+      "accuracy": 0.030501089324618737,
+      "reasoning": 0.8,
+      "weighted_points": 10.84400871459695,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.179,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_03",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.5703846153846154,
+      "accuracy": 0.10096153846153846,
+      "reasoning": 0.8,
+      "weighted_points": 14.259615384615385,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.147,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_04",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.5388888888888889,
+      "accuracy": 0.022222222222222223,
+      "reasoning": 0.8,
+      "weighted_points": 13.472222222222221,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.231,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_05",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.6236768149882904,
+      "accuracy": 0.234192037470726,
+      "reasoning": 0.8,
+      "weighted_points": 18.710304449648714,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.148,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_01",
+      "category": "Performance Optimization",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.161,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_02",
+      "category": "Performance Optimization",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.184,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_03",
+      "category": "Performance Optimization",
+      "combined_score": 0.6046411483253588,
+      "accuracy": 0.18660287081339713,
+      "reasoning": 0.8,
+      "weighted_points": 15.11602870813397,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.155,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_04",
+      "category": "Performance Optimization",
+      "combined_score": 0.5832019704433498,
+      "accuracy": 0.1330049261083744,
+      "reasoning": 0.8,
+      "weighted_points": 14.580049261083744,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.174,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_05",
+      "category": "Performance Optimization",
+      "combined_score": 0.6083216783216783,
+      "accuracy": 0.1958041958041958,
+      "reasoning": 0.8,
+      "weighted_points": 18.24965034965035,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.16,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_01",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.6044186046511627,
+      "accuracy": 0.18604651162790697,
+      "reasoning": 0.8,
+      "weighted_points": 12.088372093023255,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.178,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_02",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.6088405797101449,
+      "accuracy": 0.19710144927536233,
+      "reasoning": 0.8,
+      "weighted_points": 12.1768115942029,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.155,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_03",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.6012643678160919,
+      "accuracy": 0.1781609195402299,
+      "reasoning": 0.8,
+      "weighted_points": 15.031609195402298,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.164,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_01",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.6044186046511627,
+      "accuracy": 0.18604651162790697,
+      "reasoning": 0.8,
+      "weighted_points": 12.088372093023255,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.196,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_05",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.6317811704834605,
+      "accuracy": 0.2544529262086514,
+      "reasoning": 0.8,
+      "weighted_points": 18.953435114503815,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.169,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_01",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.628567335243553,
+      "accuracy": 0.24641833810888253,
+      "reasoning": 0.8,
+      "weighted_points": 12.571346704871061,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.181,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_02",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.5954970760233919,
+      "accuracy": 0.16374269005847952,
+      "reasoning": 0.8,
+      "weighted_points": 11.909941520467838,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.205,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_03",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.6178612716763006,
+      "accuracy": 0.21965317919075145,
+      "reasoning": 0.8,
+      "weighted_points": 15.446531791907514,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.135,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_04",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.6041144414168936,
+      "accuracy": 0.18528610354223432,
+      "reasoning": 0.8,
+      "weighted_points": 15.102861035422341,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.282,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_05",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.5752830188679244,
+      "accuracy": 0.11320754716981132,
+      "reasoning": 0.8,
+      "weighted_points": 17.258490566037732,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.258,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_01",
+      "category": "Communication & Documentation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.167,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_02",
+      "category": "Communication & Documentation",
+      "combined_score": 0.540738255033557,
+      "accuracy": 0.026845637583892617,
+      "reasoning": 0.8,
+      "weighted_points": 10.81476510067114,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.159,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_03",
+      "category": "Communication & Documentation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 13.25,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.159,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_04",
+      "category": "Communication & Documentation",
+      "combined_score": 0.5389887640449438,
+      "accuracy": 0.02247191011235955,
+      "reasoning": 0.8,
+      "weighted_points": 13.474719101123595,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.227,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_05",
+      "category": "Communication & Documentation",
+      "combined_score": 0.5854272517321016,
+      "accuracy": 0.13856812933025403,
+      "reasoning": 0.8,
+      "weighted_points": 17.56281755196305,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.203,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_01",
+      "category": "Security & Best Practices",
+      "combined_score": 0.5852552552552552,
+      "accuracy": 0.13813813813813813,
+      "reasoning": 0.8,
+      "weighted_points": 11.705105105105105,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.214,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_02",
+      "category": "Security & Best Practices",
+      "combined_score": 0.6018562874251497,
+      "accuracy": 0.17964071856287425,
+      "reasoning": 0.8,
+      "weighted_points": 12.037125748502994,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.137,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_03",
+      "category": "Security & Best Practices",
+      "combined_score": 0.6203954802259887,
+      "accuracy": 0.22598870056497175,
+      "reasoning": 0.8,
+      "weighted_points": 15.509887005649716,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.168,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_01",
+      "category": "Security & Best Practices",
+      "combined_score": 0.5852552552552552,
+      "accuracy": 0.13813813813813813,
+      "reasoning": 0.8,
+      "weighted_points": 11.705105105105105,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.167,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_05",
+      "category": "Security & Best Practices",
+      "combined_score": 0.5802732240437158,
+      "accuracy": 0.12568306010928962,
+      "reasoning": 0.8,
+      "weighted_points": 17.408196721311477,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.161,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_01",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.167,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_01",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.255,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_03",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.6375794621026895,
+      "accuracy": 0.26894865525672373,
+      "reasoning": 0.8,
+      "weighted_points": 15.939486552567237,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.155,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_04",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.6086570743405276,
+      "accuracy": 0.19664268585131894,
+      "reasoning": 0.8,
+      "weighted_points": 15.216426858513191,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.193,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_05",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.156,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_01",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 21.200000000000003,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.15,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_02",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 23.85,
+      "max_points": 45,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.17,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_03",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 26.5,
+      "max_points": 50,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.172,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_04",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.6164864864864864,
+      "accuracy": 0.21621621621621623,
+      "reasoning": 0.8,
+      "weighted_points": 30.82432432432432,
+      "max_points": 50,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.251,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_01",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 21.200000000000003,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.146,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_01",
+      "category": "Long-Context Handling",
+      "combined_score": 0.6058465011286681,
+      "accuracy": 0.18961625282167044,
+      "reasoning": 0.8,
+      "weighted_points": 24.233860045146724,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.168,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_02",
+      "category": "Long-Context Handling",
+      "combined_score": 0.5370484581497798,
+      "accuracy": 0.01762114537444934,
+      "reasoning": 0.8,
+      "weighted_points": 24.16718061674009,
+      "max_points": 45,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.251,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_03",
+      "category": "Long-Context Handling",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 26.5,
+      "max_points": 50,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.264,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_01",
+      "category": "Long-Context Handling",
+      "combined_score": 0.6058465011286681,
+      "accuracy": 0.18961625282167044,
+      "reasoning": 0.8,
+      "weighted_points": 24.233860045146724,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.256,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_05",
+      "category": "Long-Context Handling",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 29.150000000000002,
+      "max_points": 55,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.265,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_01",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.184,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_02",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.228,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_03",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.557681660899654,
+      "accuracy": 0.06920415224913495,
+      "reasoning": 0.8,
+      "weighted_points": 11.153633217993079,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.134,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_04",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.189,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_05",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.5986468646864685,
+      "accuracy": 0.1716171617161716,
+      "reasoning": 0.8,
+      "weighted_points": 20.9526402640264,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.144,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_06",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.5879310344827586,
+      "accuracy": 0.14482758620689656,
+      "reasoning": 0.8,
+      "weighted_points": 20.57758620689655,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.154,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_07",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.162,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_08",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.5756375838926174,
+      "accuracy": 0.11409395973154363,
+      "reasoning": 0.8,
+      "weighted_points": 23.025503355704696,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.193,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_09",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 23.85,
+      "max_points": 45,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.163,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_10",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 23.85,
+      "max_points": 45,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.15,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_01",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.156,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_02",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.5934146341463414,
+      "accuracy": 0.15853658536585366,
+      "reasoning": 0.8,
+      "weighted_points": 11.868292682926828,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.174,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_03",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.6024919093851132,
+      "accuracy": 0.18122977346278318,
+      "reasoning": 0.8,
+      "weighted_points": 15.06229773462783,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.248,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_04",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.6061904761904762,
+      "accuracy": 0.19047619047619047,
+      "reasoning": 0.8,
+      "weighted_points": 15.154761904761905,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.147,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_01",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.263,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_06",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.5976384839650145,
+      "accuracy": 0.16909620991253643,
+      "reasoning": 0.8,
+      "weighted_points": 14.940962099125363,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.186,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_07",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.5933431085043989,
+      "accuracy": 0.15835777126099707,
+      "reasoning": 0.8,
+      "weighted_points": 17.800293255131965,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.141,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_08",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.147,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_09",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.245,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_10",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 21.200000000000003,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.266,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_01",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.175,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_02",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.23,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_03",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.331,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_04",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.172,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_05",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.17,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_06",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.184,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_07",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.317,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_02",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.17,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_09",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.155,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_10",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 21.200000000000003,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash-lite is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.236,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    }
+  ]
+}
