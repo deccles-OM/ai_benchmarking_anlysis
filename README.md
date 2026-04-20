@@ -1,10 +1,77 @@
 # AI Model Benchmarking Analysis
 
-This repository contains comprehensive benchmarking and analysis results for various AI models across different task categories.
+A comprehensive benchmarking suite that evaluates and compares the performance of various AI models across multiple task categories including text generation, image generation, audio generation, and embeddings.
 
-## 📁 Directory Structure
+## 🎯 Project Overview
+
+This project provides an in-depth analysis of AI model capabilities and performance characteristics. It systematically evaluates models from different providers (Google's Gemini family, Meta's Llama variants, and others) across a variety of task types to help understand their strengths, weaknesses, and comparative performance.
+
+### What This Project Does
+
+- **Systematic Model Evaluation** - Tests multiple AI models with standardized task groups to ensure fair comparison
+- **Multi-Modal Assessment** - Evaluates different AI modalities:
+  - Text generation and reasoning
+  - Image generation and synthesis
+  - Audio generation and text-to-speech
+  - Embedding generation for semantic search
+  
+- **Comprehensive Metrics** - Collects and analyzes:
+  - Task accuracy and success rates
+  - Response quality and consistency
+  - Model-to-model performance comparisons
+  - Category-specific performance insights
+
+- **Interactive Reporting** - Provides multiple ways to explore results:
+  - Static HTML reports for archival
+  - Interactive dashboards for dynamic exploration
+  - Data exports (JSON, CSV) for further analysis
+  - Markdown documentation for easy integration
+
+- **Task-Based Organization** - Results are organized by:
+  - Model type (text, image, audio, embedding)
+  - Specific model variant
+  - Task groups and categories
+  - Comparison metrics
+
+## 📊 Key Capabilities
+
+- Compare performance across 20+ different AI models
+- Analyze results across 4+ major task categories
+- Generate detailed evaluation metrics and statistics
+- Create comparative analysis between models
+- Export data in multiple formats for downstream analysis
+- Interactive visualization of results and trends
+
+## 📁 Project Structure
+
+```
+ai_benchmarking_analysis/
+├── README.md                          # This file
+├── START.html                         # Entry point for viewing results
+├── model results/                     # All model evaluation results
+│   ├── Audio Generation/              # Audio generation model results
+│   ├── Embedding Generation/          # Embedding model results
+│   ├── Image Generation/              # Image generation model results
+│   ├── Specialized/                   # Specialized model evaluations
+│   └── Text Generation/               # Text generation model results
+└── Reports/                           # Comprehensive analysis reports
+    ├── AI_Model_Analysis_Report.html
+    ├── AI_Model_Analysis_Report_Interactive.html
+    ├── AI_Model_Dashboard_Interactive.html
+    ├── Executive_Summary.html
+    ├── Navigation_Guide.html
+    └── Quick_Reference.html
+```
+
+## 📂 Detailed Directory Overview
+
+### Root Level Files
+
+- **README.md** - This documentation file
+- **START.html** - The main entry point for exploring all benchmarking results
 
 ### `/model results/`
+
 Contains detailed evaluation results organized by task category:
 
 - **Audio Generation/** - Results from audio generation models
@@ -42,6 +109,7 @@ Contains detailed evaluation results organized by task category:
   - gemma-4-31b-it
 
 ### `/Reports/`
+
 Contains comprehensive analysis reports and dashboards:
 
 - **AI_Model_Analysis_Report.html** - Detailed analysis report
