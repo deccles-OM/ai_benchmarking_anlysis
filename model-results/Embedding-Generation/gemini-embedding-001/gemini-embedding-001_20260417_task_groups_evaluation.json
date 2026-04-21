@@ -1,0 +1,2622 @@
+{
+  "source_file": "response_models\\gemini-embedding-001_20260417_task_groups.json",
+  "total_score": 2035.9582250910255,
+  "max_score": 3770,
+  "average_score": 0.5400419695201659,
+  "percentage": 54.00419695201659,
+  "category_breakdown": {
+    "Data Understanding": {
+      "score": 19.146417950797517,
+      "max_points": 50,
+      "percentage": 38.29283590159503
+    },
+    "Data Cleaning": {
+      "score": 30.344219537762694,
+      "max_points": 60,
+      "percentage": 50.573699229604486
+    },
+    "Exploratory Data Analysis": {
+      "score": 44.01961506001351,
+      "max_points": 75,
+      "percentage": 58.692820080018
+    },
+    "Statistical Analysis": {
+      "score": 41.85809633002682,
+      "max_points": 80,
+      "percentage": 52.322620412533524
+    },
+    "SQL & Query Logic": {
+      "score": 22.9,
+      "max_points": 80,
+      "percentage": 28.625
+    },
+    "Business Insight": {
+      "score": 49.39023357233076,
+      "max_points": 80,
+      "percentage": 61.73779196541345
+    },
+    "Instruction Following": {
+      "score": 50.94609849232439,
+      "max_points": 135,
+      "percentage": 37.7378507350551
+    },
+    "Dataform Development": {
+      "score": 55.325,
+      "max_points": 145,
+      "percentage": 38.1551724137931
+    },
+    "SQL Dialect Specificity": {
+      "score": 61.800000000000004,
+      "max_points": 120,
+      "percentage": 51.5
+    },
+    "Complex SQL": {
+      "score": 123.1875,
+      "max_points": 180,
+      "percentage": 68.4375
+    },
+    "Prompt Efficiency": {
+      "score": 58.51458926581652,
+      "max_points": 95,
+      "percentage": 61.59430449033317
+    },
+    "Document Reading & Extraction": {
+      "score": 63.61509655509754,
+      "max_points": 120,
+      "percentage": 53.01258046258128
+    },
+    "Website Development": {
+      "score": 79.7625,
+      "max_points": 120,
+      "percentage": 66.46875
+    },
+    "Pipeline Development": {
+      "score": 42.95,
+      "max_points": 115,
+      "percentage": 37.34782608695652
+    },
+    "Architecture & Design": {
+      "score": 47.394658084677296,
+      "max_points": 100,
+      "percentage": 47.394658084677296
+    },
+    "Debugging & Troubleshooting": {
+      "score": 67.97946535667764,
+      "max_points": 120,
+      "percentage": 56.649554463898035
+    },
+    "Performance Optimization": {
+      "score": 68.30953460081146,
+      "max_points": 120,
+      "percentage": 56.92461216734288
+    },
+    "Code Review & Issue Detection": {
+      "score": 70.30876387510239,
+      "max_points": 115,
+      "percentage": 61.13805554356729
+    },
+    "Library & Dependency Management": {
+      "score": 72.52275551002838,
+      "max_points": 120,
+      "percentage": 60.43562959169031
+    },
+    "Communication & Documentation": {
+      "score": 66.19876723997665,
+      "max_points": 120,
+      "percentage": 55.1656393666472
+    },
+    "Security & Best Practices": {
+      "score": 68.99967459898429,
+      "max_points": 115,
+      "percentage": 59.99971704259504
+    },
+    "Testing & Quality Assurance": {
+      "score": 68.37525252525252,
+      "max_points": 120,
+      "percentage": 56.97937710437711
+    },
+    "Saturation & Complexity Limits": {
+      "score": 123.62209302325583,
+      "max_points": 225,
+      "percentage": 54.94315245478036
+    },
+    "Long-Context Handling": {
+      "score": 129.20617863794638,
+      "max_points": 230,
+      "percentage": 56.176599407802776
+    },
+    "Sustained Performance & Fatigue": {
+      "score": 178.63869737458478,
+      "max_points": 325,
+      "percentage": 54.96575303833377
+    },
+    "Context Switching & Task Clarity": {
+      "score": 155.74301749955816,
+      "max_points": 275,
+      "percentage": 56.633824545293876
+    },
+    "Writing & Content Generation": {
+      "score": 174.90000000000003,
+      "max_points": 330,
+      "percentage": 53.000000000000014
+    }
+  },
+  "performance_summary": {
+    "questions_with_perf": 145,
+    "avg_response_time_seconds": 0.07373103448275863,
+    "median_response_time_seconds": 0.071,
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tokens": 0,
+    "avg_input_tokens": 0.0,
+    "avg_output_tokens": 0.0,
+    "avg_total_tokens": 0.0
+  },
+  "results": [
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_01",
+      "category": "Data Understanding",
+      "combined_score": 0.5416788321167884,
+      "accuracy": 0.029197080291970802,
+      "reasoning": 0.8,
+      "weighted_points": 5.416788321167884,
+      "max_points": 10,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.144,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_02",
+      "category": "Data Understanding",
+      "combined_score": 0.28,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 2.8000000000000003,
+      "max_points": 10,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.091,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_03",
+      "category": "Data Understanding",
+      "combined_score": 0.532962962962963,
+      "accuracy": 0.007407407407407408,
+      "reasoning": 0.8,
+      "weighted_points": 5.32962962962963,
+      "max_points": 10,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.088,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_04",
+      "category": "Data Understanding",
+      "combined_score": 0.28,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 2.8000000000000003,
+      "max_points": 10,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.095,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_05",
+      "category": "Data Understanding",
+      "combined_score": 0.28,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 2.8000000000000003,
+      "max_points": 10,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.127,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_01",
+      "category": "Data Cleaning",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 7.95,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.106,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_02",
+      "category": "Data Cleaning",
+      "combined_score": 0.3056410256410257,
+      "accuracy": 0.03663003663003663,
+      "reasoning": 0.8,
+      "weighted_points": 4.584615384615385,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.092,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_03",
+      "category": "Data Cleaning",
+      "combined_score": 0.592089552238806,
+      "accuracy": 0.15522388059701492,
+      "reasoning": 0.8,
+      "weighted_points": 8.88134328358209,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.075,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_04",
+      "category": "Data Cleaning",
+      "combined_score": 0.5952173913043478,
+      "accuracy": 0.16304347826086957,
+      "reasoning": 0.8,
+      "weighted_points": 8.928260869565218,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.094,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_01",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.5682165605095542,
+      "accuracy": 0.09554140127388536,
+      "reasoning": 0.8,
+      "weighted_points": 8.523248407643312,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.09,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_02",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.597391304347826,
+      "accuracy": 0.16847826086956522,
+      "reasoning": 0.8,
+      "weighted_points": 8.96086956521739,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.102,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_03",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.6267551622418879,
+      "accuracy": 0.24188790560471976,
+      "reasoning": 0.8,
+      "weighted_points": 9.401327433628317,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.082,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_04",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.6065432098765432,
+      "accuracy": 0.19135802469135801,
+      "reasoning": 0.8,
+      "weighted_points": 9.098148148148148,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.086,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_05",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.5357347670250896,
+      "accuracy": 0.014336917562724014,
+      "reasoning": 0.8,
+      "weighted_points": 8.036021505376343,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.067,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_01",
+      "category": "Statistical Analysis",
+      "combined_score": 0.28,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 5.6000000000000005,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.086,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_02",
+      "category": "Statistical Analysis",
+      "combined_score": 0.6191089108910891,
+      "accuracy": 0.22277227722772278,
+      "reasoning": 0.8,
+      "weighted_points": 12.382178217821782,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.081,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_03",
+      "category": "Statistical Analysis",
+      "combined_score": 0.6050617283950618,
+      "accuracy": 0.18765432098765433,
+      "reasoning": 0.8,
+      "weighted_points": 12.101234567901235,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.078,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_04",
+      "category": "Statistical Analysis",
+      "combined_score": 0.5887341772151898,
+      "accuracy": 0.1468354430379747,
+      "reasoning": 0.8,
+      "weighted_points": 11.774683544303796,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.081,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_01",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.29,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 5.8,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.099,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_02",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.29,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 5.8,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.085,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_03",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.23000000000000004,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 4.6000000000000005,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.081,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_04",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.335,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 6.7,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.074,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_01",
+      "category": "Business Insight",
+      "combined_score": 0.6057033248081841,
+      "accuracy": 0.18925831202046037,
+      "reasoning": 0.8,
+      "weighted_points": 12.114066496163682,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.078,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_02",
+      "category": "Business Insight",
+      "combined_score": 0.6027272727272727,
+      "accuracy": 0.18181818181818182,
+      "reasoning": 0.8,
+      "weighted_points": 12.054545454545453,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.09,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_03",
+      "category": "Business Insight",
+      "combined_score": 0.6294594594594595,
+      "accuracy": 0.24864864864864866,
+      "reasoning": 0.8,
+      "weighted_points": 12.58918918918919,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.073,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_04",
+      "category": "Business Insight",
+      "combined_score": 0.6316216216216216,
+      "accuracy": 0.25405405405405407,
+      "reasoning": 0.8,
+      "weighted_points": 12.632432432432433,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.071,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_01",
+      "category": "Instruction Following",
+      "combined_score": 0.4037170263788969,
+      "accuracy": 0.1342925659472422,
+      "reasoning": 0.8,
+      "weighted_points": 8.074340527577938,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.065,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_02",
+      "category": "Instruction Following",
+      "combined_score": 0.4204,
+      "accuracy": 0.176,
+      "reasoning": 0.8,
+      "weighted_points": 10.51,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.067,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_03",
+      "category": "Instruction Following",
+      "combined_score": 0.4148648648648649,
+      "accuracy": 0.16216216216216217,
+      "reasoning": 0.8,
+      "weighted_points": 10.371621621621623,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.062,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_04",
+      "category": "Instruction Following",
+      "combined_score": 0.3684971098265896,
+      "accuracy": 0.046242774566473986,
+      "reasoning": 0.8,
+      "weighted_points": 11.05491329479769,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.074,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_05",
+      "category": "Instruction Following",
+      "combined_score": 0.31243494423791823,
+      "accuracy": 0.01858736059479554,
+      "reasoning": 0.8,
+      "weighted_points": 10.935223048327138,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.09,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_01",
+      "category": "Dataform Development",
+      "combined_score": 0.335,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 8.375,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.085,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_02",
+      "category": "Dataform Development",
+      "combined_score": 0.44,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 11.0,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.086,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_03",
+      "category": "Dataform Development",
+      "combined_score": 0.3950000000000001,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 11.850000000000001,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.087,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_04",
+      "category": "Dataform Development",
+      "combined_score": 0.3950000000000001,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 11.850000000000001,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.103,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_05",
+      "category": "Dataform Development",
+      "combined_score": 0.35000000000000003,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 12.250000000000002,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.079,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_01",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.44000000000000006,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 8.8,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.062,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_02",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.067,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_03",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 13.25,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.062,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_04",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 13.25,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.069,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_05",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.066,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_01",
+      "category": "Complex SQL",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 20.925,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.091,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_02",
+      "category": "Complex SQL",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 20.925,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.076,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_03",
+      "category": "Complex SQL",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 24.4125,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.102,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_04",
+      "category": "Complex SQL",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 27.9,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.092,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_05",
+      "category": "Complex SQL",
+      "combined_score": 0.645,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 29.025000000000002,
+      "max_points": 45,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.066,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_01",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6021951219512195,
+      "accuracy": 0.18048780487804877,
+      "reasoning": 0.8,
+      "weighted_points": 9.032926829268293,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.087,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_02",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.5929441624365482,
+      "accuracy": 0.15736040609137056,
+      "reasoning": 0.8,
+      "weighted_points": 8.894162436548223,
+      "max_points": 15,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.063,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_03",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6225,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 12.450000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.054,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_04",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6225,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 12.450000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.064,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_05",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6275,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 15.687499999999998,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.081,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_01",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.40787726358148896,
+      "accuracy": 0.03219315895372234,
+      "reasoning": 0.8,
+      "weighted_points": 8.157545271629779,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.085,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_02",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.6295555555555555,
+      "accuracy": 0.24888888888888888,
+      "reasoning": 0.8,
+      "weighted_points": 12.591111111111111,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.075,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_03",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.4711904761904762,
+      "accuracy": 0.19047619047619047,
+      "reasoning": 0.8,
+      "weighted_points": 11.779761904761905,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.091,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_04",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.500800464037123,
+      "accuracy": 0.26450116009280744,
+      "reasoning": 0.8,
+      "weighted_points": 12.520011600928074,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.064,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_05",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.6188888888888889,
+      "accuracy": 0.2222222222222222,
+      "reasoning": 0.8,
+      "weighted_points": 18.566666666666666,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.078,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_01",
+      "category": "Website Development",
+      "combined_score": 0.645,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 12.9,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.064,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_02",
+      "category": "Website Development",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 13.95,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.053,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_03",
+      "category": "Website Development",
+      "combined_score": 0.645,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 16.125,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.08,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_04",
+      "category": "Website Development",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 17.4375,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.078,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_05",
+      "category": "Website Development",
+      "combined_score": 0.645,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 19.35,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.059,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_01",
+      "category": "Pipeline Development",
+      "combined_score": 0.395,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 7.9,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.061,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_02",
+      "category": "Pipeline Development",
+      "combined_score": 0.395,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 7.9,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.061,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_02",
+      "category": "Pipeline Development",
+      "combined_score": 0.395,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 7.9,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.073,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_04",
+      "category": "Pipeline Development",
+      "combined_score": 0.35,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 8.75,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.07,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_05",
+      "category": "Pipeline Development",
+      "combined_score": 0.35000000000000003,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.500000000000002,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.066,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_01",
+      "category": "Architecture & Design",
+      "combined_score": 0.4060453648915187,
+      "accuracy": 0.027613412228796843,
+      "reasoning": 0.8,
+      "weighted_points": 8.120907297830374,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.085,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_02",
+      "category": "Architecture & Design",
+      "combined_score": 0.4991095890410959,
+      "accuracy": 0.2602739726027397,
+      "reasoning": 0.8,
+      "weighted_points": 12.477739726027398,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.075,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_02",
+      "category": "Architecture & Design",
+      "combined_score": 0.4991095890410959,
+      "accuracy": 0.2602739726027397,
+      "reasoning": 0.8,
+      "weighted_points": 12.477739726027398,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.066,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_04",
+      "category": "Architecture & Design",
+      "combined_score": 0.4772757111597374,
+      "accuracy": 0.20568927789934355,
+      "reasoning": 0.8,
+      "weighted_points": 14.318271334792122,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.06,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_01",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.5368376068376068,
+      "accuracy": 0.017094017094017096,
+      "reasoning": 0.8,
+      "weighted_points": 10.736752136752138,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.078,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_02",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.5416182572614108,
+      "accuracy": 0.029045643153526972,
+      "reasoning": 0.8,
+      "weighted_points": 10.832365145228216,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.069,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_03",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.6047152619589977,
+      "accuracy": 0.1867881548974943,
+      "reasoning": 0.8,
+      "weighted_points": 15.117881548974943,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.09,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_04",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.5367653276955603,
+      "accuracy": 0.016913319238900635,
+      "reasoning": 0.8,
+      "weighted_points": 13.419133192389006,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.07,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_05",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.5957777777777777,
+      "accuracy": 0.16444444444444445,
+      "reasoning": 0.8,
+      "weighted_points": 17.87333333333333,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.071,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_01",
+      "category": "Performance Optimization",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.076,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_02",
+      "category": "Performance Optimization",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.067,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_03",
+      "category": "Performance Optimization",
+      "combined_score": 0.5880498866213152,
+      "accuracy": 0.14512471655328799,
+      "reasoning": 0.8,
+      "weighted_points": 14.70124716553288,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.083,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_04",
+      "category": "Performance Optimization",
+      "combined_score": 0.6008624708624709,
+      "accuracy": 0.17715617715617715,
+      "reasoning": 0.8,
+      "weighted_points": 15.021561771561773,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.062,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_05",
+      "category": "Performance Optimization",
+      "combined_score": 0.5795575221238938,
+      "accuracy": 0.12389380530973451,
+      "reasoning": 0.8,
+      "weighted_points": 17.386725663716813,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.069,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_01",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.6016049382716049,
+      "accuracy": 0.17901234567901234,
+      "reasoning": 0.8,
+      "weighted_points": 12.032098765432098,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.066,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_02",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.6082608695652173,
+      "accuracy": 0.1956521739130435,
+      "reasoning": 0.8,
+      "weighted_points": 12.165217391304346,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.066,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_03",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.6140970350404312,
+      "accuracy": 0.21024258760107817,
+      "reasoning": 0.8,
+      "weighted_points": 15.35242587601078,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.065,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_01",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.6016049382716049,
+      "accuracy": 0.17901234567901234,
+      "reasoning": 0.8,
+      "weighted_points": 12.032098765432098,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.056,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_05",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.6242307692307693,
+      "accuracy": 0.23557692307692307,
+      "reasoning": 0.8,
+      "weighted_points": 18.72692307692308,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.065,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_01",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.5773118279569892,
+      "accuracy": 0.11827956989247312,
+      "reasoning": 0.8,
+      "weighted_points": 11.546236559139784,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.078,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_02",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.5804109589041095,
+      "accuracy": 0.12602739726027398,
+      "reasoning": 0.8,
+      "weighted_points": 11.60821917808219,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.074,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_03",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.6297289972899729,
+      "accuracy": 0.24932249322493225,
+      "reasoning": 0.8,
+      "weighted_points": 15.743224932249323,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.07,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_04",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.6017948717948718,
+      "accuracy": 0.1794871794871795,
+      "reasoning": 0.8,
+      "weighted_points": 15.044871794871796,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.072,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_05",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.6193401015228427,
+      "accuracy": 0.2233502538071066,
+      "reasoning": 0.8,
+      "weighted_points": 18.58020304568528,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.068,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_01",
+      "category": "Communication & Documentation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.067,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_02",
+      "category": "Communication & Documentation",
+      "combined_score": 0.5402127659574468,
+      "accuracy": 0.02553191489361702,
+      "reasoning": 0.8,
+      "weighted_points": 10.804255319148936,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.062,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_03",
+      "category": "Communication & Documentation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 13.25,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.072,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_04",
+      "category": "Communication & Documentation",
+      "combined_score": 0.5436752136752137,
+      "accuracy": 0.03418803418803419,
+      "reasoning": 0.8,
+      "weighted_points": 13.59188034188034,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.067,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_05",
+      "category": "Communication & Documentation",
+      "combined_score": 0.5984210526315789,
+      "accuracy": 0.17105263157894737,
+      "reasoning": 0.8,
+      "weighted_points": 17.952631578947365,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.067,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_01",
+      "category": "Security & Best Practices",
+      "combined_score": 0.6041573033707864,
+      "accuracy": 0.1853932584269663,
+      "reasoning": 0.8,
+      "weighted_points": 12.08314606741573,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.057,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_02",
+      "category": "Security & Best Practices",
+      "combined_score": 0.6129131652661064,
+      "accuracy": 0.20728291316526612,
+      "reasoning": 0.8,
+      "weighted_points": 12.258263305322128,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.062,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_03",
+      "category": "Security & Best Practices",
+      "combined_score": 0.5979045092838197,
+      "accuracy": 0.16976127320954906,
+      "reasoning": 0.8,
+      "weighted_points": 14.947612732095491,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.062,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_01",
+      "category": "Security & Best Practices",
+      "combined_score": 0.6041573033707864,
+      "accuracy": 0.1853932584269663,
+      "reasoning": 0.8,
+      "weighted_points": 12.08314606741573,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.058,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_05",
+      "category": "Security & Best Practices",
+      "combined_score": 0.5875835475578406,
+      "accuracy": 0.14395886889460155,
+      "reasoning": 0.8,
+      "weighted_points": 17.627506426735216,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.066,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_01",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.072,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_01",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.067,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_03",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.6355555555555555,
+      "accuracy": 0.2638888888888889,
+      "reasoning": 0.8,
+      "weighted_points": 15.88888888888889,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.072,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_04",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.6154545454545454,
+      "accuracy": 0.21363636363636362,
+      "reasoning": 0.8,
+      "weighted_points": 15.386363636363635,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.072,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_05",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.069,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_01",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 21.200000000000003,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.07,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_02",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 23.85,
+      "max_points": 45,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.059,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_03",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 26.5,
+      "max_points": 50,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.059,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_04",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.6174418604651163,
+      "accuracy": 0.2186046511627907,
+      "reasoning": 0.8,
+      "weighted_points": 30.872093023255815,
+      "max_points": 50,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.077,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_01",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 21.200000000000003,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.061,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_01",
+      "category": "Long-Context Handling",
+      "combined_score": 0.6175536480686695,
+      "accuracy": 0.21888412017167383,
+      "reasoning": 0.8,
+      "weighted_points": 24.70214592274678,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.057,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_02",
+      "category": "Long-Context Handling",
+      "combined_score": 0.5367085953878407,
+      "accuracy": 0.016771488469601678,
+      "reasoning": 0.8,
+      "weighted_points": 24.151886792452828,
+      "max_points": 45,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.072,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_03",
+      "category": "Long-Context Handling",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 26.5,
+      "max_points": 50,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.056,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_01",
+      "category": "Long-Context Handling",
+      "combined_score": 0.6175536480686695,
+      "accuracy": 0.21888412017167383,
+      "reasoning": 0.8,
+      "weighted_points": 24.70214592274678,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.07,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_05",
+      "category": "Long-Context Handling",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 29.150000000000002,
+      "max_points": 55,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.065,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_01",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.066,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_02",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.062,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_03",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.5787179487179487,
+      "accuracy": 0.12179487179487179,
+      "reasoning": 0.8,
+      "weighted_points": 11.574358974358974,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.074,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_04",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.061,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_05",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.5839877300613497,
+      "accuracy": 0.13496932515337423,
+      "reasoning": 0.8,
+      "weighted_points": 20.43957055214724,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.072,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_06",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.5708945686900958,
+      "accuracy": 0.10223642172523961,
+      "reasoning": 0.8,
+      "weighted_points": 19.981309904153353,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.062,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_07",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.091,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_08",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.5823364485981308,
+      "accuracy": 0.1308411214953271,
+      "reasoning": 0.8,
+      "weighted_points": 23.293457943925233,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.082,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_09",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 23.85,
+      "max_points": 45,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.063,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_10",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 23.85,
+      "max_points": 45,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.063,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_01",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.058,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_02",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.6052136752136752,
+      "accuracy": 0.18803418803418803,
+      "reasoning": 0.8,
+      "weighted_points": 12.104273504273504,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.073,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_03",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.6095180722891566,
+      "accuracy": 0.19879518072289157,
+      "reasoning": 0.8,
+      "weighted_points": 15.237951807228914,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.071,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_04",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.6081065088757397,
+      "accuracy": 0.1952662721893491,
+      "reasoning": 0.8,
+      "weighted_points": 15.202662721893493,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.085,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_01",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.075,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_06",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.6196174863387978,
+      "accuracy": 0.22404371584699453,
+      "reasoning": 0.8,
+      "weighted_points": 15.490437158469945,
+      "max_points": 25,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.071,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_07",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.6069230769230768,
+      "accuracy": 0.19230769230769232,
+      "reasoning": 0.8,
+      "weighted_points": 18.207692307692305,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.073,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_08",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.067,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_09",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.081,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_10",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 21.200000000000003,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.071,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_01",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.068,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_02",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.06,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_03",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.059,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_04",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.055,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_05",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.069,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_06",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.066,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_07",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.074,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_02",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.073,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_09",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.075,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_10",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 21.200000000000003,
+      "max_points": 40,
+      "pretty_response": "ERROR: 404 NOTFOUND. {'error': {'code': 404, 'message': 'models/gemini-embedding-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOTFOUND'}}",
+      "performance": {
+        "response_time_seconds": 0.058,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    }
+  ]
+}
