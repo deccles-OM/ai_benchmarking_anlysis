@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Model Quick Reference - Visual Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #4caf50 0%, #2e7d32 100%);
+            color: #333;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #4caf50;
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1em;
+        }
+        
+        .section {
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #4caf50;
+            font-size: 1.8em;
+            margin: 25px 0 20px 0;
+            border-bottom: 3px solid #4caf50;
+            padding-bottom: 10px;
+        }
+        
+        .flowchart {
+            background: #f9f9f9;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .decision-tree {
+            display: grid;
+            gap: 15px;
+        }
+        
+        .decision-node {
+            background: linear-gradient(135deg, #4caf50 0%, #2e7d32 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            position: relative;
+        }
+        
+        .decision-node h3 {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        
+        .decision-outcome {
+            background: #e8f5e9;
+            border-left: 5px solid #4caf50;
+            padding: 15px;
+            margin: 10px 0 10px 25px;
+            border-radius: 4px;
+        }
+        
+        .decision-outcome strong {
+            color: #2e7d32;
+        }
+        
+        .comparison-matrix {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+        
+        .matrix-item {
+            background: linear-gradient(135deg, #4caf50 0%, #2e7d32 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        
+        .matrix-item h4 {
+            font-size: 1.1em;
+            margin-bottom: 12px;
+        }
+        
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            margin: 8px 0;
+            font-size: 0.95em;
+        }
+        
+        .metric-bar {
+            background: rgba(255,255,255,0.3);
+            height: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 8px 0;
+        }
+        
+        .metric-fill {
+            height: 100%;
+            background: #4caf50;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+        
+        .legend {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .legend-box {
+            width: 30px;
+            height: 30px;
+            border-radius: 4px;
+        }
+        
+        .legend-box.excellent { background: #4caf50; }
+        .legend-box.good { background: #2196F3; }
+        .legend-box.fair { background: #ff9800; }
+        .legend-box.poor { background: #f44336; }
+        
+        .ranking-visual {
+            margin: 20px 0;
+        }
+        
+        .rank-bar {
+            display: flex;
+            align-items: center;
+            margin: 12px 0;
+            gap: 15px;
+        }
+        
+        .rank-number {
+            width: 40px;
+            text-align: center;
+            font-weight: bold;
+            color: #667eea;
+            font-size: 1.1em;
+        }
+        
+        .rank-info {
+            flex: 1;
+            background: #f9f9f9;
+            padding: 12px 15px;
+            border-radius: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .rank-model {
+            font-weight: 600;
+        }
+        
+        .rank-score {
+            background: linear-gradient(135deg, #81c784 0%, #66bb6a 100%);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+        
+        .flowchart-step {
+            background: white;
+            border: 2px solid #81c784;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            position: relative;
+        }
+        
+        .flowchart-step::before {
+            content: attr(data-step);
+            position: absolute;
+            top: -15px;
+            left: 20px;
+            background: linear-gradient(135deg, #81c784 0%, #66bb6a 100%);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        
+        .arrow {
+            text-align: center;
+            color: #81c784;
+            font-size: 1.5em;
+            margin: -5px 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th {
+            background: #4caf50;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        tr:hover {
+            background: #f5f5f5;
+        }
+        
+        .print-tip {
+            background: #fff3cd;
+            border: 2px solid #ff9800;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            padding: 20px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            .section {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 AI Model Quick Reference Guide</h1>
+            <p class="subtitle">Visual Decision Making Tool - Print-Friendly Format</p>
+        </div>
+        
+        <div class="section">
+            <h2>🏆 Model Rankings</h2>
+            <div class="ranking-visual">
+                <div class="rank-bar">
+                    <div class="rank-number">1</div>
+                    <div class="rank-info">
+                        <div class="rank-model">gemini-pro-latest</div>
+                        <div class="rank-score">60.5%</div>
+                    </div>
+                </div>
+                <div class="rank-bar">
+                    <div class="rank-number">2</div>
+                    <div class="rank-info">
+                        <div class="rank-model">gemini-2.5-pro</div>
+                        <div class="rank-score">59.1%</div>
+                    </div>
+                </div>
+                <div class="rank-bar">
+                    <div class="rank-number">3</div>
+                    <div class="rank-info">
+                        <div class="rank-model">gemini-3-pro-image-preview</div>
+                        <div class="rank-score">57.8%</div>
+                    </div>
+                </div>
+                <div class="rank-bar">
+                    <div class="rank-number">4</div>
+                    <div class="rank-info">
+                        <div class="rank-model">gemini-flash-latest</div>
+                        <div class="rank-score">55.2%</div>
+                    </div>
+                </div>
+                <div class="rank-bar">
+                    <div class="rank-number">5</div>
+                    <div class="rank-info">
+                        <div class="rank-model">gemini-2.5-flash</div>
+                        <div class="rank-score">54.8%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-box excellent"></div>
+                    <span>Excellent (>57%)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-box good"></div>
+                    <span>Good (52-57%)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-box fair"></div>
+                    <span>Fair (47-52%)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-box poor"></div>
+                    <span>Below Average (<47%)</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🎯 Decision Flow: Which Model Should You Use?</h2>
+            
+            <div class="flowchart">
+                <h3 style="color: #667eea; margin-bottom: 20px;">Start: Answer these questions</h3>
+                
+                <div class="flowchart-step" data-step="1">
+                    <strong>Question 1: What's your PRIMARY constraint?</strong>
+                    <div style="margin-top: 15px;">
+                        <input type="radio" name="constraint" id="quality" value="quality">
+                        <label for="quality">✓ Maximum Quality/Accuracy</label><br>
+                        <input type="radio" name="constraint" id="speed" value="speed">
+                        <label for="speed">⚡ Speed (Real-time)</label><br>
+                        <input type="radio" name="constraint" id="cost" value="cost">
+                        <label for="cost">💰 Cost</label>
+                    </div>
+                </div>
+                
+                <div class="arrow">↓</div>
+                
+                <div class="decision-node">
+                    <h3 id="result" style="text-align: center;">👈 Select an option above to see recommendation</h3>
+                </div>
+            </div>
+            
+            <div class="decision-outcome" style="display: none;" id="quality-result">
+                <strong>🏆 RECOMMENDATION: Use Pro Models</strong>
+                <p style="margin-top: 10px;">
+                    <code>gemini-pro-latest</code> (60.5%)<br>
+                    or <code>gemini-2.5-pro</code> (59.1%)
+                </p>
+                <p style="margin-top: 10px; font-size: 0.95em;">
+                    ✓ Best accuracy for reasoning, code, analysis<br>
+                    ✓ Accept 1-2 second latency<br>
+                    ✓ Willing to pay premium for quality
+                </p>
+            </div>
+            
+            <div class="decision-outcome" style="display: none;" id="speed-result">
+                <strong>⚡ RECOMMENDATION: Use Flash Models</strong>
+                <p style="margin-top: 10px;">
+                    <code>gemini-flash-latest</code> (55.2%)<br>
+                    or <code>gemini-2.5-flash</code> (54.8%)
+                </p>
+                <p style="margin-top: 10px; font-size: 0.95em;">
+                    ✓ Good balance (55% accuracy)<br>
+                    ✓ Sub-500ms response time<br>
+                    ✓ Ideal for chat, real-time apps, APIs
+                </p>
+            </div>
+            
+            <div class="decision-outcome" style="display: none;" id="cost-result">
+                <strong>💰 RECOMMENDATION: Use Lite or Small Models</strong>
+                <p style="margin-top: 10px;">
+                    <code>gemini-flash-lite-latest</code> (48.3%)<br>
+                    or <code>gemma-3-4b-it</code> (45-50%)
+                </p>
+                <p style="margin-top: 10px; font-size: 0.95em;">
+                    ✓ Lowest cost (20-30% cheaper)<br>
+                    ✓ Acceptable accuracy (45-50%)<br>
+                    ✓ Good for cost-sensitive applications
+                </p>
+            </div>
+            
+            <script>
+                const radios = document.querySelectorAll('input[name="constraint"]');
+                radios.forEach(radio => {
+                    radio.addEventListener('change', function() {
+                        const resultDiv = document.getElementById(this.value + '-result');
+                        document.querySelectorAll('.decision-outcome').forEach(div => div.style.display = 'none');
+                        if (resultDiv) resultDiv.style.display = 'block';
+                    });
+                });
+            </script>
+        </div>
+        
+        <div class="section">
+            <h2>📊 Model Comparison Matrix</h2>
+            
+            <div class="comparison-matrix">
+                <div class="matrix-item">
+                    <h4>🏆 Pro Models</h4>
+                    <div class="metric">
+                        <span>Accuracy:</span>
+                        <strong>58-60%</strong>
+                    </div>
+                    <div class="metric-bar">
+                        <div class="metric-fill" style="width: 95%;">95%</div>
+                    </div>
+                    <div class="metric">
+                        <span>Speed:</span>
+                        <strong>Slower</strong>
+                    </div>
+                    <div class="metric-bar">
+                        <div class="metric-fill" style="width: 40%;">40%</div>
+                    </div>
+                    <div class="metric">
+                        <span>Cost:</span>
+                        <strong>High</strong>
+                    </div>
+                    <div class="metric-bar">
+                        <div class="metric-fill" style="width: 80%;">80%</div>
+                    </div>
+                    <div class="metric">
+                        <span>Best For:</span>
+                        <strong>Quality</strong>
+                    </div>
+                </div>
+                
+                <div class="matrix-item">
+                    <h4>⚡ Flash Models</h4>
+                    <div class="metric">
+                        <span>Accuracy:</span>
+                        <strong>52-55%</strong>
+                    </div>
+                    <div class="metric-bar">
+                        <div class="metric-fill" style="width: 85%;">85%</div>
+                    </div>
+                    <div class="metric">
+                        <span>Speed:</span>
+                        <strong>Fast</strong>
+                    </div>
+                    <div class="metric-bar">
+                        <div class="metric-fill" style="width: 75%;">75%</div>
+                    </div>
+                    <div class="metric">
+                        <span>Cost:</span>
+                        <strong>Mid</strong>
+                    </div>
+                    <div class="metric-bar">
+                        <div class="metric-fill" style="width: 50%;">50%</div>
+                    </div>
+                    <div class="metric">
+                        <span>Best For:</span>
+                        <strong>Balance</strong>
+                    </div>
+                </div>
+                
+                <div class="matrix-item">
+                    <h4>💰 Lite Models</h4>
+                    <div class="metric">
+                        <span>Accuracy:</span>
+                        <strong>42-48%</strong>
+                    </div>
+                    <div class="metric-bar">
+                        <div class="metric-fill" style="width: 70%;">70%</div>
+                    </div>
+                    <div class="metric">
+                        <span>Speed:</span>
+                        <strong>Very Fast</strong>
+                    </div>
+                    <div class="metric-bar">
+                        <div class="metric-fill" style="width: 90%;">90%</div>
+                    </div>
+                    <div class="metric">
+                        <span>Cost:</span>
+                        <strong>Low</strong>
+                    </div>
+                    <div class="metric-bar">
+                        <div class="metric-fill" style="width: 30%;">30%</div>
+                    </div>
+                    <div class="metric">
+                        <span>Best For:</span>
+                        <strong>Cost</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📋 Version Progression Guide</h2>
+            
+            <table>
+                <tr>
+                    <th>Version</th>
+                    <th>Performance</th>
+                    <th>Status</th>
+                    <th>Upgrade Priority</th>
+                </tr>
+                <tr>
+                    <td><strong>2.0</strong></td>
+                    <td>50.2%</td>
+                    <td>Older</td>
+                    <td>🔴 Should upgrade</td>
+                </tr>
+                <tr>
+                    <td><strong>2.5</strong></td>
+                    <td>57.0% avg</td>
+                    <td>Stable</td>
+                    <td>✓ Production safe</td>
+                </tr>
+                <tr>
+                    <td><strong>3.0/3.1</strong></td>
+                    <td>54.1% avg</td>
+                    <td>Preview</td>
+                    <td>△ For new projects</td>
+                </tr>
+                <tr>
+                    <td><strong>Latest</strong></td>
+                    <td>57.9%</td>
+                    <td>Current</td>
+                    <td>✓ Recommended</td>
+                </tr>
+            </table>
+            
+            <p style="margin-top: 15px; font-size: 0.95em; color: #666;">
+                <strong>Key Insight:</strong> Upgrade from 2.0 to 2.5 for +6.8% improvement.<br>
+                Improvements beyond 2.5 are marginal. Choose latest for new projects.
+            </p>
+        </div>
+        
+        <div class="section">
+            <h2>🔄 Pro vs Flash Trade-offs</h2>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div style="background: #e8f5e9; padding: 20px; border-radius: 8px; border-left: 4px solid #4caf50;">
+                    <h3 style="color: #2e7d32; margin-bottom: 15px;">✓ Choose PRO when:</h3>
+                    <ul style="margin-left: 20px;">
+                        <li>Complex reasoning matters</li>
+                        <li>High accuracy critical (medical, legal)</li>
+                        <li>Time is not constrained</li>
+                        <li>Batch processing</li>
+                        <li>Budget flexible</li>
+                    </ul>
+                </div>
+                
+                <div style="background: #f3e5f5; padding: 20px; border-radius: 8px; border-left: 4px solid #7b1fa2;">
+                    <h3 style="color: #6a1b9a; margin-bottom: 15px;">⚡ Choose FLASH when:</h3>
+                    <ul style="margin-left: 20px;">
+                        <li>Real-time apps (chat, etc)</li>
+                        <li>Cost optimization needed</li>
+                        <li>55% accuracy is acceptable</li>
+                        <li>High throughput required</li>
+                        <li>Latency <1 second needed</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <p style="margin-top: 20px; font-size: 0.95em; color: #666; background: #f9f9f9; padding: 15px; border-radius: 6px; border-left: 4px solid #ff9800;">
+                <strong>Performance Gap:</strong> Pro = 58-60% | Flash = 52-55% | Difference = 5-6%
+            </p>
+        </div>
+        
+        <div class="print-tip">
+            <strong>💡 Pro Tip: Print or Save This Page!</strong>
+            <p style="margin-top: 10px;">
+                Use the decision flow above to share with your team. This guide is printable and works as a reference card.
+                Press Ctrl+P or Cmd+P to print.
+            </p>
+        </div>
+        
+        <div class="footer">
+            <p style="font-size: 1em;">For detailed analysis, see the other reports in Summary Findings folder</p>
+            <p style="font-size: 0.9em; margin-top: 10px; opacity: 0.8;">Quick Reference Generated April 17, 2026</p>
+        </div>
+    </div>
+</body>
+</html>
