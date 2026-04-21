@@ -1,0 +1,2622 @@
+{
+  "source_file": "response_models\\gemini-2.5-computer-use-preview-10-2025_20260417_task_groups.json",
+  "total_score": 2009.9273854470132,
+  "max_score": 3770,
+  "average_score": 0.5331372375191017,
+  "percentage": 53.31372375191017,
+  "category_breakdown": {
+    "Data Understanding": {
+      "score": 19.14513463004568,
+      "max_points": 50,
+      "percentage": 38.29026926009136
+    },
+    "Data Cleaning": {
+      "score": 29.64688336275124,
+      "max_points": 60,
+      "percentage": 49.411472271252066
+    },
+    "Exploratory Data Analysis": {
+      "score": 42.095083558995064,
+      "max_points": 75,
+      "percentage": 56.12677807866009
+    },
+    "Statistical Analysis": {
+      "score": 41.51202538728087,
+      "max_points": 80,
+      "percentage": 51.89003173410109
+    },
+    "SQL & Query Logic": {
+      "score": 22.9,
+      "max_points": 80,
+      "percentage": 28.625
+    },
+    "Business Insight": {
+      "score": 47.29221775666788,
+      "max_points": 80,
+      "percentage": 59.115272195834855
+    },
+    "Instruction Following": {
+      "score": 49.88251299948789,
+      "max_points": 135,
+      "percentage": 36.95000962925029
+    },
+    "Dataform Development": {
+      "score": 55.325,
+      "max_points": 145,
+      "percentage": 38.1551724137931
+    },
+    "SQL Dialect Specificity": {
+      "score": 59.1,
+      "max_points": 120,
+      "percentage": 49.25
+    },
+    "Complex SQL": {
+      "score": 123.1875,
+      "max_points": 180,
+      "percentage": 68.4375
+    },
+    "Prompt Efficiency": {
+      "score": 58.02356299568942,
+      "max_points": 95,
+      "percentage": 61.077434732304646
+    },
+    "Document Reading & Extraction": {
+      "score": 60.45643425142931,
+      "max_points": 120,
+      "percentage": 50.380361876191095
+    },
+    "Website Development": {
+      "score": 79.7625,
+      "max_points": 120,
+      "percentage": 66.46875
+    },
+    "Pipeline Development": {
+      "score": 42.95,
+      "max_points": 115,
+      "percentage": 37.34782608695652
+    },
+    "Architecture & Design": {
+      "score": 45.14674199402845,
+      "max_points": 100,
+      "percentage": 45.14674199402845
+    },
+    "Debugging & Troubleshooting": {
+      "score": 67.10213888304085,
+      "max_points": 120,
+      "percentage": 55.918449069200705
+    },
+    "Performance Optimization": {
+      "score": 69.15710423172408,
+      "max_points": 120,
+      "percentage": 57.6309201931034
+    },
+    "Code Review & Issue Detection": {
+      "score": 68.1177104436486,
+      "max_points": 115,
+      "percentage": 59.23279169012922
+    },
+    "Library & Dependency Management": {
+      "score": 70.7041998765171,
+      "max_points": 120,
+      "percentage": 58.92016656376424
+    },
+    "Communication & Documentation": {
+      "score": 65.82709349262876,
+      "max_points": 120,
+      "percentage": 54.8559112438573
+    },
+    "Security & Best Practices": {
+      "score": 67.28471208586951,
+      "max_points": 115,
+      "percentage": 58.50844529206045
+    },
+    "Testing & Quality Assurance": {
+      "score": 67.83139837749059,
+      "max_points": 120,
+      "percentage": 56.52616531457549
+    },
+    "Saturation & Complexity Limits": {
+      "score": 122.04926335174956,
+      "max_points": 225,
+      "percentage": 54.244117045222026
+    },
+    "Long-Context Handling": {
+      "score": 129.05827990983872,
+      "max_points": 230,
+      "percentage": 56.11229561297335
+    },
+    "Sustained Performance & Fatigue": {
+      "score": 178.40606075018007,
+      "max_points": 325,
+      "percentage": 54.89417253851695
+    },
+    "Context Switching & Task Clarity": {
+      "score": 153.06382710794998,
+      "max_points": 275,
+      "percentage": 55.659573493799996
+    },
+    "Writing & Content Generation": {
+      "score": 174.90000000000003,
+      "max_points": 330,
+      "percentage": 53.000000000000014
+    }
+  },
+  "performance_summary": {
+    "questions_with_perf": 145,
+    "avg_response_time_seconds": 0.20537241379310345,
+    "median_response_time_seconds": 0.197,
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tokens": 0,
+    "avg_input_tokens": 0.0,
+    "avg_output_tokens": 0.0,
+    "avg_total_tokens": 0.0
+  },
+  "results": [
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_01",
+      "category": "Data Understanding",
+      "combined_score": 0.5403359173126615,
+      "accuracy": 0.025839793281653745,
+      "reasoning": 0.8,
+      "weighted_points": 5.403359173126615,
+      "max_points": 10,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.443,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_02",
+      "category": "Data Understanding",
+      "combined_score": 0.28,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 2.8000000000000003,
+      "max_points": 10,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.367,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_03",
+      "category": "Data Understanding",
+      "combined_score": 0.534177545691906,
+      "accuracy": 0.010443864229765013,
+      "reasoning": 0.8,
+      "weighted_points": 5.34177545691906,
+      "max_points": 10,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.269,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_04",
+      "category": "Data Understanding",
+      "combined_score": 0.28,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 2.8000000000000003,
+      "max_points": 10,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.229,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_05",
+      "category": "Data Understanding",
+      "combined_score": 0.28,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 2.8000000000000003,
+      "max_points": 10,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.287,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_01",
+      "category": "Data Cleaning",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 7.95,
+      "max_points": 15,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.24,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_02",
+      "category": "Data Cleaning",
+      "combined_score": 0.29813471502590677,
+      "accuracy": 0.025906735751295335,
+      "reasoning": 0.8,
+      "weighted_points": 4.472020725388601,
+      "max_points": 15,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.24,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_03",
+      "category": "Data Cleaning",
+      "combined_score": 0.5567857142857143,
+      "accuracy": 0.06696428571428571,
+      "reasoning": 0.8,
+      "weighted_points": 8.351785714285715,
+      "max_points": 15,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.201,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_04",
+      "category": "Data Cleaning",
+      "combined_score": 0.5915384615384615,
+      "accuracy": 0.15384615384615385,
+      "reasoning": 0.8,
+      "weighted_points": 8.873076923076923,
+      "max_points": 15,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.256,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_01",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.5562295081967213,
+      "accuracy": 0.06557377049180328,
+      "reasoning": 0.8,
+      "weighted_points": 8.34344262295082,
+      "max_points": 15,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.25,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_02",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.5848856548856548,
+      "accuracy": 0.13721413721413722,
+      "reasoning": 0.8,
+      "weighted_points": 8.773284823284822,
+      "max_points": 15,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.256,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_03",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.5760176991150442,
+      "accuracy": 0.11504424778761062,
+      "reasoning": 0.8,
+      "weighted_points": 8.640265486725664,
+      "max_points": 15,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.205,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_04",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.5556292906178489,
+      "accuracy": 0.06407322654462243,
+      "reasoning": 0.8,
+      "weighted_points": 8.334439359267733,
+      "max_points": 15,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.207,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_05",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.5335767511177347,
+      "accuracy": 0.00894187779433681,
+      "reasoning": 0.8,
+      "weighted_points": 8.00365126676602,
+      "max_points": 15,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.237,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_01",
+      "category": "Statistical Analysis",
+      "combined_score": 0.28,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 5.6000000000000005,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.252,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_02",
+      "category": "Statistical Analysis",
+      "combined_score": 0.581063829787234,
+      "accuracy": 0.1276595744680851,
+      "reasoning": 0.8,
+      "weighted_points": 11.62127659574468,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.24,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_03",
+      "category": "Statistical Analysis",
+      "combined_score": 0.5994980694980695,
+      "accuracy": 0.17374517374517376,
+      "reasoning": 0.8,
+      "weighted_points": 11.98996138996139,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.231,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_04",
+      "category": "Statistical Analysis",
+      "combined_score": 0.6150393700787401,
+      "accuracy": 0.2125984251968504,
+      "reasoning": 0.8,
+      "weighted_points": 12.300787401574802,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.227,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_01",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.29,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 5.8,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.278,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_02",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.29,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 5.8,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.286,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_03",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.23000000000000004,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 4.6000000000000005,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.253,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_04",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.335,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 6.7,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.175,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_01",
+      "category": "Business Insight",
+      "combined_score": 0.6014285714285714,
+      "accuracy": 0.17857142857142858,
+      "reasoning": 0.8,
+      "weighted_points": 12.028571428571428,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.193,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_02",
+      "category": "Business Insight",
+      "combined_score": 0.5938655462184873,
+      "accuracy": 0.15966386554621848,
+      "reasoning": 0.8,
+      "weighted_points": 11.877310924369747,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.219,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_03",
+      "category": "Business Insight",
+      "combined_score": 0.5879710144927536,
+      "accuracy": 0.14492753623188406,
+      "reasoning": 0.8,
+      "weighted_points": 11.759420289855072,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.218,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_04",
+      "category": "Business Insight",
+      "combined_score": 0.5813457556935818,
+      "accuracy": 0.12836438923395446,
+      "reasoning": 0.8,
+      "weighted_points": 11.626915113871636,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.211,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_01",
+      "category": "Instruction Following",
+      "combined_score": 0.4209433962264151,
+      "accuracy": 0.17735849056603772,
+      "reasoning": 0.8,
+      "weighted_points": 8.418867924528302,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.181,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_02",
+      "category": "Instruction Following",
+      "combined_score": 0.3975409836065574,
+      "accuracy": 0.11885245901639344,
+      "reasoning": 0.8,
+      "weighted_points": 9.938524590163935,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.181,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_03",
+      "category": "Instruction Following",
+      "combined_score": 0.39304932735426007,
+      "accuracy": 0.10762331838565023,
+      "reasoning": 0.8,
+      "weighted_points": 9.826233183856502,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.204,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_04",
+      "category": "Instruction Following",
+      "combined_score": 0.35886075949367086,
+      "accuracy": 0.022151898734177215,
+      "reasoning": 0.8,
+      "weighted_points": 10.765822784810126,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.183,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_05",
+      "category": "Instruction Following",
+      "combined_score": 0.3123732718894009,
+      "accuracy": 0.018433179723502304,
+      "reasoning": 0.8,
+      "weighted_points": 10.933064516129031,
+      "max_points": 35,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.186,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_01",
+      "category": "Dataform Development",
+      "combined_score": 0.335,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 8.375,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.242,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_02",
+      "category": "Dataform Development",
+      "combined_score": 0.44,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 11.0,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.172,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_03",
+      "category": "Dataform Development",
+      "combined_score": 0.3950000000000001,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 11.850000000000001,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.197,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_04",
+      "category": "Dataform Development",
+      "combined_score": 0.3950000000000001,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 11.850000000000001,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.287,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_05",
+      "category": "Dataform Development",
+      "combined_score": 0.35000000000000003,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 12.250000000000002,
+      "max_points": 35,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.277,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_01",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.44000000000000006,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 8.8,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.178,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_02",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.47000000000000003,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 9.4,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.261,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_03",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 13.25,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.188,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_04",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.47,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 11.75,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.222,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_05",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.18,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_01",
+      "category": "Complex SQL",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 20.925,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.23,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_02",
+      "category": "Complex SQL",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 20.925,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.21,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_03",
+      "category": "Complex SQL",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 24.4125,
+      "max_points": 35,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.215,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_04",
+      "category": "Complex SQL",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 27.9,
+      "max_points": 40,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.177,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_05",
+      "category": "Complex SQL",
+      "combined_score": 0.645,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 29.025000000000002,
+      "max_points": 45,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.163,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_01",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.5850669216061185,
+      "accuracy": 0.13766730401529637,
+      "reasoning": 0.8,
+      "weighted_points": 8.776003824091777,
+      "max_points": 15,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.207,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_02",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.5773372781065088,
+      "accuracy": 0.11834319526627218,
+      "reasoning": 0.8,
+      "weighted_points": 8.660059171597632,
+      "max_points": 15,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.24,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_03",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6225,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 12.450000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.198,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_04",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6225,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 12.450000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.234,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_05",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6275,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 15.687499999999998,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.164,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_01",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.4068032786885246,
+      "accuracy": 0.029508196721311476,
+      "reasoning": 0.8,
+      "weighted_points": 8.136065573770493,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.191,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_02",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.599626998223801,
+      "accuracy": 0.17406749555950266,
+      "reasoning": 0.8,
+      "weighted_points": 11.992539964476022,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.268,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_03",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.45803939962476553,
+      "accuracy": 0.1575984990619137,
+      "reasoning": 0.8,
+      "weighted_points": 11.450984990619139,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.222,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_04",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.44205882352941184,
+      "accuracy": 0.11764705882352941,
+      "reasoning": 0.8,
+      "weighted_points": 11.051470588235295,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.17,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_05",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.594179104477612,
+      "accuracy": 0.16044776119402984,
+      "reasoning": 0.8,
+      "weighted_points": 17.82537313432836,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.197,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_01",
+      "category": "Website Development",
+      "combined_score": 0.645,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 12.9,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.162,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_02",
+      "category": "Website Development",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 13.95,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.226,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_03",
+      "category": "Website Development",
+      "combined_score": 0.645,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 16.125,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.263,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_04",
+      "category": "Website Development",
+      "combined_score": 0.6975,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 17.4375,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.238,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_05",
+      "category": "Website Development",
+      "combined_score": 0.645,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 19.35,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.213,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_01",
+      "category": "Pipeline Development",
+      "combined_score": 0.395,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 7.9,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.152,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_02",
+      "category": "Pipeline Development",
+      "combined_score": 0.395,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 7.9,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.163,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_02",
+      "category": "Pipeline Development",
+      "combined_score": 0.395,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 7.9,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.231,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_04",
+      "category": "Pipeline Development",
+      "combined_score": 0.35,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 8.75,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.166,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_05",
+      "category": "Pipeline Development",
+      "combined_score": 0.35000000000000003,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.500000000000002,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.166,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_01",
+      "category": "Architecture & Design",
+      "combined_score": 0.40532258064516136,
+      "accuracy": 0.025806451612903226,
+      "reasoning": 0.8,
+      "weighted_points": 8.106451612903227,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.174,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_02",
+      "category": "Architecture & Design",
+      "combined_score": 0.46759528130671507,
+      "accuracy": 0.18148820326678766,
+      "reasoning": 0.8,
+      "weighted_points": 11.689882032667876,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.171,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_02",
+      "category": "Architecture & Design",
+      "combined_score": 0.46759528130671507,
+      "accuracy": 0.18148820326678766,
+      "reasoning": 0.8,
+      "weighted_points": 11.689882032667876,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.174,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_04",
+      "category": "Architecture & Design",
+      "combined_score": 0.45535087719298245,
+      "accuracy": 0.15087719298245614,
+      "reasoning": 0.8,
+      "weighted_points": 13.660526315789474,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.162,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_01",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.5382616179001721,
+      "accuracy": 0.020654044750430294,
+      "reasoning": 0.8,
+      "weighted_points": 10.765232358003443,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.175,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_02",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.5421008403361345,
+      "accuracy": 0.030252100840336135,
+      "reasoning": 0.8,
+      "weighted_points": 10.84201680672269,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.185,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_03",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.5821739130434782,
+      "accuracy": 0.13043478260869565,
+      "reasoning": 0.8,
+      "weighted_points": 14.554347826086955,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.197,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_04",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.5368259385665529,
+      "accuracy": 0.017064846416382253,
+      "reasoning": 0.8,
+      "weighted_points": 13.420648464163824,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.234,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_05",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.5839964476021314,
+      "accuracy": 0.1349911190053286,
+      "reasoning": 0.8,
+      "weighted_points": 17.51989342806394,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.259,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_01",
+      "category": "Performance Optimization",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.235,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_02",
+      "category": "Performance Optimization",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.195,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_03",
+      "category": "Performance Optimization",
+      "combined_score": 0.597870036101083,
+      "accuracy": 0.16967509025270758,
+      "reasoning": 0.8,
+      "weighted_points": 14.946750902527075,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.201,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_04",
+      "category": "Performance Optimization",
+      "combined_score": 0.5875645756457565,
+      "accuracy": 0.14391143911439114,
+      "reasoning": 0.8,
+      "weighted_points": 14.689114391143912,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.177,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_05",
+      "category": "Performance Optimization",
+      "combined_score": 0.6107079646017699,
+      "accuracy": 0.20176991150442478,
+      "reasoning": 0.8,
+      "weighted_points": 18.321238938053096,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.168,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_01",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.5885812356979404,
+      "accuracy": 0.14645308924485126,
+      "reasoning": 0.8,
+      "weighted_points": 11.771624713958808,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.181,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_02",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.5798960498960498,
+      "accuracy": 0.12474012474012475,
+      "reasoning": 0.8,
+      "weighted_points": 11.597920997920996,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.185,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_03",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.5977685950413223,
+      "accuracy": 0.16942148760330578,
+      "reasoning": 0.8,
+      "weighted_points": 14.944214876033058,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.148,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_01",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.5885812356979404,
+      "accuracy": 0.14645308924485126,
+      "reasoning": 0.8,
+      "weighted_points": 11.771624713958808,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.161,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_05",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.6010775047258979,
+      "accuracy": 0.1776937618147448,
+      "reasoning": 0.8,
+      "weighted_points": 18.032325141776937,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.166,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_01",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.564639175257732,
+      "accuracy": 0.0865979381443299,
+      "reasoning": 0.8,
+      "weighted_points": 11.29278350515464,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.198,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_02",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.5902510460251046,
+      "accuracy": 0.1506276150627615,
+      "reasoning": 0.8,
+      "weighted_points": 11.805020920502091,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.187,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_03",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.5748132780082987,
+      "accuracy": 0.11203319502074689,
+      "reasoning": 0.8,
+      "weighted_points": 14.370331950207468,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.143,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_04",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.6063419483101392,
+      "accuracy": 0.1908548707753479,
+      "reasoning": 0.8,
+      "weighted_points": 15.15854870775348,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.194,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_05",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.6025838264299802,
+      "accuracy": 0.1814595660749507,
+      "reasoning": 0.8,
+      "weighted_points": 18.077514792899407,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.215,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_01",
+      "category": "Communication & Documentation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.177,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_02",
+      "category": "Communication & Documentation",
+      "combined_score": 0.5382332761578045,
+      "accuracy": 0.02058319039451115,
+      "reasoning": 0.8,
+      "weighted_points": 10.76466552315609,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.168,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_03",
+      "category": "Communication & Documentation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 13.25,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.22,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_04",
+      "category": "Communication & Documentation",
+      "combined_score": 0.5382616179001721,
+      "accuracy": 0.020654044750430294,
+      "reasoning": 0.8,
+      "weighted_points": 13.456540447504302,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.127,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_05",
+      "category": "Communication & Documentation",
+      "combined_score": 0.5918629173989455,
+      "accuracy": 0.1546572934973638,
+      "reasoning": 0.8,
+      "weighted_points": 17.755887521968365,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.201,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_01",
+      "category": "Security & Best Practices",
+      "combined_score": 0.5845842217484009,
+      "accuracy": 0.13646055437100213,
+      "reasoning": 0.8,
+      "weighted_points": 11.691684434968018,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.185,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_02",
+      "category": "Security & Best Practices",
+      "combined_score": 0.5827659574468085,
+      "accuracy": 0.13191489361702127,
+      "reasoning": 0.8,
+      "weighted_points": 11.655319148936169,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.238,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_03",
+      "category": "Security & Best Practices",
+      "combined_score": 0.5773469387755102,
+      "accuracy": 0.11836734693877551,
+      "reasoning": 0.8,
+      "weighted_points": 14.433673469387756,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.147,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_01",
+      "category": "Security & Best Practices",
+      "combined_score": 0.5845842217484009,
+      "accuracy": 0.13646055437100213,
+      "reasoning": 0.8,
+      "weighted_points": 11.691684434968018,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.196,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_05",
+      "category": "Security & Best Practices",
+      "combined_score": 0.5937450199203187,
+      "accuracy": 0.1593625498007968,
+      "reasoning": 0.8,
+      "weighted_points": 17.812350597609562,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.233,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_01",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.154,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_01",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.175,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_03",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.6298165137614679,
+      "accuracy": 0.24954128440366974,
+      "reasoning": 0.8,
+      "weighted_points": 15.745412844036696,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.156,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_04",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.5994394213381554,
+      "accuracy": 0.1735985533453888,
+      "reasoning": 0.8,
+      "weighted_points": 14.985985533453885,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.178,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_05",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.164,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_01",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 21.200000000000003,
+      "max_points": 40,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.177,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_02",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 23.85,
+      "max_points": 45,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.166,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_03",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 26.5,
+      "max_points": 50,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.153,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_04",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.5859852670349908,
+      "accuracy": 0.13996316758747698,
+      "reasoning": 0.8,
+      "weighted_points": 29.299263351749538,
+      "max_points": 50,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.173,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_01",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 21.200000000000003,
+      "max_points": 40,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.173,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_01",
+      "category": "Long-Context Handling",
+      "combined_score": 0.6156649395509499,
+      "accuracy": 0.2141623488773748,
+      "reasoning": 0.8,
+      "weighted_points": 24.626597582037995,
+      "max_points": 40,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.156,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_02",
+      "category": "Long-Context Handling",
+      "combined_score": 0.5367796610169492,
+      "accuracy": 0.01694915254237288,
+      "reasoning": 0.8,
+      "weighted_points": 24.155084745762714,
+      "max_points": 45,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.172,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_03",
+      "category": "Long-Context Handling",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 26.5,
+      "max_points": 50,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.18,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_01",
+      "category": "Long-Context Handling",
+      "combined_score": 0.6156649395509499,
+      "accuracy": 0.2141623488773748,
+      "reasoning": 0.8,
+      "weighted_points": 24.626597582037995,
+      "max_points": 40,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.254,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_05",
+      "category": "Long-Context Handling",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 29.150000000000002,
+      "max_points": 55,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.266,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_01",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.155,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_02",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.147,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_03",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.5770588235294117,
+      "accuracy": 0.11764705882352941,
+      "reasoning": 0.8,
+      "weighted_points": 11.541176470588235,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.174,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_04",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.245,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_05",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.5883143507972665,
+      "accuracy": 0.14578587699316628,
+      "reasoning": 0.8,
+      "weighted_points": 20.591002277904327,
+      "max_points": 35,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.254,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_06",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.5638028169014084,
+      "accuracy": 0.08450704225352113,
+      "reasoning": 0.8,
+      "weighted_points": 19.733098591549297,
+      "max_points": 35,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.191,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_07",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.37,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_08",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.5797695852534562,
+      "accuracy": 0.12442396313364056,
+      "reasoning": 0.8,
+      "weighted_points": 23.19078341013825,
+      "max_points": 40,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.265,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_09",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 23.85,
+      "max_points": 45,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.204,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_10",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 23.85,
+      "max_points": 45,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.198,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_01",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.155,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_02",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.5834482758620689,
+      "accuracy": 0.1336206896551724,
+      "reasoning": 0.8,
+      "weighted_points": 11.668965517241379,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.212,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_03",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.5875280898876404,
+      "accuracy": 0.14382022471910114,
+      "reasoning": 0.8,
+      "weighted_points": 14.68820224719101,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.295,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_04",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.5796674057649668,
+      "accuracy": 0.12416851441241686,
+      "reasoning": 0.8,
+      "weighted_points": 14.491685144124169,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.227,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_01",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.174,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_06",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.6001461377870564,
+      "accuracy": 0.17536534446764093,
+      "reasoning": 0.8,
+      "weighted_points": 15.00365344467641,
+      "max_points": 25,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.181,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_07",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.5903773584905659,
+      "accuracy": 0.1509433962264151,
+      "reasoning": 0.8,
+      "weighted_points": 17.71132075471698,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.159,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_08",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.176,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_09",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.159,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_10",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 21.200000000000003,
+      "max_points": 40,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.197,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_01",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.153,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_02",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.173,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_03",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.146,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_04",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.193,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_05",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.265,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_06",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.21,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_07",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_02",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.166,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_09",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.245,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_10",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 21.200000000000003,
+      "max_points": 40,
+      "pretty_response": "ERROR: 400 INVALIDARGUMENT. {'error': {'code': 400, 'message': 'This model requires the use of the Computer Use tool. See https://ai.google.dev/gemini-api/docs/computer-use#send-request for instructions on adding the tool. If you want to use a custom set of functions instead, see https://ai.google.dev/gemini-api/docs/computer-use#custom-functions.', 'status': 'INVALIDARGUMENT'}}",
+      "performance": {
+        "response_time_seconds": 0.141,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,639 @@
+Question #,Task ID,Category,Question,Expected/Criteria,AI Answer,Score
+1,BASIC_01,Data Understanding,Which vehicle model sold the most units in the US in 2024? [Answer: model name o...,Fiesta,Fiesta,8.4/10 (84%)
+2,BASIC_02,Data Understanding,How many total units did the Escape model sell across all regions in 2024? [Answ...,763992,763992,9.5/10 (95%)
+3,BASIC_03,Data Understanding,"Which region had the highest sales for the F150? [Answer: region name only, no q...",AU,AU,8.4/10 (84%)
+4,BASIC_04,Data Understanding,How many unique dealers are listed in the dealer_claims dataset? [Answer: provid...,50,50,9.5/10 (95%)
+5,BASIC_05,Data Understanding,"How many warranty claims are in the dataset? [Answer: provide the count only, no...",1128,1128,9.5/10 (95%)
+6,CLEAN_01,Data Cleaning,Identify two data quality issues in the warranty_claims dataset.,"['missing mileage value', 'negative repair cost']","Based on the provided data, here are two distinct data quality issues:
+
+1.  **Negative Values in `repair_cost`:** The `repair_cost` column, which should represent the cost of a repair, contains negative values. This is illogical, as a cost cannot be less than zero. This suggests data entry errors or...",8.5/15 (57%)
+7,CLEAN_02,Data Cleaning,Which model appears to have the most data quality issues?,Focus,Focus,14.2/15 (95%)
+8,CLEAN_03,Data Cleaning,Are there any obvious data inconsistencies in the sales_data? Explain.,No obvious inconsistencies; all values appear valid and consistent.,"Yes, there are obvious data inconsistencies, specifically in the relationship between `units_sold` and `revenue_millions` for certain models and years.
+
+The most significant inconsistency is the implied price per unit for some vehicles, which can be calculated by `(revenue_millions * 1,000,000) / un...",9.7/15 (65%)
+9,CLEAN_04,Data Cleaning,How would you handle the missing mileage value in claim_id 3?,"claim_id 3 has a mileage value (90680), so no handling is needed; this is not a missing value issue.","The most robust and contextually appropriate method would be **Grouped Median Imputation**.
+
+Here is a breakdown of the approach and why it's recommended over other options:
+
+1.  **Identify Relevant Groups:** The mileage at which a failure occurs can be strongly related to the vehicle model or the t...",9.4/15 (62%)
+10,EDA_01,Exploratory Data Analysis,Which dealer has the highest number of warranty claims? [Answer: dealer name(s) ...,D4 and D3 (tied with 32 claims each); D4 or D3,D6,6.8/15 (46%)
+11,EDA_02,Exploratory Data Analysis,Identify any anomalies in the vehicle_telemetry data and suggest possible causes...,Engine temperature spike at time 4 (140 degrees); possible engine overheating or sensor malfunction.,"Based on an analysis of the provided `vehicle_telemetry.csv` data, several anomalies can be identified. These anomalies point to potential issues with vehicle health, sensor functionality, or data quality.
+
+Here are the key anomalies and their possible causes:
+
+### Anomaly 1: Non-Monotonically Incre...",9.6/15 (64%)
+12,EDA_03,Exploratory Data Analysis,"Which model appears most frequently in warranty claims, and what might this indi...",F150; may indicate quality issues or higher failure rate in this model.,"The F150 is the model that appears most frequently in the warranty claims.
+
+This could indicate several things:
+1.  **High Sales Volume:** The F150 is one of the best-selling vehicles in North America. A higher number of vehicles on the road will naturally lead to a higher absolute number of warrant...",9.3/15 (62%)
+13,EDA_04,Exploratory Data Analysis,Compare regional sales distribution. Which region is strongest for Ford overall?,AU region has the highest total sales across all models.,"Japan is the strongest region for Ford overall. It has the highest total units sold (2,113,282) and the highest total revenue ($94,747.01 million) across all years and models in the dataset.
+
+The following Python code was used to perform the analysis:
+```python
+import pandas as pd
+
+# Load the datase...",9.4/15 (62%)
+14,EDA_05,Exploratory Data Analysis,Rank vehicle models by total sales across all regions. [Answer: provide ranked l...,"1. Fiesta (2,463,163 units), 2. Focus (2,188,894 units), 3. Mustang (2,179,611 units), 4. Bronco (2,114,373 units), 5. EdgeSUV (2,059,935 units), 6. F150 (2,034,281 units), 7. Explorer (1,986,669 units), 8. Escape (1,974,914 units), 9. Ranger (1,886,505 units), 10. Fusion (1,855,900 units)","1.  Fiesta: 2,463,163
+2.  Focus: 2,188,894
+3.  Mustang: 2,179,611
+4.  Bronco: 2,114,373
+5.  EdgeSUV: 2,059,935
+6.  F150: 2,034,281
+7.  Explorer: 1,986,669
+8.  Escape: 1,974,914
+9.  Ranger: 1,886,505
+10. Fusion: 1,855,900",9.2/15 (62%)
+15,STAT_01,Statistical Analysis,What is the average repair cost across all warranty claims (excluding invalid en...,529.27,ERROR: API call timed out after 300 seconds. The model may be slow or the API may be unresponsive. Try increasing the timeout or check your internet connection.,5.6/20 (28%)
+16,STAT_02,Statistical Analysis,What is the median repair cost? How does it compare to the mean? [Answer: provid...,"Median is 540.00, which is slightly higher than the mean (529.27), indicating a right-skewed distribution with outliers on the high end.",ERROR: API call timed out after 300 seconds. The model may be slow or the API may be unresponsive. Try increasing the timeout or check your internet connection.,12.3/20 (62%)
+17,STAT_03,Statistical Analysis,"What is the coefficient of variation in US sales across all models, and what doe...",Moderate variation at approximately 21%; indicates some differentiation in market demand across models but relatively consistent overall.,"The coefficient of variation is 37.41%. This value indicates a moderate level of variability in US sales units relative to the average sales. It suggests that while there is a noticeable spread in sales performance across different models and years, the variation is not exceptionally high or erratic...",12.6/20 (63%)
+18,STAT_04,Statistical Analysis,Is D14's warranty claims rate statistically unusual? Explain your reasoning.,"No; D14 has 11 claims, which is below the mean (22.56) and within normal variation (z-score: -2.43). Not a statistical outlier.",ERROR: API call timed out after 300 seconds. The model may be slow or the API may be unresponsive. Try increasing the timeout or check your internet connection.,12.1/20 (61%)
+19,SQL_01,SQL & Query Logic,Write an SQL query to find total sales units per region.,"SELECT region, SUM(units_sold) FROM sales GROUP BY region;","SELECT
+  region,
+  SUM(units_sold) AS total_units_sold
+FROM sales_data
+GROUP BY
+  region;",10.6/20 (53%)
+20,SQL_02,SQL & Query Logic,Write an SQL query to find the average units sold per model across all regions.,"SELECT model, AVG(units_sold) FROM sales GROUP BY model;","SELECT
+  model,
+  AVG(units_sold) AS average_units_sold
+FROM
+  sales_data
+GROUP BY
+  model;",10.6/20 (53%)
+21,SQL_03,SQL & Query Logic,Write an SQL query to find the model with the highest average repair cost.,"SELECT model, AVG(repair_cost) FROM warranties WHERE repair_cost > 0 GROUP BY model ORDER BY AVG(repair_cost) DESC LIMIT 1;","SELECT model
+FROM warranty_claims
+GROUP BY model
+ORDER BY AVG(repair_cost) DESC
+LIMIT 1;",8.9/20 (44%)
+22,SQL_04,SQL & Query Logic,"Write an SQL query to find all sales records where units_sold exceed 100,000.",SELECT * FROM sales WHERE units_sold > 100000;,"SELECT *
+FROM sales_data
+WHERE units_sold > 100000;",10.6/20 (53%)
+23,BIZ_01,Business Insight,"Based on regional sales data, what strategic recommendations would you make for ...",Increase EV production/marketing in EU (stronger demand); maintain F150 dominance in US; explore growth strategies in Asia.,"Based on an analysis of the sales data from 2022 to 2024, the following strategic recommendations are proposed for Ford to optimize performance, capitalize on strengths, and address areas of opportunity.
+
+### Key Strategic Recommendations:",12.7/20 (64%)
+24,BIZ_02,Business Insight,Which model requires immediate quality investigation and why?,"Escape; appears in 5 of 10 claims, suggesting quality or design issues requiring investigation.",ERROR: API call timed out after 300 seconds. The model may be slow or the API may be unresponsive. Try increasing the timeout or check your internet connection.,12.8/20 (64%)
+25,BIZ_03,Business Insight,Dealer D14 has 110 monthly claims vs. average 26. What action should Ford take?,Investigate D14 for operational/quality issues; provide support or retraining; audit dealer practices.,"Given that Dealer D14's monthly claim volume is over four times the network average (110 vs. 26), Ford should immediately initiate a multi-phased investigation to determine the root cause. A punitive action should not be taken without a thorough analysis.
+
+The recommended action plan is as follows:",12.6/20 (63%)
+26,BIZ_04,Business Insight,The engine temperature spike in the telemetry data could impact warranty costs. ...,Risk of engine failure; increased warranty claims; potential recall costs; impact on brand reputation.,"ERROR: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",12.7/20 (63%)
+27,INST_01,Instruction Following,"First, analyze sales data to find the top model. Then, provide warranty claim di...","Fiesta is the top-selling model (2,463,163 units). Warranty claims for Fiesta: 18 total, avg repair cost $512.50, failures: P0401 (12) and P0301 (6).","WITH TopModel AS (
+    -- Step 1: Analyze sales data to find the top model based on sales volume
+    SELECT
+        model
+    FROM
+        sales
+    GROUP BY
+        model
+    ORDER BY
+        COUNT(sale_id) DESC
+    LIMIT 1
+)
+-- Step 2: Provide the warranty claim distribution for that top model
+SEL...",10.5/20 (52%)
+28,INST_02,Instruction Following,Calculate average mileage for warranty claims in US region ONLY. Do not include ...,"US-only average mileage: 67,832 km. Trend: Peak Q3-Q4 (45-55 claims/month), lowest Q2 (15-20 claims/month).","ERROR: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",10.6/25 (42%)
+29,INST_03,Instruction Following,Start with dealer claims data. Sort dealers by claims per month. THEN and ONLY T...,"EU dealers with >25 monthly claims: D16 (28), D17 (27), D18 (26).","WITH DealerPerformance AS (
+  /*
+  First, create a temporary table for ALL dealers that calculates the 
+  'claims_per_month' metric. This represents the entire dataset.
+  */
+  SELECT
+    d.dealer_id,
+    d.dealer_name,
+    d.region,
+    -- Calculate average claims per month for each dealer.
+    -- T...",10.5/25 (42%)
+30,INST_04,Instruction Following,"Review vehicle telemetry. Identify anomalies. FIRST report the anomalies found, ...","Anomalies: (1) Non-monotonic mileage (backwards jumps), (2) Temp spike 140°C at t=4, (3) Erratic pressure. Causes: (1) Odometer fault, (2) Engine overheat, (3) Sensor malfunction. Actions: (1) Replace sensor, (2) Service cooling, (3) Replace sensors.","### Anomalies Found
+
+Based on a review of telemetry data for fleet vehicle `Van-123`, the following anomalies have been identified:
+
+1.  **Engine Overheating Event:** On October 26th at 14:32, the engine coolant temperature spiked to 118°C, significantly above the normal operating range of 90-95°C. ...",11.7/30 (39%)
+31,INST_05,Instruction Following,Generate business insights in this exact order: 1) Data observation 2) Market im...,"1) EU 35% higher sales than Asia, prefers Mustang/Bronco. 2) Implication: Premium preference in EU, budget potential in Asia. 3) Risk: Market saturation EU, competitors gaining Asia. 4) Recommend: Expand budget in Asia, consolidate premium in EU for margin optimization.","ERROR: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",10.9/35 (31%)
+32,DF_01,Dataform Development,"Write a simple Dataform SQL file that creates a table from sales_data, adding a ...","config { type: 'table' } SELECT model, region, units_sold, year, revenue_millions, CASE WHEN model='F150' THEN units_sold*35000 WHEN model='Escape' THEN units_sold*18000 WHEN model='Bronco' THEN units_sold*25000 WHEN model='Mustang' THEN units_sold*30000 ELSE NULL END AS calc_revenue","config { type: ""table"" }
+
+select
+  *,
+  case
+    when model = 'F150' then units_sold * 35000
+    when model = 'Escape' then units_sold * 18000
+    when model = 'Bronco' then units_sold * 25000
+    when model = 'Mustang' then units_sold * 30000
+    else null
+  end as revenue
+from
+  ${ref(""sales_data""...",12.0/25 (48%)
+33,DF_02,Dataform Development,Create a Dataform materialized table that aggregates sales by region. Should inc...,"config { type: 'materialized_view' } SELECT region, SUM(units_sold) AS total_units, SUM(units_sold)/COUNT(DISTINCT model) AS avg_per_model FROM sales GROUP BY region","config {
+  type: ""table""
+}
+
+SELECT
+  region,
+  SUM(units_sold) AS total_units,
+  AVG(units_sold) AS average_units_per_model
+FROM
+  ${ref(""sales_data"")}
+GROUP BY
+  region
+ORDER BY
+  region",13.1/25 (52%)
+34,DF_03,Dataform Development,Write Dataform SQL with dependencies. First table: clean warranty claims (exclud...,"clean_warranty.sqlx: config{type:'table'} SELECT * FROM warranty WHERE repair_cost>0. summary.sqlx: config{dependencies:['clean_warranty']} SELECT model, COUNT(*), AVG(repair_cost) FROM ref('clean_warranty') GROUP BY model","--- File: definitions/1_clean/clean_warranty_claims.sqlx
+
+config {
+  type: ""table"",
+  description: ""Cleans the raw warranty claims data. Excludes records with negative repair costs and casts columns to the correct data types.""
+}
+
+SELECT
+  CAST(claim_id AS INT64) AS claim_id,
+  model,
+  dealer,
+  -- ...",14.4/30 (48%)
+35,DF_04,Dataform Development,Create a Dataform incremental table for warranty claims that only processes new ...,"config{type:'incremental',pre_operations:['BEGIN'],post_operations:['SELECT COUNT(*) FROM warranty WHERE date>=TODAY()-1']} SELECT * FROM warranty WHERE date>=TODAY()-1","-- filename: definitions/cleansed/daily_warranty_claims.sqlx
+
+-- This config block defines the table as an incremental table.
+-- Dataform will create the table on the first run and append new data on subsequent runs.
+config {
+  type: ""incremental"",
+  schema: ""warranty_data"",
+  name: ""daily_warranty_...",17.1/30 (57%)
+36,DF_05,Dataform Development,"Build a complete Dataform project with 3 tables: 1) Raw sales staging, 2) Cleane...","3-table project: staging (type cast), clean_warranty (filter repair_cost>0), summary (agg with proper refs and dependencies).","Here is a complete Dataform project structure with the requested tables, proper naming conventions, and dependencies.
+
+### Project Configuration Files
+
+These files configure the Dataform project.",15.2/35 (44%)
+37,SQLD_01,SQL Dialect Specificity,Write a BigQuery-specific query to calculate the average repair_cost. Use BigQue...,SELECT AVG(repair_cost) AS avg_repair_cost FROM `project.dataset.warranty_claims` WHERE repair_cost > 0,"SELECT
+  AVG(repair_cost) AS average_repair_cost
+FROM
+  `your_project.your_dataset.your_table`",8.8/20 (44%)
+38,SQLD_02,SQL Dialect Specificity,Rewrite as MySQL: Get total sales per region and per model. MySQL uses different...,"SELECT region, model, SUM(units_sold) AS total_sales FROM sales GROUP BY region, model WITH ROLLUP;","SELECT
+    `region`,
+    `model`,
+    SUM(`sales_amount`) AS `total_sales`
+FROM
+    `YourSalesTable`
+GROUP BY
+    `region`,
+    `model`
+ORDER BY
+    `region` ASC,
+    `total_sales` DESC;",9.8/20 (49%)
+39,SQLD_03,SQL Dialect Specificity,"In Dataform/BigQuery, you CANNOT use ANY_VALUE in aggregations. Rewrite this que...","SELECT model, ARRAY_AGG(repair_cost ORDER BY repair_cost LIMIT 1)[0] FROM warranty_claims GROUP BY model","SELECT
+  model,
+  ARRAY_AGG(repair_cost IGNORE NULLS LIMIT 1)[OFFSET(0)] AS repair_cost
+FROM
+  warranty_claims
+GROUP BY
+  model",12.2/25 (49%)
+40,SQLD_04,SQL Dialect Specificity,Write a PostgreSQL-specific recursive query. Do not use BigQuery window function...,"WITH RECURSIVE dealer_hierarchy AS (SELECT id, region, NULL AS parent, 1 AS level FROM dealers WHERE parent IS NULL UNION ALL SELECT d.id, d.region, d.parent, h.level+1 FROM dealers d JOIN dealer_hierarchy h ON d.parent=h.id) SELECT * FROM dealer_hierarchy ORDER BY region, level;","-- Step 1: Create a sample table to represent the dealer and region structure.
+-- The 'parent_id' column is the key to building the hierarchy.
+-- Top-level regions will have a NULL 'parent_id'.
+DROP TABLE IF EXISTS dealer_locations;
+CREATE TABLE dealer_locations (
+    id INT PRIMARY KEY,
+    parent_...",12.8/25 (51%)
+41,SQLD_05,SQL Dialect Specificity,Given: You're in Dataform/BigQuery. Rewrite this MySQL query to work with Datafo...,"SELECT model, COUNT(DISTINCT dealer) FROM `project.dataset.sales` WHERE region='US' GROUP BY model;","SELECT
+  model,
+  COUNT(DISTINCT dealer_id) AS distinct_dealer_count
+FROM
+  ${ref(""sales"")}
+WHERE
+  region = 'US'
+GROUP BY
+  model",14.7/30 (49%)
+42,SQLC_01,Complex SQL,Write a query using a CTE (Common Table Expression) to: 1) Filter warranty claim...,"Required: WITH, CTE, RANK() OVER","WITH HighCostClaims AS (
+  -- 1) Filter for claims with repair_cost > 300
+  SELECT
+    model,
+    claim_id
+  FROM
+    warranty_claims
+  WHERE
+    repair_cost > 300
+)
+-- 2) Count claims per model and 3) rank them
+SELECT
+  model,
+  COUNT(claim_id) AS claim_count,
+  RANK() OVER (
+    ORDER BY
+      COU...",20.3/30 (68%)
+43,SQLC_02,Complex SQL,Write a query with nested subqueries: Find regions where average sales per model...,"Required: subqueries, GROUP BY, HAVING","ERROR: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",20.9/30 (70%)
+44,SQLC_03,Complex SQL,"Build a multi-level CTE query: 1) CTE1: Clean warranty data, 2) CTE2: Aggregate ...","Required: MULTIPLE CTEs, PERCENTILE_CONT, JOIN","WITH cleaned_claims AS (
+  -- CTE1: Clean warranty data by filtering out records with null/invalid mileage and non-positive repair costs.
+  SELECT
+    claim_id,
+    model,
+    dealer,
+    mileage,
+    repair_cost,
+    failure_code,
+    CAST(claim_date AS DATE) AS claim_date
+  FROM
+    warranty_claim...",29.8/35 (85%)
+45,SQLC_04,Complex SQL,Write a recursive CTE that builds a time-series anomaly detection. Start with te...,"Required: RECURSIVE CTE, window functions, standard deviation","WITH RECURSIVE NumberedTelemetry AS (
+    -- Step 1: Assign a sequential row number to each record for each vehicle,
+    -- ordered by timestamp. This is necessary for the recursive join.
+    SELECT
+        vehicle_id,
+        timestamp,
+        engine_temp_c,
+        ROW_NUMBER() OVER(PARTITION BY ...",36.1/40 (90%)
+46,SQLC_05,Complex SQL,"Advanced: Combine multiple CTEs (5+) with window functions, JSON operations, and...","Required: 5+ CTEs, WINDOW functions, LAG/LEAD, complex JOINs","/* 
+This advanced query identifies dealers with improving or declining quality trends by analyzing their claims data.
+It meets the following criteria:
+1.  **5+ CTEs:** The query is broken down into six logical CTEs for clarity and modularity.
+2.  **Window Functions:** Uses LAG() to calculate month-o...",38.2/45 (85%)
+47,PEFF_01,Prompt Efficiency,With one sentence: 'Find the top-selling model.' Does the AI provide the correct...,"Optimized: explicit format upfront, single example, constraints listed, bullets not prose. Result: 30-40% token reduction maintaining quality.","No, because the request lacks the necessary context, such as the product category (e.g., cars, phones), the time frame, the geographical region, and the data source.",10.1/15 (67%)
+48,PEFF_02,Prompt Efficiency,"Brief prompt: 'Warranty issues.' Without further context, can the AI identify th...","Chain-of-thought: +25% accuracy, +15% tokens. Few-shot: +40% accuracy, +20% tokens. Use few-shot for facts, CoT for reasoning.","No, an AI cannot definitively identify the model with the most warranty issues based on that prompt alone.
+
+The prompt ""Warranty issues"" is too vague and lacks the necessary context. To provide a meaningful answer, the AI would require specific information such as:
+
+*   **Product Category:** Cars, s...",9.0/15 (60%)
+49,PEFF_03,Prompt Efficiency,One-liner: 'Strategic insight on regional performance.' Provide a complete busin...,"Required: region comparison, strategic recommendation, business context","To gain strategic insight on regional performance, the business should implement a structured Quarterly Regional Performance Review (QRPR) process that moves beyond surface-level sales data to identify root causes and best practices, enabling the reallocation of resources to high-opportunity areas a...",15.9/20 (80%)
+50,PEFF_04,Prompt Efficiency,Vague prompt: 'Anomalies?' Can the AI identify what you mean and provide results...,"Required: acknowledges ambiguity, requests clarification, provides relevant examples","import numpy as np
+from sklearn.ensemble import IsolationForest
+
+# Generate some normal data and a few anomalies
+rng = np.random.RandomState(42)
+X_normal = 0.3 * rng.randn(100, 2)
+X_outliers = rng.uniform(low=-4, high=4, size=(20, 2))
+X = np.r_[X_normal, X_outliers]
+
+# Use Isolation Forest to identi...",13.4/20 (67%)
+51,PEFF_05,Prompt Efficiency,"Ultra-minimal: 'Query it.' Can the AI figure out you want a SQL query, identify ...","Required: SQL query syntax, FROM clause, SELECT statement","ERROR: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",15.7/25 (63%)
+52,DOCREAD_01,Document Reading & Extraction,Read the specification document. Extract the warranty policy for the F150 model.,"Warranty valid 24 months or 30,000 miles. Covers manufacturing defects, excluded: wear/tear, misuse, accidents, maintenance. Proof: registration, service records, purchase documentation. Claim: within 30 days of defect discovery.","The Ford F150 (2024-2026 model years) warranty policy includes a primary comprehensive factory warranty and specific coverages for major components, with several exclusions and regional variations.",9.0/20 (45%)
+53,DOCREAD_02,Document Reading & Extraction,From the business requirements doc: What is the primary objective of the quality...,"5 vehicles mentioned: F-150 (pickup, commercial), Escape (SUV, family), Fiesta (sedan, affordable), Mustang (sports, premium), Bronco (SUV, adventure). Each has distinct positioning.","ERROR: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",11.9/20 (59%)
+54,DOCREAD_03,Document Reading & Extraction,"Extract all SQL requirements, database specifications, and naming conventions fr...","Recommendation: implement predictive maintenance before 20,000 miles based on telemetry patterns. Expected benefit: 35-40% reduction in warranty claims.",### Database Specifications,9.5/25 (38%)
+55,DOCREAD_04,Document Reading & Extraction,"From the data dictionary, find: What does 'repair_cost' field represent? What ar...","3 regions: US (high volume, budget focus), EU (medium, premium preference), Asia (emerging, growth potential). Strategy: EU consolidate premium, Asia expand value.",The 'repair_cost' field represents the total warranty repair cost in US dollars. Valid values must be positive (greater than 0). The associated business rules are that the cost cannot exceed policy limits and must be approved by the dealer.,12.2/25 (49%)
+56,DOCREAD_05,Document Reading & Extraction,Synthesize information from requirements doc: What are the 5 key analytical ques...,"Data security: all dealer data encrypted, backup daily, retention 7 years. Privacy: compliant GDPR/CCPA, customer consent required, audit trail maintained.","Based on the ""REQUIRED DATA FIELDS MAPPING"" section of the document, the 5 key analytical questions and their required data fields are:
+
+1.  **Question: Which vehicle models are at highest risk of failure in specific mileage ranges?**
+    *   **Data Fields:**
+        *   `warranty_claims`: claim_id,...",17.9/30 (60%)
+57,WEB_01,Website Development,Create a simple HTML page displaying sales data in a table. Include CSS styling ...,"Required: HTML table, CSS styling, header, responsive layout","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Sales Data Report</title>
+    <style>
+        /* General body styling for a clean look */
+        body {
+            font-family: -apple-system, Bl...",14.9/20 (75%)
+58,WEB_02,Website Development,Write JavaScript code to filter a table by region. Users should be able to selec...,"Required: JavaScript function, DOM manipulation, event listener","Below is a complete HTML file that includes the necessary table structure, a dropdown for region selection, and the JavaScript code to perform the filtering. You can save this code as an `.html` file and open it in a web browser to see it in action.
+
+```html
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+ ...",16.0/20 (80%)
+59,WEB_03,Website Development,Build a React component that displays warranty claims data with sorting and filt...,"Required: React component, useState, event handlers, data mapping","The following is a complete React component, `WarrantyClaims`, that displays warranty claims data in a table. It includes functionality for sorting by any column and filtering by claim status. The component is built using functional components and React Hooks (`useState`, `useMemo`).
+
+The solution i...",21.2/25 (85%)
+60,WEB_04,Website Development,Create a dashboard layout with multiple data visualization sections (sales trend...,"Required: layout structure, charts/graphs, interactivity","This solution provides a responsive dashboard layout using HTML, CSS, and JavaScript. It features two main data visualization sections: ""Sales Trends"" and ""Warranty Distribution."" The interactivity is demonstrated by allowing the user to filter the sales trend data by different time periods (Monthly...",20.0/25 (80%)
+61,WEB_05,Website Development,Build a full-stack mini dashboard: Backend API endpoint (Node.js/Python) that se...,"Required: API endpoint, Frontend component, data fetching, error handling","This guide provides the complete code and instructions to build a full-stack mini dashboard. The backend is built with Node.js and Express, serving mock warranty data from a filterable API endpoint. The frontend is a React application that fetches this data, displays it in a table, and allows users ...",22.4/30 (75%)
+62,PIPE_01,Pipeline Development,Design a data pipeline: CSV â†’ cleaning â†’ aggregation â†’ output. Write pseud...,"DAG: Raw data → Validate → Clean → Transform → Aggregate → Load. Each stage with error handling, logging, retry logic. Schedule: hourly for real-time, daily for batch. Monitoring: row counts, null %, schema drift.","This example demonstrates a data pipeline using Python and the `pandas` library. Each stage is encapsulated in a separate function for clarity and modularity.
+
+### Overview of the Pipeline
+
+1.  **Input:** Reads raw data from a `sales_data.csv` file.
+2.  **Cleaning:**
+    *   Handles missing values.
+...",8.7/20 (43%)
+63,PIPE_02,Pipeline Development,"Write Python code to load a CSV, clean missing values, and export to a new CSV. ...","Data quality checks: (1) Row count variance >20%, (2) Null % increase, (3) Value range outliers, (4) Duplicate key detection. On failure: alert + hold, on pass: continue.","import pandas as pd
+import os
+
+def clean_csv_file(input_filepath, output_filepath, strategy='drop'):
+    """"""
+    Loads a CSV file, cleans missing values, and saves it to a new CSV.
+
+    This function includes error handling for common issues like file not found,
+    empty files, and permission error...",9.6/20 (48%)
+64,PIPE_03,Pipeline Development,Create a data validation pipeline: Load warranty claims â†’ validate repair_cost...,"Incremental strategy: daily partition by claim_date, track last_run timestamp. Load: merge into final table, update modified records, archive deleted ones. Idempotent: safe re-run.","import pandas as pd
+import io
+
+# 1. Load warranty claims data (simulated from a string)
+# In a real-world scenario, you would use pd.read_csv('your_file.csv'),
+# pd.read_sql(), etc.
+data = """"""claim_id,product_id,repair_date,repair_cost
+101,A123,2023-01-15,150.75
+102,B456,2023-01-16,0.00
+103,C789,202...",N/A
+65,PIPE_04,Pipeline Development,"Build a multi-source ETL pipeline: Load sales + warranty data, join on model, ge...","Tools: Python + Airflow/Prefect for orchestration, Pandas/Spark for transform, BigQuery/Snowflake for warehouse. Source connector: Salesforce, internal APIs, CSV uploads with versioning.","This answer provides a complete, end-to-end solution for a multi-source ETL pipeline, including the core processing script and an orchestration approach using Apache Airflow.
+
+### 1. Conceptual Overview
+
+The pipeline will perform the following steps:
+1.  **Extract**: Read raw sales data and warranty...",9.7/25 (39%)
+66,PIPE_05,Pipeline Development,Design an production-ready data pipeline with Airflow DAG structure: Data ingest...,"Error handling: dead-letter queue for bad records (schema mismatch, invalid values), manual review, correction, replay. Logging: start/end/duration, row counts, error details. SLA: 99% uptime, <1 hour latency.","This answer provides a complete design for a production-ready data pipeline using Apache Airflow. It includes the overall architecture, required configurations, a detailed DAG code implementation, and an explanation of the task dependencies.
+
+### 1. Pipeline Architecture Overview
+
+The pipeline follo...",11.7/30 (39%)
+67,ARCH_01,Architecture & Design,Sketch a simple data architecture: Data source â†’ Storage â†’ Processing â†’ An...,"Components: API Layer (REST), Business Logic (service layer), Data Layer (DAL), Database (warehouse). Flow: Request → Schema Validation → Auth → Business Logic → Query → Response. Separation enables testing, scaling, maintenance.","Here is a sketch of a simple data architecture, with each component labeled and described with common examples.
+
+```
++------------------+      +--------------------+      +----------------------+      +--------------------+
+|   DATA SOURCE    |      |       STORAGE      |      |      PROCESSING     ...",8.8/20 (44%)
+68,ARCH_02,Architecture & Design,"Design a scalable data warehouse for Ford sales data. Consider: volume, variety,...","Scalability: Stateless API servers (horizontal), Connection pooling, Read replicas for queries, Cache layer (Redis) for frequent lookups, Async jobs for heavy processing.","ERROR: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",11.3/25 (45%)
+69,ARCH_03,Architecture & Design,Design real-time monitoring pipeline: Streaming telemetry â†’ Anomaly detection ...,"Data flow: Ingest (APIs, files) → Stream (message queue) → Process (rules, enrichment) → Store (hot/cold data) → Consume (analytics, applications). Patterns: event-driven, lambda (batch + stream), kappa (stream only).","The optimal design for a real-time monitoring pipeline (Streaming Telemetry → Anomaly Detection → Alerts) uses a decoupled, scalable architecture centered around a streaming platform. The recommended toolset is **Apache Kafka** for ingestion, **Apache Flink** for processing, a time-series database l...",N/A
+70,ARCH_04,Architecture & Design,"Design an enterprise data ecosystem: Multiple sources, data lake, data warehouse...","Dependencies: (1) External APIs (Salesforce), (2) File uploads, (3) Message queue, (4) Databases, (5) Cache. Resilience: timeouts, retries, circuit breakers, fallback values, health checks.","This document outlines the design of a modern, scalable enterprise data ecosystem. The architecture is designed to handle diverse data sources, support various analytical needs from traditional business intelligence to advanced data science, and ensure data quality and governance.
+
+### Core Architec...",13.8/30 (46%)
+71,DEBUG_01,Debugging & Troubleshooting,Here's a broken SQL query: 'SELECT model FROM sales WHERE units_sold > 100000 GR...,"Steps: (1) Reproduce with minimal data, (2) Check logs (timestamps, error codes, stack trace), (3) Compare inputs vs expected outputs, (4) Check external dependencies, (5) Binary search code sections.","The query is invalid because the `model` column is in the `SELECT` list but is not included in the `GROUP BY` clause. In SQL, any column in the `SELECT` list that is not part of an aggregate function (like `SUM()` or `COUNT()`) must be included in the `GROUP BY` clause.
+
+When you `GROUP BY region`, ...",11.5/20 (57%)
+72,DEBUG_02,Debugging & Troubleshooting,Python code returns wrong results: df[df['repair_cost'] > 200] returns negative ...,"Tools: IDE debugger (breakpoints, watch variables), print debugging, logging levels (DEBUG/INFO/ERROR), profilers (CPU/memory), database query logs. For performance: measure function duration, identify bottlenecks.","The most likely reason is that your `repair_cost` column is not a numeric data type (like `int` or `float`), but is instead stored as a string (`object`).
+
+When you compare strings, Python performs a lexicographical (alphabetical) comparison, not a numerical one. This leads to unexpected results.
+
+F...",11.5/20 (57%)
+73,DEBUG_03,Debugging & Troubleshooting,ETL pipeline hangs on large dataset. Original code works fine on small data. Ide...,"Bug patterns: Off-by-one in loops, null pointer on empty data, type conversion errors, date arithmetic bugs, incorrect aggregation grouping, race conditions in async code.","The ETL pipeline hanging on large datasets while working on small ones is a classic scalability problem, almost always caused by resource exhaustion (Memory, CPU, I/O) or inefficient, non-scalable algorithms. The core issue is that the original code likely attempts to process the entire dataset in m...",14.7/25 (59%)
+74,DEBUG_04,Debugging & Troubleshooting,Data quality issue: Aggregated results don't match raw data. Warranty claims tot...,"High-level issue diagnosis: (1) Business logic incorrect? Check calculations. (2) Data incomplete? Check source filters, joins. (3) Performance slow? Profile. (4) External service down? Check dependencies.","The most effective way to debug a discrepancy between aggregated and raw data is to follow a systematic, ""divide and conquer"" approach. Start by comparing granular subtotals (e.g., by day or product category) instead of the grand total to pinpoint exactly *where* the mismatch occurs. Then, meticulou...",14.3/25 (57%)
+75,DEBUG_05,Debugging & Troubleshooting,Complex bug: Model predictions are inconsistent. Same input sometimes gives diff...,"Prevention: Unit tests for edge cases (empty, single, large), code review (extra eyes catch logic errors), staging environment (test real-like data), monitoring (alert on anomalies).","The inconsistency in model predictions for the same input stems from uncontrolled stochasticity (randomness) in the model's architecture, the data pipeline, or the underlying hardware environment. The solution is to systematically identify and disable these sources of randomness during inference.
+
+#...",18.2/30 (61%)
+76,PERF_01,Performance Optimization,Optimize this query (slow scan on large table): SELECT * FROM warranty_claims WH...,"SQL optimization: (1) Index on WHERE/JOIN columns, (2) Avoid SELECT *, (3) Partition on date, (4) Materialized views for expensive aggregations, (5) Analyze query plans EXPLAIN.",SELECT * FROM warranty_claims WHERE model = 'Escape';,9.8/20 (49%)
+77,PERF_02,Performance Optimization,This Python loop is slow on large dataframes. Vectorize it: for i in range(len(d...,"Application optimization: (1) Batch operations (N+1 problem), (2) Caching layer, (3) Async processing for non-critical tasks, (4) Connection pooling, (5) Remove unnecessary computations.","# The vectorized solution uses the .map() method to create a Series of prices
+# from the 'model' column and the price_map dictionary. Then, it performs a
+# vectorized multiplication with the 'units' column.
+df['revenue'] = df['units'] * df['model'].map(price_map)",10.6/20 (53%)
+78,PERF_03,Performance Optimization,Huge join between sales (1M rows) and warranty (500K rows) is very slow. Propose...,"Benchmarking: Measure baseline (old vs new), latency percentiles (p50/p95/p99), throughput (requests/sec), resource usage (CPU/memory). Tool: Apache JMeter, load simulators.","Start with indexing, as it is the most effective, lowest-risk solution for this specific problem. If performance is still insufficient and your queries frequently filter by a specific column like a date, then consider partitioning. Restructuring is the most complex option and should be reserved for ...",15.4/25 (61%)
+79,PERF_04,Performance Optimization,Data pipeline times out processing 10GB dataset. What optimization techniques wo...,"Common bottlenecks: Unindexed queries (database), network round-trips (N+1), lack of caching, inefficient algorithms (quadratic complexity), blocking operations.","The optimal approach involves a multi-faceted strategy focused on optimizing I/O (reading/writing), processing logic, and underlying infrastructure. Start with low-effort code changes like batching and vectorization before considering more significant architectural changes like distributed computing...",14.6/25 (59%)
+80,PERF_05,Performance Optimization,Design query optimization strategy for a data warehouse with billions of rows. I...,"Scalability: Horizontal (add servers/instances), Vertical (bigger machine), Caching (reduce compute), Async (non-blocking), Batch (aggregate work), Data partitioning (distribute load).",The optimal query optimization strategy for a data warehouse with billions of rows is a multi-layered approach that prioritizes eliminating data from consideration at the earliest possible stage. It combines physical data layout (partitioning and columnar storage) with targeted access structures (in...,17.3/30 (58%)
+81,CODREV_01,Code Review & Issue Detection,"Review this Python code: 'import numpy as np
+data = np.array([1,2,3])
+result = c...",Missing function definition or import for calculate_mean,"The function `calculate_mean` is not defined. The code attempts to call a function that doesn't exist in standard Python or the NumPy library, which will result in a `NameError`.
+
+To fix this, you should use NumPy's built-in `mean` function or the `mean` method of the NumPy array.
+
+Corrected code:
+`...",11.8/20 (59%)
+82,CODREV_02,Code Review & Issue Detection,Identify issues in this SQL: 'SELECT * FROM sales WHERE date > 2024'. What could...,"Missing quotes around date string, potential NULL handling issues, missing year format specification","The query has several critical issues, the most significant being the invalid comparison between a `date` column and an integer, which can cause either a hard error or return incorrect data silently.
+
+Here is a breakdown of the issues:
+
+1.  **Data Type Mismatch:** The primary issue is `WHERE date > ...",11.7/20 (59%)
+83,CODREV_03,Code Review & Issue Detection,"Review this API endpoint code. Identify missing error handling, validation, and ...","No input validation, SQL injection risk, no error handling for not found, no authentication, no logging","from fastapi import FastAPI, Depends, HTTPException, Path
+from sqlalchemy.orm import Session
+
+# Assume db_session, User model, and get_current_user are defined elsewhere
+
+app = FastAPI()
+
+def get_user_from_db(db: Session, user_id: int):
+    """"""
+    Correctly queries the database for a user by their ...",15.1/25 (61%)
+84,CODREV_04,Code Review & Issue Detection,This data pipeline is missing critical components. Identify all gaps: Load CSV â...,"Data validation, error handling, logging, monitoring, retry logic, schema validation, notification on failure, backup/recovery","The provided data pipeline `Load CSV → Transform → Export` is a high-level abstraction that omits several critical components required for a robust, production-ready system. The most significant gaps are:
+
+*   **Orchestration and Scheduling:** There is no component to trigger, schedule, or manage th...",N/A
+85,CODREV_05,Code Review & Issue Detection,Complete code review: Find 5+ issues in this production code: 'def process_data(...,"No error handling, no logging, no data validation, hardcoded paths, no type hints, no documentation, race conditions possible, no rollback mechanism","This single line of code, while functional for a simple script, contains several critical issues that make it unsuitable for a production environment. The problems primarily relate to reliability, maintainability, testability, and flexibility.
+
+Here are 6 significant issues found in the code:
+
+### C...",17.6/30 (59%)
+86,LIBFIX_01,Library & Dependency Management,Code uses 'import pandas as pd' but pandas might not be installed. How would you...,"Try-except import with fallback to CSV/dict operations, or suggest requirements.txt with version pinning","import sys
+
+try:
+    import pandas as pd
+    print(""Pandas successfully imported."")
+except ImportError:
+    print(""Pandas is not installed."")
+    print(""Please install it using the command: pip install pandas"")
+    # Exit the script gracefully if pandas is essential for its operation
+    sys.exit(1)...",12.9/20 (65%)
+87,LIBFIX_02,Library & Dependency Management,A data analysis script needs to handle both Excel and CSV files. What libraries ...,"pandas (Excel+CSV), openpyxl (Excel), or xlrd (older Excel). Suggest pandas for unified interface","For a data analysis script handling both Excel and CSV files, the primary library to use is **pandas**, supported by **openpyxl** for modern Excel files.
+
+Here is a breakdown of the libraries and why they are the standard choice:
+
+1.  **pandas**:
+    *   **Why**: This is the cornerstone library for ...",11.9/20 (60%)
+88,LIBFIX_03,Library & Dependency Management,Your code uses deprecated functions from an old library version. How would you i...,"Check changelog, use deprecation warnings, version constraints, test suite, automated migration tools","Migrating code away from deprecated functions is a systematic process focused on minimizing risk. It involves four key stages: research and identification, planning and execution, thorough verification, and final cleanup. The most critical aspect is leveraging the library's official documentation an...",14.7/25 (59%)
+89,LIBFIX_04,Library & Dependency Management,You need to add new functionality that requires a new library. How do you evalua...,"Performance benchmark, feature comparison, maintenance status, ecosystem integration, learning curve, production readiness","The choice depends on your specific constraints regarding data size, performance needs, and existing infrastructure.
+
+*   **Choose Pandas** for small-to-medium datasets (<10 GB) that fit comfortably in RAM, especially when rapid prototyping and deep integration with the existing PyData ecosystem (Ma...",14.5/25 (58%)
+90,LIBFIX_05,Library & Dependency Management,Build a dependency resolution strategy: Handle 10 libraries with conflicting ver...,"Virtual environments, Docker, requirements.txt with version ranges, constraint files, dependency tree analysis, testing matrix","The strategy for resolving dependency conflicts is a systematic, hierarchical approach that prioritizes upgrading dependencies and relies on modern tooling. It involves visualizing the dependency tree to identify the conflict, attempting to resolve it by upgrading the libraries that impose the most ...",17.2/30 (57%)
+91,COMM_01,Communication & Documentation,This function has no docstring or comments. Write proper documentation: 'def cal...,"Status update: 'Completed data validation (200 records verified). Fixed 3 data quality issues. Ready for analyst review by EOD.' Specific, quantified, timeline.","def calc(x, y):
+    """"""Calculates the sum of the product and quotient of two numbers.
+
+    This function takes two numbers, x and y, and returns the result of
+    the expression: (x * y) + (x / y).
+
+    Args:
+        x (int or float): The first number. Used as a multiplicand and dividend.
+        y ...",10.6/20 (53%)
+92,COMM_02,Communication & Documentation,Review this code comment: '# do stuff'. How would you improve it?,"Complex topic: Start with high-level (1-2 sentences), then details. Example: 'Sales variance traced to regional inventory. Q2 Asia had 40% lower supply due to shipment delays. Impact: 15% revenue miss.'","The comment `# do stuff` is unhelpful because it is vague and adds no value beyond what the code itself already shows. A good comment should explain the **""why""** behind the code, not just the **""what""**.
+
+To improve it, replace the comment with a description of the code's *purpose, intent, or busin...",11.5/20 (58%)
+93,COMM_03,Communication & Documentation,"Create API documentation for an endpoint. Include endpoint, params, response for...",Technical explanation: Use analogies. 'Database indexing works like book table of contents—find section directly instead of reading every page.' Then explain actual technical benefit.,"# API Documentation: Get Users
+
+## Endpoint: `GET /v1/users`
+
+Retrieves a paginated list of users. This endpoint supports filtering by status and sorting by specific fields.
+
+---
+
+### Parameters
+
+This endpoint accepts the following query parameters:
+
+| Parameter    | Type    | Required | Description...",14.2/25 (57%)
+94,COMM_04,Communication & Documentation,Document a complex SQL query with CTEs. Explain what each CTE does and final out...,"Bad news delivery: Lead with impact, explain root cause, offer solution. 'Warranty claims up 12% (higher than expected). Vehicles from batch 2024-02 affected. Implementing sensor replacement program.'","This document explains a complex SQL query designed to identify ""High-Value, At-Risk"" customers for a targeted marketing campaign. The query uses a series of Common Table Expressions (CTEs) to break the problem down into logical, manageable steps.
+
+### The SQL Query
+
+```sql
+WITH CustomerSpending AS ...",14.3/25 (57%)
+95,COMM_05,Communication & Documentation,"Write complete Project README including: setup, usage, architecture, troubleshoo...",Documentation: For analysts—explain business context & limitations. For developers—code examples & error cases. For leaders—ROI & timelines. Audience-appropriate depth & terminology.,"# Project Name: TaskMaster Pro
+
+![Build Status](https://img.shields.io/travis/com/your-username/taskmaster-pro.svg?style=for-the-badge)
+![Code Coverage](https://img.shields.io/codecov/c/github/your-username/taskmaster-pro.svg?style=for-the-badge)
+![License: MIT](https://img.shields.io/badge/License-...",16.9/30 (56%)
+96,SECURE_01,Security & Best Practices,"Identify security issue: 'password = input(""Enter password: ""); db_query(f""SELEC...","SQL injection vulnerability, password exposed in memory, credentials in code, no hashing","The code is vulnerable to **SQL Injection**.
+
+This vulnerability occurs because raw user input is directly embedded into the SQL query string. An attacker can provide a specially crafted input to manipulate the query's logic.
+
+For example, if an attacker enters the following as the password:
+`' OR '...",12.6/20 (63%)
+97,SECURE_02,Security & Best Practices,API stores API keys in config file. What are security risks and proper approach?,"Hardcoded secrets risk, use environment variables or secrets manager, never commit to git","Storing API keys directly in a configuration file is a significant security risk because it tightly couples secrets with code. This leads to risks of exposure through version control, server compromise, and improper file permissions.
+
+The proper approach is to decouple secrets from the application c...",12.3/20 (61%)
+98,SECURE_03,Security & Best Practices,This code doesn't validate user input before processing. List validation checks ...,"Type checking, length validation, format validation, SQL injection prevention, XSS prevention, range checking","A comprehensive list of necessary input validation checks includes:
+
+*   **Presence Checks:**
+    *   **Required Fields:** Ensure mandatory fields are not null, empty, or contain only whitespace.
+
+*   **Format and Type Checks:**
+    *   **Data Type:** Verify the input is the expected type (e.g., int...",15.0/25 (60%)
+99,SECURE_04,Security & Best Practices,Design secure data pipeline: Load sensitive data â†’ Process â†’ Store. What saf...,"Encryption in transit/at rest, access controls, audit logging, data masking, retention policies, compliance","A secure data pipeline is built on the principles of **Defense in Depth**, **Least Privilege**, and **End-to-End Encryption**. Security must be integrated into every stage—ingestion, processing, and storage—and supplemented by robust overarching controls like secrets management, comprehensive loggin...",N/A
+100,SECURE_05,Security & Best Practices,"Implement complete security review checklist for production code: auth, encrypti...","Authentication/authorization, input validation, encryption, logging/monitoring, error handling, rate limiting, compliance","This comprehensive security review checklist is designed to help developers, security engineers, and DevOps teams systematically assess and harden production-ready code against common vulnerabilities. It covers key areas from authentication and data protection to logging and dependency management.
+
+...",17.5/30 (58%)
+101,TEST_01,Testing & Quality Assurance,"Write unit tests for function: 'def add(a, b): return a + b'. Cover all cases.","Pyramid: 70% unit tests (fast, isolated), 20% integration tests (component interaction), 10% E2E tests (full workflow). Tools: pytest, unittest (Python), mock for dependencies.","import unittest
+
+# The function to be tested
+def add(a, b):
+    """"""
+    This function takes two arguments and returns their sum or concatenation.
+    It relies on the built-in '+' operator.
+    """"""
+    return a + b
+
+# The test class containing all test cases
+class TestAddFunction(unittest.TestCase):...",11.4/20 (57%)
+102,TEST_02,Testing & Quality Assurance,Design integration test for: Load CSV â†’ Transform â†’ Save. What to test?,"Unit test structure: Arrange (setup), Act (call function), Assert (check result), Cleanup (teardown). Name: test_<function>_<scenario>. Cover: happy path, edge cases, errors.","For an integration test of a ""Load CSV → Transform → Save"" pipeline, the primary goal is to verify that the three components work together correctly, ensuring data flows through the system accurately and the process is robust.
+
+Here is a breakdown of what to test, categorized by focus area:
+
+### A. ...",N/A
+103,TEST_03,Testing & Quality Assurance,"Create test strategy for data pipeline with CI/CD. Include unit, integration, en...","Coverage target: 80%+ lines. Tools: coverage.py. But focus on critical paths, not just percentage. Untested exception handlers more valuable than untested comments.","This document outlines a comprehensive test strategy for a data pipeline integrated into a CI/CD workflow. The goal is to ensure data quality, pipeline reliability, and code correctness by catching issues early in the development lifecycle.
+
+### **1. The Testing Pyramid for Data Pipelines**
+
+We adap...",14.5/25 (58%)
+104,TEST_04,Testing & Quality Assurance,How would you test this complex SQL query? What edge cases?,"Integration tests: Use test database, fixtures for sample data, verify workflows (query → transform → load). Async tests with proper awaits. Database rollback per test.","Testing a complex SQL query requires a multi-faceted approach focused on correctness, robustness, and performance. The core strategy is to decompose the query into logical units and test each with a dedicated, synthetic dataset where the expected outcome is known beforehand.
+
+The testing process can...",14.8/25 (59%)
+105,TEST_05,Testing & Quality Assurance,"Design comprehensive test suite: unit tests, integration tests, performance test...","CI/CD integration: Run tests on every commit, report results, block merge if failures. Setup: GitHub Actions, Jenkins, GitLab CI. Parallelization for speed.","This document outlines a comprehensive test suite design for a hypothetical E-commerce API. The API consists of three core microservices: `UserService`, `ProductService`, and `OrderService`. The goal is to demonstrate the structure and purpose of each testing layer.
+
+### System Under Test: E-commerc...",15.9/30 (53%)
+106,SAT_01,Saturation & Complexity Limits,"Process this moderately complex dataset: Join 3 tables, clean data, calculate 5 ...","Saturation scenario: Database hits max connections, API response time exceeds SLA, memory growing (leak). Diagnosis: Monitor connection pool, query slow log, heap dump.","The data processing is complete. After cleaning and joining the three tables, key performance metrics were calculated for each customer. Using the Interquartile Range (IQR) method on the `total_spending` metric, we identified customers whose spending was significantly higher than the rest. In this d...",22.8/40 (57%)
+107,SAT_02,Saturation & Complexity Limits,"Complex request: Analyze 10+ CSV files, handle schema variations, normalize data...","Handling overload: (1) Queue requests (back-off strategy), (2) Degrade gracefully (reduced features, cached responses), (3) Scale horizontally (add instances), (4) Circuit breaker (fail fast).","The following Python script provides a complete, end-to-end solution for the complex request.
+
+### Summary of Approach:
+
+1.  **Data Simulation:** The script first programmatically generates 12 sample CSV files in a `./temp_data` directory. These files are designed to have the requested variations: d...",25.6/45 (57%)
+108,SAT_03,Saturation & Complexity Limits,"Ultimate complexity: Process real-world messy data (missing values, duplicates, ...","Capacity planning: Forecast load growth, calculate resources needed (CPU, memory, storage, connections). Headroom: 20-30% spare capacity for spikes. Test at 150% normal load.","The project successfully processed a messy, simulated customer dataset to build a predictive model for customer churn. The methodology involved a systematic, four-stage approach: Data Cleaning, Exploratory Analysis, Modeling, and Evaluation.
+
+1.  **Problem Definition:** The primary goal was to predi...",28.5/50 (57%)
+109,SAT_04,Saturation & Complexity Limits,"Multi-dimensional analysis: Analyze sales across 4 regions, 8 product categories...","Load shedding: Prioritize requests (VIP users), reject low-priority (background jobs), degraded mode (limited queries). SLA: critical <2s, normal <5s, batch <1hr.","The multi-dimensional analysis reveals a consistent upward sales trend of approximately $3,800 per period, driven primarily by the North and East regions and strong performance in the Electronics (C7) and Accessories (C8) categories. A distinct seasonal pattern was identified, with sales peaking in ...",31.0/50 (62%)
+110,SAT_05,Saturation & Complexity Limits,Extreme multi-step task: Load data â†’ validate â†’ clean â†’ deduplicate â†’ no...,"Recovery: After saturation resolves, monitor for leaks, restart if needed, analyze root cause (load spike, memory leak, slow query), implement fix, test at scale.","Several improvements could be made to enhance model performance:
+
+1.  **Advanced Feature Engineering:** Instead of dropping `Name`, we could extract titles (e.g., 'Mr.', 'Mrs.', 'Miss', 'Master') as a new feature representing social status and family structure. We could also create a `FamilySize` fe...",N/A
+111,LCTX_01,Long-Context Handling,"Given a 50-line specification document with 15 requirements, extract all constra...","Prompt organization: (1) Instruction (clear task), (2) Context (data/examples), (3) Format (expected output), (4) Edge cases (special handling). Separate with ## Headers. Summarize complex sections.","Since a specific specification document was not provided, I will create a realistic, sample 50-line specification for a ""User Authentication & Profile API"" containing 15 requirements. I will then perform the requested extraction and mapping based on this sample document.
+
+### Sample Specification Do...",24.8/40 (62%)
+112,LCTX_02,Long-Context Handling,"Process 100+ line codebase with interdependencies. Identify design patterns, arc...","With long context: (1) Re-state key questions at end, (2) Use examples from provided data, (3) Reference specific line numbers, (4) Break into logically coherent sections, (5) Test understanding with examples.","Here is a detailed analysis of the provided codebase, identifying design patterns, architectural issues, security holes, and optimization opportunities.
+
+### 1. Identified Design Patterns
+
+*   **Singleton Pattern:** The `Database` class, in conjunction with the global `db_connection` variable, attem...",25.7/45 (57%)
+113,LCTX_03,Long-Context Handling,Analyze Ford's production vehicle database with 210+ MILLION records. Query: `pr...,"Data in context: Tabular data formatted, key values highlighted, relevant columns only. Summarize irrelevant sections. Tell model which columns matter for task.","To analyze a 210+ million record BigQuery table like `prj-eucxipa-d.eucx_medallia.vehicle_data_save` without exceeding memory limits or losing accuracy, the strategy is to perform all computations and aggregations directly within BigQuery. We will avoid pulling the raw dataset to a local client.
+
+Th...",28.5/50 (57%)
+114,LCTX_04,Long-Context Handling,Maintain context through 20-step workflow: requirements â†’ design â†’ code â†’ ...,"Reference handling: If exceeding limit, use: chunks (break into parts), RAG (query-based retrieval), summarization (compress less relevant sections), focusing (extract key info only).","This 20-step workflow details the lifecycle of a new feature—a ""User Authentication API""—from concept to production, maintaining context and tracking decisions and dependencies at each stage.
+
+### Phase 1: Requirements",N/A
+115,LCTX_05,Long-Context Handling,Process multi-document analysis: correlate findings across 5 different specifica...,"Quality validation: (1) Model answered using provided data?, (2) Numerical answers match context?, (3) References correct sources?, (4) Hallucinations (invented data)? Test on known answers.","The process of multi-document analysis for creating a unified design involves four key stages: Requirement Extraction, Correlation & Integration, Conflict Resolution, and Synthesis into a Unified Design. This methodology ensures all stakeholder inputs are considered, contradictions are systematicall...",31.3/55 (57%)
+116,SUST_01,Sustained Performance & Fatigue,Task 1 of 10-task marathon: Solve basic SQL query,SELECT query with correct syntax,"Once you provide the details, I will give you the solution in the required format.",9.8/20 (49%)
+117,SUST_02,Sustained Performance & Fatigue,Task 2 of 10: Write Python function to process data,Well-structured function with error handling,"def process_product_data(product_list: list[dict]) -> list[dict]:
+    """"""
+    Cleans, enriches, and validates a list of product data.
+
+    This function processes a list of product dictionaries by:
+    1.  Validating that 'price' and 'stock' are present and valid.
+        - Records with missing, non...",11.4/20 (57%)
+118,SUST_03,Sustained Performance & Fatigue,Task 3 of 10: Analyze dataset and find patterns,Identified patterns with supporting evidence,"An analysis of the standard Titanic dataset reveals several strong patterns that determined a passenger's likelihood of survival. The findings are summarized below.
+
+1.  **Gender was the Strongest Predictor of Survival:** The most prominent pattern is the difference in survival rates between genders...",11.7/20 (59%)
+119,SUST_04,Sustained Performance & Fatigue,Task 4 of 10: Complex multi-step analysis (fatigue now setting in),Multi-step solution maintaining quality despite prior tasks,"-- Okay, Q1... discounted items only... highest avg unit price by product line.
+-- Need to join, filter by date and discount, then group and find the max average.
+
+SELECT
+    p.product_line,
+    ROUND(AVG(p.unit_price), 2) AS average_unit_price
+FROM
+    sales s
+JOIN
+    products p ON s.product_id = ...",15.9/30 (53%)
+120,SUST_05,Sustained Performance & Fatigue,Task 5 of 10: Midpoint - does quality degrade? Comprehensive code review of 50-l...,Thorough review finding 5+ issues despite midpoint fatigue,"The script suffers from significant quality degradation due to the incorrect use of floating-point numbers (`float`) for financial calculations. Precision is lost immediately upon data loading, and these initial inaccuracies are amplified in subsequent projection calculations. The ""midpoint"" summary...",20.2/35 (58%)
+121,SUST_06,Sustained Performance & Fatigue,Task 6 of 10: Post-midpoint challenge. Design system architecture for growing da...,Scalable architecture with trade-off analysis,"The optimal system architecture for a growing dataset is a scalable, cloud-native design based on the **Lakehouse pattern**. This architecture decouples storage from compute, allowing each component to scale independently, ensuring both performance and cost-effectiveness as data volume and query com...",20.2/35 (58%)
+122,SUST_07,Sustained Performance & Fatigue,Task 7 of 10: Performance degradation evident? Write optimized query with explan...,Optimized query with performance justification,"The provided query is optimized by restructuring it to use more efficient, index-friendly patterns.",18.6/35 (53%)
+123,SUST_08,Sustained Performance & Fatigue,Task 8 of 10: Fatigue mounting - complex security audit of API code,Comprehensive security review finding critical issues,"The security audit identifies a critical **Broken Access Control** vulnerability, a type of flaw often introduced by a fatigued developer making a copy-paste error during feature extension.",24.8/40 (62%)
+124,SUST_09,Sustained Performance & Fatigue,Task 9 of 10: Near end - final complex push. Implement machine learning pipeline...,Complete ML pipeline with validation and explanation,"import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import MinMaxScaler, OneHotEncoder
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, classific...",25.6/45 (57%)
+125,SUST_10,Sustained Performance & Fatigue,Task 10 of 10: Final marathon task - compare results to Task 1. Has quality degr...,Comprehensive test suite showing maintained quality despite 10-task sequence,"### Part 1: Comparison of Final Workflow to Task 1
+
+The quality of the solution has not degraded; on the contrary, it has significantly improved by evolving from a simple, standalone script into a robust, scalable, and maintainable microservice.
+
+*   **Functional Parity:** The core functionality—ide...",25.6/45 (57%)
+126,SWITCH_01,Context Switching & Task Clarity,"Working on Python: 'def process_data(file): ...'. Now, DIFFERENT TOPIC: Write SQ...",Pure SQL query without Python wrapper or integration,"SELECT
+    c.customer_id,
+    c.customer_name,
+    SUM(p.amount) AS total_revenue
+FROM
+    Customers c
+JOIN
+    Orders o ON c.customer_id = o.customer_id
+JOIN
+    Payments p ON o.order_id = p.order_id
+GROUP BY
+    c.customer_id,
+    c.customer_name
+ORDER BY
+    total_revenue DESC
+LIMIT 10;",10.6/20 (53%)
+127,SWITCH_02,Context Switching & Task Clarity,Context: You've been analyzing warranty data. NEW TOPIC: Design REST API endpoin...,"Clear API endpoint design with request/response format, not continued data analysis","The AI will switch cleanly to the API design task.
+
+A well-designed AI is trained to follow the user's most recent and explicit instruction. The phrase ""NEW TOPIC"" acts as a strong signal to change context. While it may use the previous context (warranty data analysis) to inform the *details* of the...",12.8/20 (64%)
+128,SWITCH_03,Context Switching & Task Clarity,Discuss Python async patterns. SWITCHING: Now explain how to implement caching i...,"PostgreSQL caching (no Python code), recognizing implicit switch","Using an explicit phrase like ""SWITCHING:"" or ""Switching topics:"" is not strictly necessary, but it is **highly recommended for clarity**.
+
+An implicit switch can be clear if the topics are completely unrelated and separated by strong formatting (like a horizontal rule and distinct headings, as used...",15.2/25 (61%)
+129,SWITCH_04,Context Switching & Task Clarity,Rapid switches without explicit markers: 1) 'Write Python error handler' 2) 'Cre...,"All 4 tasks completed separately and correctly, no cross-contamination","Yes, an AI can track these context switches without confusion.
+
+The numbered list provides clear, sequential instructions. The AI processes the entire prompt and treats each numbered item as a distinct sub-task to be addressed in order. It does not get ""confused"" in the human sense because it doesn'...",15.5/25 (62%)
+130,SWITCH_05,Context Switching & Task Clarity,Complex nested switch: Start Python script â†’ switch to SQL query â†’ show how ...,"All 5 contexts maintained, integration shown correctly, no contradictions","ERROR: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",N/A
+131,SWITCH_06,Context Switching & Task Clarity,Vague topic switch: 'Working on data pipeline. Now do the other thing.' What doe...,"Asks for clarification about what 'other thing' means, or makes reasonable assumption with caveats","A modern AI will almost always ask for clarification, but its underlying ""guess"" about the user's intent is based entirely on the provided context. The resulting clarity depends on whether it guesses or asks.
+
+Here is a breakdown of the AI's behavior:
+
+### 1. What does the AI assume?
+
+The AI doesn't...",14.7/25 (59%)
+132,SWITCH_07,Context Switching & Task Clarity,Implicit domain switch with shared concepts: 'Optimize sales database performanc...,"Correctly applies optimization concepts from SQL to API caching, recognizing conceptual transfer","No, this does not apply the concept correctly because it creates a false equivalence between the techniques of the two domains.
+
+### Explanation
+
+The ""implicit domain switch with shared concepts"" pattern is effective when the underlying principles or abstract methods are genuinely transferable. In t...",18.1/30 (60%)
+133,SWITCH_08,Context Switching & Task Clarity,Requires maintaining two contexts in parallel: 'Implement Python function AND si...,"Both implementations correct and synchronized, clear which is primary","The context you provide in your most recent prompt is always considered primary. I can maintain both Python and SQL contexts in parallel and will ensure they remain synchronized. When you request a change in one, I will automatically update the other to reflect the same logical operation.
+
+---
+### H...",18.6/35 (53%)
+134,SWITCH_09,Context Switching & Task Clarity,Conflicting topics with same variable names: Write function with 'data' variable...,"Clear distinction between Python variable and SQL table, proper integration","Yes, significant confusion occurs, but only for the human developer, not for the computer.
+
+The computer experiences no confusion because the contexts are strictly separated:
+1.  **Python Context:** The Python interpreter knows `data` as a variable identifier within its own scope.
+2.  **SQL Context:...",19.9/35 (57%)
+135,SWITCH_10,Context Switching & Task Clarity,Multi-stage recursive switching: 1) Python script 2) Its SQL queries 3) Performa...,All 6 stages complete with correct context and proper integration between stages,"import pytest
+# Assuming the core logic is in a file named 'stage1_script.py'
+from stage1_script import TreeManager 
+
+@pytest.fixture
+def sample_tree_manager():
+    """"""Provides a TreeManager instance with a pre-built sample tree for tests.""""""
+    data = [
+        {'id': 1, 'name': 'CEO', 'parent_id'...",22.8/40 (57%)
+136,WRITE_01,Writing & Content Generation,Summarize this article in exactly 100 words (Â±5 words acceptable). Focus on the...,"100-word summary: Topic (15), Benefits (40), Impact (30), Conclusion (15).","I am unable to summarize the article because you have not provided it. Please paste the text of the article or provide a link to it. Once you share the content, I will create a summary for you that is 95-105 words long and focuses on the main benefits and challenges mentioned within the text.",17.1/30 (57%)
+137,WRITE_02,Writing & Content Generation,Write a polished product requirements document (200 words) that synthesizes thes...,PRD (200w): Exec (50) → Problem (40) → Solution (60) → Metrics (30) → Timeline (20).,**Product Requirements: New User Onboarding Overhaul**,15.9/30 (53%)
+138,WRITE_03,Writing & Content Generation,Rewrite this technical description for three different audiences in 80 words eac...,"3 versions @ 80w: Executive (ROI), Technical (Architecture), End-user (Benefits).","ERROR: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",18.6/35 (53%)
+139,WRITE_04,Writing & Content Generation,Convert this narrative into structured format: (1) Feature Overview (2-3 sentenc...,Sections: Overview (2-3s) → Benefits (3-5b) → Requirements (2-3b) → Criteria (2-3b) → Timeline (1-2s).,Here is the structured format for the hypothetical narrative provided:,14.7/30 (49%)
+140,WRITE_05,Writing & Content Generation,Write the complete API documentation section (300-350 words) that includes secti...,API docs: Overview (40) → Auth (50) → Endpoints (100) → Errors (40) → Limits (30) → Examples (60).,"## API Documentation
+
+Welcome to the Widget Corp API! Our RESTful API allows you to programmatically access and manage your widget data. All API endpoints are relative to the base URL: `https://api.widgetcorp.com`.
+
+### Authentication
+
+All requests to the Widget Corp API must be authenticated. We us...",19.9/35 (57%)
+141,WRITE_06,Writing & Content Generation,Write three 150-word versions of this migration announcement for: (1) Executive ...,"3 versions @ 150w: Executive (impact), Technical (details), Users (transition).",**1. Executive Audience (CEO/CFO)**,15.4/35 (44%)
+142,WRITE_07,Writing & Content Generation,Expand this 20-word concept into a 300-word explanation for technical documentat...,"Business case: Problem (25%), ROI (35%), Timeline (15%), Risks (15%), Recommendation (10%).","A database index is a data structure that improves the speed of data retrieval operations on a database table at the cost of slower writes and increased storage space. Fundamentally, an index creates a sorted, easily searchable copy of one or more columns, allowing the database engine to find rows m...",17.1/30 (57%)
+143,WRITE_08,Writing & Content Generation,Compress this 410-word email to exactly 200 words (Â±5 words) while retaining al...,"User guide: Introduction (10%), Getting started (20%), Step-by-step (40%), Troubleshooting (20%), Support (10%).","**Subject:** Mandatory Meeting: Q4 Strategy & 2024 Planning | Oct 27
+
+This is an invitation for our mandatory, full-day Q4 Strategy and 2024 Planning session.",N/A
+144,WRITE_09,Writing & Content Generation,Write a 250-word business case for expense management system implementation that...,"Press release: Headline, Subheading, Lead paragraph (5W+H), Quotes (2-3), Company background, Close/CTA.",**Business Case: Automated Expense Management System Implementation**,17.1/35 (49%)
+145,WRITE_10,Writing & Content Generation,Write a technical blog post titled 'Building Scalable Systems with Microservices...,"Email campaign: Subject line (compelling), Preview text (16-24 chars), Body (context), CTA button, Footer (opt-out).","# Building Scalable Systems with Microservices Architecture
+
+You've built a successful application. Your user base is growing, features are being added, and your single, monolithic codebase is starting to feel... heavy. Deployments are slow and risky. A bug in a minor feature can bring down the enti...",22.8/40 (57%)

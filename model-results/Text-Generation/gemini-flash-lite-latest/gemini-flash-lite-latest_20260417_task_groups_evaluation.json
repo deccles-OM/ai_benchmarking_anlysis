@@ -1,0 +1,2622 @@
+{
+  "source_file": "response_models\\gemini-flash-lite-latest_20260417_task_groups.json",
+  "total_score": 2191.7905728220194,
+  "max_score": 3770,
+  "average_score": 0.5813768097671139,
+  "percentage": 58.137680976711394,
+  "category_breakdown": {
+    "Data Understanding": {
+      "score": 45.3,
+      "max_points": 50,
+      "percentage": 90.6
+    },
+    "Data Cleaning": {
+      "score": 34.383583983358335,
+      "max_points": 60,
+      "percentage": 57.30597330559723
+    },
+    "Exploratory Data Analysis": {
+      "score": 46.10875545573763,
+      "max_points": 75,
+      "percentage": 61.478340607650175
+    },
+    "Statistical Analysis": {
+      "score": 46.65116246796879,
+      "max_points": 80,
+      "percentage": 58.31395308496099
+    },
+    "SQL & Query Logic": {
+      "score": 40.7,
+      "max_points": 80,
+      "percentage": 50.875
+    },
+    "Business Insight": {
+      "score": 49.8230117336028,
+      "max_points": 80,
+      "percentage": 62.27876466700349
+    },
+    "Instruction Following": {
+      "score": 54.527839314862874,
+      "max_points": 135,
+      "percentage": 40.39099208508361
+    },
+    "Dataform Development": {
+      "score": 70.275,
+      "max_points": 145,
+      "percentage": 48.46551724137932
+    },
+    "SQL Dialect Specificity": {
+      "score": 58.5,
+      "max_points": 120,
+      "percentage": 48.75
+    },
+    "Complex SQL": {
+      "score": 146.53750000000002,
+      "max_points": 180,
+      "percentage": 81.40972222222224
+    },
+    "Prompt Efficiency": {
+      "score": 64.384418767507,
+      "max_points": 95,
+      "percentage": 67.77307238684948
+    },
+    "Document Reading & Extraction": {
+      "score": 63.80389550850699,
+      "max_points": 120,
+      "percentage": 53.169912923755824
+    },
+    "Website Development": {
+      "score": 87.625,
+      "max_points": 120,
+      "percentage": 73.02083333333333
+    },
+    "Pipeline Development": {
+      "score": 49.349999999999994,
+      "max_points": 115,
+      "percentage": 42.91304347826087
+    },
+    "Architecture & Design": {
+      "score": 47.70821255393022,
+      "max_points": 100,
+      "percentage": 47.70821255393022
+    },
+    "Debugging & Troubleshooting": {
+      "score": 70.02045691283665,
+      "max_points": 120,
+      "percentage": 58.350380760697206
+    },
+    "Performance Optimization": {
+      "score": 69.6677900180911,
+      "max_points": 120,
+      "percentage": 58.056491681742585
+    },
+    "Code Review & Issue Detection": {
+      "score": 71.0379966937216,
+      "max_points": 115,
+      "percentage": 61.772171038018776
+    },
+    "Library & Dependency Management": {
+      "score": 75.75037504309431,
+      "max_points": 120,
+      "percentage": 63.125312535911924
+    },
+    "Communication & Documentation": {
+      "score": 64.93434649775978,
+      "max_points": 120,
+      "percentage": 54.111955414799816
+    },
+    "Security & Best Practices": {
+      "score": 71.43162534352528,
+      "max_points": 115,
+      "percentage": 62.114456820456766
+    },
+    "Testing & Quality Assurance": {
+      "score": 70.15636556991716,
+      "max_points": 120,
+      "percentage": 58.46363797493096
+    },
+    "Saturation & Complexity Limits": {
+      "score": 131.22397769516726,
+      "max_points": 225,
+      "percentage": 58.32176786451878
+    },
+    "Long-Context Handling": {
+      "score": 129.85191739362648,
+      "max_points": 230,
+      "percentage": 56.457355388533244
+    },
+    "Sustained Performance & Fatigue": {
+      "score": 190.80079937750918,
+      "max_points": 325,
+      "percentage": 58.70793827000283
+    },
+    "Context Switching & Task Clarity": {
+      "score": 158.33654249129546,
+      "max_points": 275,
+      "percentage": 57.576924542289255
+    },
+    "Writing & Content Generation": {
+      "score": 182.89999999999998,
+      "max_points": 330,
+      "percentage": 55.42424242424242
+    }
+  },
+  "performance_summary": {
+    "questions_with_perf": 145,
+    "avg_response_time_seconds": 1.9820068965517241,
+    "median_response_time_seconds": 2.058,
+    "total_input_tokens": 1006566,
+    "total_output_tokens": 48739,
+    "total_tokens": 1055305,
+    "avg_input_tokens": 6941.834482758621,
+    "avg_output_tokens": 336.1310344827586,
+    "avg_total_tokens": 7277.9655172413795
+  },
+  "results": [
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_01",
+      "category": "Data Understanding",
+      "combined_score": 0.8400000000000001,
+      "accuracy": 1.0,
+      "reasoning": 0.5,
+      "weighted_points": 8.4,
+      "max_points": 10,
+      "pretty_response": "Fiesta",
+      "performance": {
+        "response_time_seconds": 1.588,
+        "input_tokens": 8208,
+        "output_tokens": 196,
+        "total_tokens": 8404
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_02",
+      "category": "Data Understanding",
+      "combined_score": 0.95,
+      "accuracy": 1.0,
+      "reasoning": 0.5,
+      "weighted_points": 9.5,
+      "max_points": 10,
+      "pretty_response": "763992",
+      "performance": {
+        "response_time_seconds": 2.019,
+        "input_tokens": 8208,
+        "output_tokens": 251,
+        "total_tokens": 8459
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_03",
+      "category": "Data Understanding",
+      "combined_score": 0.8400000000000001,
+      "accuracy": 1.0,
+      "reasoning": 0.5,
+      "weighted_points": 8.4,
+      "max_points": 10,
+      "pretty_response": "AU",
+      "performance": {
+        "response_time_seconds": 1.889,
+        "input_tokens": 8204,
+        "output_tokens": 478,
+        "total_tokens": 8682
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_04",
+      "category": "Data Understanding",
+      "combined_score": 0.95,
+      "accuracy": 1.0,
+      "reasoning": 0.5,
+      "weighted_points": 9.5,
+      "max_points": 10,
+      "pretty_response": "50",
+      "performance": {
+        "response_time_seconds": 1.385,
+        "input_tokens": 16379,
+        "output_tokens": 6,
+        "total_tokens": 16385
+      }
+    },
+    {
+      "task_file": "task_group1_basic.json",
+      "task_id": "BASIC_05",
+      "category": "Data Understanding",
+      "combined_score": 0.95,
+      "accuracy": 1.0,
+      "reasoning": 0.5,
+      "weighted_points": 9.5,
+      "max_points": 10,
+      "pretty_response": "1128",
+      "performance": {
+        "response_time_seconds": 1.208,
+        "input_tokens": 45735,
+        "output_tokens": 8,
+        "total_tokens": 45743
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_01",
+      "category": "Data Cleaning",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 8.549999999999999,
+      "max_points": 15,
+      "pretty_response": "The dataset contains two primary data quality issues:\n\n1. **Missing Values (NA):** The `mileage` column contains several \"NA\" entries (e.g., in rows 53, 70, 88, 109, 132, etc.), representing incomplete records that would hinder mileage-based analysis.\n2. **Invalid Negative Values:** The `repair_cost` column contains multiple negative values (e.g., -506 in row 37, -654 in row 74, -523 in row 102, -664 in row 114), which are logically invalid for cost data and indicate data entry or processing errors.",
+      "performance": {
+        "response_time_seconds": 2.001,
+        "input_tokens": 45727,
+        "output_tokens": 157,
+        "total_tokens": 45884
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_02",
+      "category": "Data Cleaning",
+      "combined_score": 0.3476190476190476,
+      "accuracy": 0.06802721088435375,
+      "reasoning": 1.0,
+      "weighted_points": 5.214285714285714,
+      "max_points": 15,
+      "pretty_response": "The **Focus** model appears to have the most data quality issues, with a total of 11 occurrences of missing or invalid (negative) data points.",
+      "performance": {
+        "response_time_seconds": 2.502,
+        "input_tokens": 45726,
+        "output_tokens": 350,
+        "total_tokens": 46076
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_03",
+      "category": "Data Cleaning",
+      "combined_score": 0.6729490616621984,
+      "accuracy": 0.257372654155496,
+      "reasoning": 1.0,
+      "weighted_points": 10.094235924932976,
+      "max_points": 15,
+      "pretty_response": "There are no structural data inconsistencies (like missing values), but there are significant business logic inconsistencies regarding the \"Average Selling Price\" per unit across different regions and years, which suggests either highly erratic pricing strategies or errors in the recorded revenue figures.",
+      "performance": {
+        "response_time_seconds": 2.298,
+        "input_tokens": 8195,
+        "output_tokens": 387,
+        "total_tokens": 8582
+      }
+    },
+    {
+      "task_file": "task_group2_cleaning.json",
+      "task_id": "CLEAN_04",
+      "category": "Data Cleaning",
+      "combined_score": 0.7016708229426433,
+      "accuracy": 0.32917705735660846,
+      "reasoning": 1.0,
+      "weighted_points": 10.525062344139648,
+      "max_points": 15,
+      "pretty_response": "Since `claim_id 3` contains valid data (`90680`), no action is required for that specific record. For records with actual missing (`NA`) values, the recommended approach is to use **median imputation grouped by the 'model' column**, as this preserves the expected usage patterns for each vehicle type.",
+      "performance": {
+        "response_time_seconds": 2.911,
+        "input_tokens": 45730,
+        "output_tokens": 437,
+        "total_tokens": 46167
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_01",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.4733333333333334,
+      "accuracy": 0.08333333333333333,
+      "reasoning": 0.5,
+      "weighted_points": 7.1000000000000005,
+      "max_points": 15,
+      "pretty_response": "D4",
+      "performance": {
+        "response_time_seconds": 1.929,
+        "input_tokens": 45738,
+        "output_tokens": 378,
+        "total_tokens": 46116
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_02",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.659655172413793,
+      "accuracy": 0.22413793103448276,
+      "reasoning": 1.0,
+      "weighted_points": 9.894827586206896,
+      "max_points": 15,
+      "pretty_response": "The dataset contains clear anomalies in the form of extreme engine temperatures (120\u00b0C\u2013140\u00b0C) which may indicate cooling system failure, and highly irregular mileage reporting which suggests significant data logging or transmission errors. Further investigation into the sensor integrity and database ingestion pipelines for these specific vehicles is recommended.",
+      "performance": {
+        "response_time_seconds": 3.073,
+        "input_tokens": 33137,
+        "output_tokens": 644,
+        "total_tokens": 33781
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_03",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.6576923076923077,
+      "accuracy": 0.21923076923076923,
+      "reasoning": 1.0,
+      "weighted_points": 9.865384615384615,
+      "max_points": 15,
+      "pretty_response": "The F150 model appears most frequently in the warranty claims. This may indicate that the F150 has a higher sales volume than the other listed models, potentially leading to a higher absolute number of claims even if the actual failure rate per unit is lower. Alternatively, it could suggest that the F150 has specific design or manufacturing issues that result in a disproportionately higher number of repairs compared to other models in the fleet.",
+      "performance": {
+        "response_time_seconds": 1.986,
+        "input_tokens": 45741,
+        "output_tokens": 255,
+        "total_tokens": 45996
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_04",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.7184536082474225,
+      "accuracy": 0.3711340206185567,
+      "reasoning": 1.0,
+      "weighted_points": 10.776804123711338,
+      "max_points": 15,
+      "pretty_response": "The strongest region for Ford overall is **Brazil**, with a total revenue of approximately 124,196.53 million across the provided dataset.",
+      "performance": {
+        "response_time_seconds": 2.701,
+        "input_tokens": 8194,
+        "output_tokens": 552,
+        "total_tokens": 8746
+      }
+    },
+    {
+      "task_file": "task_group3_eda.json",
+      "task_id": "EDA_05",
+      "category": "Exploratory Data Analysis",
+      "combined_score": 0.5647826086956523,
+      "accuracy": 0.08695652173913043,
+      "reasoning": 0.8,
+      "weighted_points": 8.471739130434784,
+      "max_points": 15,
+      "pretty_response": "The vehicle models ranked by total units sold across all regions and years are:\n1. **Fiesta**: 2,645,040\n2. **Bronco**: 2,149,367\n3. **Focus**: 2,133,258\n4. **Mustang**: 2,079,788\n5. **EdgeSUV**: 2,011,724\n6. **F150**: 1,942,067\n7. **Ranger**: 1,917,706\n8. **Explorer**: 1,912,707\n9. **Escape**: 1,910,682\n10. **Fusion**: 1,798,930",
+      "performance": {
+        "response_time_seconds": 2.633,
+        "input_tokens": 8203,
+        "output_tokens": 825,
+        "total_tokens": 9028
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_01",
+      "category": "Statistical Analysis",
+      "combined_score": 0.25,
+      "accuracy": 0.0,
+      "reasoning": 0.5,
+      "weighted_points": 5.0,
+      "max_points": 20,
+      "pretty_response": "462",
+      "performance": {
+        "response_time_seconds": 2.442,
+        "input_tokens": 45739,
+        "output_tokens": 393,
+        "total_tokens": 46132
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_02",
+      "category": "Statistical Analysis",
+      "combined_score": 0.7078590078328981,
+      "accuracy": 0.34464751958224543,
+      "reasoning": 1.0,
+      "weighted_points": 14.157180156657962,
+      "max_points": 20,
+      "pretty_response": "The median repair cost is 497.00. The mean is 499.07. The values are very close, suggesting a symmetric distribution where the mean serves as an accurate representation of the typical repair cost, with no significant skewing from extreme outliers.",
+      "performance": {
+        "response_time_seconds": 2.183,
+        "input_tokens": 45742,
+        "output_tokens": 296,
+        "total_tokens": 46038
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_03",
+      "category": "Statistical Analysis",
+      "combined_score": 0.7245126353790613,
+      "accuracy": 0.3862815884476534,
+      "reasoning": 1.0,
+      "weighted_points": 14.490252707581226,
+      "max_points": 20,
+      "pretty_response": "The coefficient of variation is approximately **0.213 (or 21.3%)**. This indicates a moderate level of dispersion in total units sold across the different models in the US market. A CV of 21.3% suggests that while there is variation in performance between vehicle models, the sales distribution is relatively stable and not characterized by extreme outliers or massive volatility compared to the average sales volume.",
+      "performance": {
+        "response_time_seconds": 2.518,
+        "input_tokens": 8213,
+        "output_tokens": 649,
+        "total_tokens": 8862
+      }
+    },
+    {
+      "task_file": "task_group4_statistics.json",
+      "task_id": "STAT_04",
+      "category": "Statistical Analysis",
+      "combined_score": 0.6501864801864802,
+      "accuracy": 0.20046620046620048,
+      "reasoning": 1.0,
+      "weighted_points": 13.003729603729603,
+      "max_points": 20,
+      "pretty_response": "D14's warranty claim rate is statistically unusual because their total count of 11 claims is significantly lower than the dataset average of ~22.56, placing them more than two standard deviations below the mean, suggesting they handle a lower volume of warranty-related repairs compared to their peers.",
+      "performance": {
+        "response_time_seconds": 2.691,
+        "input_tokens": 45731,
+        "output_tokens": 609,
+        "total_tokens": 46340
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_01",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "SELECT \n    region, \n    SUM(units_sold) AS total_units_sold\nFROM \n    sales_data\nGROUP BY \n    region;",
+      "performance": {
+        "response_time_seconds": 0.835,
+        "input_tokens": 8193,
+        "output_tokens": 86,
+        "total_tokens": 8279
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_02",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "SELECT \n    model, \n    AVG(units_sold) AS average_units_sold\nFROM sales_data\nGROUP BY model;",
+      "performance": {
+        "response_time_seconds": 0.86,
+        "input_tokens": 8197,
+        "output_tokens": 85,
+        "total_tokens": 8282
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_03",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.445,
+      "accuracy": 0.0,
+      "reasoning": 0.6,
+      "weighted_points": 8.9,
+      "max_points": 20,
+      "pretty_response": "SELECT model, AVG(repair_cost) AS average_repair_cost\nFROM warranty_claims\nGROUP BY model\nORDER BY average_repair_cost DESC\nLIMIT 1;",
+      "performance": {
+        "response_time_seconds": 1.468,
+        "input_tokens": 45730,
+        "output_tokens": 130,
+        "total_tokens": 45860
+      }
+    },
+    {
+      "task_file": "task_group5_sql.json",
+      "task_id": "SQL_04",
+      "category": "SQL & Query Logic",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "SELECT *\nFROM sales_data\nWHERE units_sold > 100000;",
+      "performance": {
+        "response_time_seconds": 0.957,
+        "input_tokens": 8204,
+        "output_tokens": 30,
+        "total_tokens": 8234
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_01",
+      "category": "Business Insight",
+      "combined_score": 0.6227536231884058,
+      "accuracy": 0.2318840579710145,
+      "reasoning": 0.8,
+      "weighted_points": 12.455072463768115,
+      "max_points": 20,
+      "pretty_response": "Ford should focus on a \"Regional Specialization\" strategy: prioritize the **Fiesta** globally as the volume anchor, increase allocation of the **Fusion** to the Japanese market where revenue-per-unit is high, and re-evaluate the model mix for the **EdgeSUV** and **Ranger** in the UK and Canada due to inconsistent sales performance and high market volatility.",
+      "performance": {
+        "response_time_seconds": 2.47,
+        "input_tokens": 8196,
+        "output_tokens": 415,
+        "total_tokens": 8611
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_02",
+      "category": "Business Insight",
+      "combined_score": 0.6295348837209301,
+      "accuracy": 0.14883720930232558,
+      "reasoning": 1.0,
+      "weighted_points": 12.590697674418603,
+      "max_points": 20,
+      "pretty_response": "The **F150** requires immediate quality investigation. It has the highest total number of warranty claims (162) in the dataset and the highest frequency of anomalous (negative) repair cost entries, suggesting both a high volume of mechanical failures and potential data integrity issues in the warranty reporting system for this model.",
+      "performance": {
+        "response_time_seconds": 2.438,
+        "input_tokens": 45724,
+        "output_tokens": 438,
+        "total_tokens": 46162
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_03",
+      "category": "Business Insight",
+      "combined_score": 0.6091011235955056,
+      "accuracy": 0.19775280898876405,
+      "reasoning": 0.8,
+      "weighted_points": 12.182022471910113,
+      "max_points": 20,
+      "pretty_response": "Ford should initiate an immediate targeted audit of Dealer D14\u2019s warranty documentation and claim submission practices, mandate remedial training for their warranty administrators to address the high denial rate, and place the dealer under temporary high-intensity monitoring for all high-value claims to ensure compliance with company policy.",
+      "performance": {
+        "response_time_seconds": 2.527,
+        "input_tokens": 16382,
+        "output_tokens": 365,
+        "total_tokens": 16747
+      }
+    },
+    {
+      "task_file": "task_group6_business.json",
+      "task_id": "BIZ_04",
+      "category": "Business Insight",
+      "combined_score": 0.6297609561752987,
+      "accuracy": 0.14940239043824702,
+      "reasoning": 1.0,
+      "weighted_points": 12.595219123505974,
+      "max_points": 20,
+      "pretty_response": "An engine temperature spike indicates potential mechanical stress or cooling system inefficiency, which directly increases business risk in three key areas: 1) **Increased Warranty Liabilities:** Frequent high-temperature events accelerate wear and tear on engine components (e.g., gaskets, sensors, and seals), leading to a higher frequency of premature repairs and component failures under warranty. 2) **Operational Cost Escalation:** Proactive maintenance and emergency repairs increase service center throughput costs and parts replacement budgets. 3) **Brand Integrity and Residual Value:** Recurring overheating issues negatively impact vehicle reliability ratings and customer satisfaction scores, ultimately decreasing the long-term resale or residual value of the fleet. Addressing these spikes through proactive maintenance can mitigate these costs before catastrophic engine failure occurs.",
+      "performance": {
+        "response_time_seconds": 2.519,
+        "input_tokens": 33140,
+        "output_tokens": 150,
+        "total_tokens": 33290
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_01",
+      "category": "Instruction Following",
+      "combined_score": 0.5063972286374133,
+      "accuracy": 0.2909930715935335,
+      "reasoning": 1.0,
+      "weighted_points": 10.127944572748266,
+      "max_points": 20,
+      "pretty_response": "The top model is **Model X-200**. The warranty claim distribution for this model is as follows: \n- **0\u20136 Months:** 62% (Battery/Power issues)\n- **6\u201312 Months:** 25% (Display/Screen calibration)\n- **12\u201318 Months:** 8% (Connectivity modules)\n- **18+ Months:** 5% (General wear and tear)",
+      "performance": {
+        "response_time_seconds": 1.865,
+        "input_tokens": 124,
+        "output_tokens": 211,
+        "total_tokens": 335
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_02",
+      "category": "Instruction Following",
+      "combined_score": 0.45723926380368096,
+      "accuracy": 0.36809815950920244,
+      "reasoning": 0.6,
+      "weighted_points": 11.430981595092025,
+      "max_points": 25,
+      "pretty_response": "**Calculated Average Mileage (US Region):** 34,250 miles",
+      "performance": {
+        "response_time_seconds": 2.149,
+        "input_tokens": 144,
+        "output_tokens": 283,
+        "total_tokens": 427
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_03",
+      "category": "Instruction Following",
+      "combined_score": 0.4467505720823798,
+      "accuracy": 0.14187643020594964,
+      "reasoning": 1.0,
+      "weighted_points": 11.168764302059495,
+      "max_points": 25,
+      "pretty_response": "WITH DealerMonthlyClaims AS (\n    SELECT \n        dealer_id,\n        region,\n        COUNT(claim_id) / NULLIF(COUNT(DISTINCT DATE_TRUNC('month', claim_date)), 0) AS avg_claims_per_month\n    FROM dealer_claims_data\n    GROUP BY dealer_id, region\n    ORDER BY avg_claims_per_month DESC\n)\nSELECT *\nFROM DealerMonthlyClaims\nWHERE region = 'EU'\n  AND avg_claims_per_month > 25;",
+      "performance": {
+        "response_time_seconds": 1.442,
+        "input_tokens": 132,
+        "output_tokens": 172,
+        "total_tokens": 304
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_04",
+      "category": "Instruction Following",
+      "combined_score": 0.3679487179487179,
+      "accuracy": 0.04487179487179487,
+      "reasoning": 0.8,
+      "weighted_points": 11.038461538461538,
+      "max_points": 30,
+      "pretty_response": "Please provide the telemetry data logs to begin the analysis.",
+      "performance": {
+        "response_time_seconds": 1.289,
+        "input_tokens": 131,
+        "output_tokens": 169,
+        "total_tokens": 300
+      }
+    },
+    {
+      "task_file": "task_group7_instruction_following.json",
+      "task_id": "INST_05",
+      "category": "Instruction Following",
+      "combined_score": 0.3074767801857585,
+      "accuracy": 0.006191950464396285,
+      "reasoning": 0.8,
+      "weighted_points": 10.761687306501548,
+      "max_points": 35,
+      "pretty_response": "[Waiting for your data input to provide the analysis]",
+      "performance": {
+        "response_time_seconds": 1.421,
+        "input_tokens": 139,
+        "output_tokens": 113,
+        "total_tokens": 252
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_01",
+      "category": "Dataform Development",
+      "combined_score": 0.4800000000000001,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 12.000000000000002,
+      "max_points": 25,
+      "pretty_response": "config {\n  type: \"table\",\n  name: \"sales_with_revenue\"\n}\n\nSELECT\n  *,\n  units_sold * (\n    CASE model\n      WHEN 'F150' THEN 35000\n      WHEN 'Escape' THEN 18000\n      WHEN 'Bronco' THEN 25000\n      WHEN 'Mustang' THEN 30000\n      ELSE 0 -- Default price for other models if not specified\n    END\n  ) / 1000000 AS calculated_revenue_millions\nFROM ${ref(\"sales_data\")}",
+      "performance": {
+        "response_time_seconds": 1.182,
+        "input_tokens": 8245,
+        "output_tokens": 149,
+        "total_tokens": 8394
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_02",
+      "category": "Dataform Development",
+      "combined_score": 0.525,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 13.125,
+      "max_points": 25,
+      "pretty_response": "config {\n  type: \"table\",\n  name: \"regional_sales_summary\",\n  description: \"Aggregated sales data by region showing total units and average units per model.\"\n}\n\nSELECT\n  region,\n  SUM(units_sold) AS total_units,\n  AVG(units_sold) AS average_units_per_model\nFROM\n  ${ref(\"sales_data\")}\nGROUP BY\n  region",
+      "performance": {
+        "response_time_seconds": 1.959,
+        "input_tokens": 8207,
+        "output_tokens": 149,
+        "total_tokens": 8356
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_03",
+      "category": "Dataform Development",
+      "combined_score": 0.48000000000000004,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 14.4,
+      "max_points": 30,
+      "pretty_response": "-- 1. Dependency declaration\nconfig {\n  type: \"table\",\n  description: \"Cleaned warranty claims with invalid data removed.\"\n}\n\n-- 2. First table: Cleaned warranty claims\n-- We exclude negative repair costs and filter out rows where essential fields like model or cost might be missing.\nSELECT \n    claim_id, \n    model, \n    dealer, \n    mileage, \n    repair_cost, \n    failure_code, \n    claim_date\nFROM ${ref(\"warranty_claims\")}\nWHERE repair_cost >= 0;\n\n-- 3. Second table: Aggregate by model\nconfig {\n  type: \"table\",\n  dependencies: [\"cleaned_warranty_claims\"],\n  description: \"Aggregate statistics of repair costs per model.\"\n}\n\nSELECT \n    model,\n    COUNT(claim_id) AS total_claims,\n    SUM(repair_cost) AS total_repair_cost,\n    AVG(repair_cost) AS average_repair_cost,\n    MIN(repair_cost) AS min_repair_cost,\n    MAX(repair_cost) AS max_repair_cost\nFROM ${ref(\"cleaned_warranty_claims\")}\nGROUP BY 1;",
+      "performance": {
+        "response_time_seconds": 1.574,
+        "input_tokens": 45749,
+        "output_tokens": 281,
+        "total_tokens": 46030
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_04",
+      "category": "Dataform Development",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 17.099999999999998,
+      "max_points": 30,
+      "pretty_response": "config {\n  type: \"incremental\",\n  uniqueKey: [\"claim_id\"],\n  name: \"incremental_warranty_claims\",\n  description: \"Processes new warranty claims daily based on claim_date.\"\n}\n\n-- Pre-operation: Validate data quality (abort if negative repair costs are found)\npre_operations {\n  ASSERT(\n    (SELECT count(*) FROM ${ref(\"warranty_claims\")} WHERE repair_cost < 0) = 0\n  )\n}\n\n-- Main logic: Select only records that are new since the last run\nSELECT\n  claim_id,\n  model,\n  dealer,\n  mileage,\n  repair_cost,\n  failure_code,\n  claim_date\nFROM ${ref(\"warranty_claims\")}\n${when(incremental(), \n  `WHERE claim_date > (SELECT MAX(claim_date) FROM ${self()})`\n)}\n\n-- Post-operation: Log the success of the incremental load\npost_operations {\n  -- In a production environment, this could be a call to a logging table\n  -- or a simple dummy operation to verify the table state\n  SELECT 1 as validation_complete\n}",
+      "performance": {
+        "response_time_seconds": 2.278,
+        "input_tokens": 45740,
+        "output_tokens": 340,
+        "total_tokens": 46080
+      }
+    },
+    {
+      "task_file": "task_group8_dataform.json",
+      "task_id": "DF_05",
+      "category": "Dataform Development",
+      "combined_score": 0.38999999999999996,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 13.649999999999999,
+      "max_points": 35,
+      "pretty_response": "### 1. Staging Table (`definitions/stg_sales_data.sqlx`)\n```sql\nconfig {\n  type: \"view\",\n  name: \"stg_sales_data\"\n}\n\n-- In a real scenario, this would be a source declaration. \n-- Here we simulate the raw ingestion.\nSELECT * FROM ${ref(\"raw_sales_source\")}\n```\n\n### 2. Cleaned Table (`definitions/cleaned_sales.sqlx`)\n```sql\nconfig {\n  type: \"table\",\n  name: \"cleaned_sales\",\n  assertions: {\n    nonNull: [\"model\", \"region\", \"year\"],\n    rowConditions: ['units_sold >= 0', 'revenue_millions >= 0']\n  }\n}\n\nSELECT\n  model,\n  region,\n  CAST(units_sold AS INT64) AS units_sold,\n  CAST(year AS INT64) AS year,\n  CAST(revenue_millions AS FLOAT64) AS revenue_millions\nFROM ${ref(\"stg_sales_data\")}\n```\n\n### 3. Aggregated Metrics (`definitions/agg_sales_by_region.sqlx`)\n```sql\nconfig {\n  type: \"table\",\n  name: \"agg_sales_by_region\"\n}\n\nSELECT\n  region,\n  year,\n  SUM(units_sold) AS total_units_sold,\n  SUM(revenue_millions) AS total_revenue_millions,\n  AVG(revenue_millions) AS avg_revenue_per_model\nFROM ${ref(\"cleaned_sales\")}\nGROUP BY 1, 2\nORDER BY year DESC, total_revenue_millions DESC\n```\n\n### Project Structure Explanation:\n1.  **`stg_sales_data`**: Acts as the entry point, isolating the raw data structure from the rest of the pipeline.\n2.  **`cleaned_sales`**: Transforms data types (ensuring math operations work on numeric types) and includes **assertions** to ensure data quality (e.g., no negative sales or null primary dimensions).\n3.  **`agg_sales_by_region`**: Consumes the cleaned table to provide actionable business intelligence grouped by geography and time.",
+      "performance": {
+        "response_time_seconds": 2.747,
+        "input_tokens": 8222,
+        "output_tokens": 601,
+        "total_tokens": 8823
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_01",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.44000000000000006,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 8.8,
+      "max_points": 20,
+      "pretty_response": "SELECT\n  AVG(repair_cost) AS average_repair_cost\nFROM\n  `your_project.your_dataset.your_table`",
+      "performance": {
+        "response_time_seconds": 0.87,
+        "input_tokens": 122,
+        "output_tokens": 41,
+        "total_tokens": 163
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_02",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.49000000000000005,
+      "accuracy": 0.0,
+      "reasoning": 0.6,
+      "weighted_points": 9.8,
+      "max_points": 20,
+      "pretty_response": "SELECT \n    region, \n    model, \n    SUM(sales) AS total_sales\nFROM \n    sales_table\nGROUP BY \n    region, \n    model;",
+      "performance": {
+        "response_time_seconds": 1.162,
+        "input_tokens": 123,
+        "output_tokens": 76,
+        "total_tokens": 199
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_03",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.43,
+      "accuracy": 0.0,
+      "reasoning": 0.6,
+      "weighted_points": 10.75,
+      "max_points": 25,
+      "pretty_response": "SELECT model, ANY_VALUE(repair_cost) \nFROM warranty_claims \nGROUP BY model",
+      "performance": {
+        "response_time_seconds": 1.599,
+        "input_tokens": 143,
+        "output_tokens": 220,
+        "total_tokens": 363
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_04",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 13.25,
+      "max_points": 25,
+      "pretty_response": "WITH RECURSIVE dealer_hierarchy AS (\n    -- Anchor member: Select the top-level regions (where parent is null)\n    SELECT \n        id, \n        name, \n        parent_id, \n        1 AS level,\n        name::text AS path\n    FROM dealers\n    WHERE parent_id IS NULL\n\n    UNION ALL\n\n    -- Recursive member: Join the table with the CTE\n    SELECT \n        d.id, \n        d.name, \n        d.parent_id, \n        dh.level + 1,\n        dh.path || ' -> ' || d.name\n    FROM dealers d\n    INNER JOIN dealer_hierarchy dh ON d.parent_id = dh.id\n)\nSELECT * \nFROM dealer_hierarchy\nORDER BY path;",
+      "performance": {
+        "response_time_seconds": 1.765,
+        "input_tokens": 126,
+        "output_tokens": 246,
+        "total_tokens": 372
+      }
+    },
+    {
+      "task_file": "task_group9_sql_dialect.json",
+      "task_id": "SQLD_05",
+      "category": "SQL Dialect Specificity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "config {\n  type: \"table\",\n  name: \"model_dealer_counts\"\n}\n\nSELECT\n  model,\n  COUNT(DISTINCT dealer_id) AS dealer_count\nFROM\n  ${ref(\"sales\")}\nWHERE\n  region = 'US'\nGROUP BY\n  1",
+      "performance": {
+        "response_time_seconds": 1.332,
+        "input_tokens": 146,
+        "output_tokens": 206,
+        "total_tokens": 352
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_01",
+      "category": "Complex SQL",
+      "combined_score": 0.7775,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 23.325,
+      "max_points": 30,
+      "pretty_response": "WITH FilteredClaims AS (\n    -- 1) Filter warranty claims with repair_cost > 300\n    SELECT \n        model, \n        claim_id\n    FROM warranty_claims\n    WHERE repair_cost > 300\n),\nModelCounts AS (\n    -- 2) Count claims per model\n    SELECT \n        model, \n        COUNT(claim_id) AS claim_count\n    FROM FilteredClaims\n    GROUP BY model\n)\n-- 3) Rank models by claim count\nSELECT \n    model, \n    claim_count,\n    RANK() OVER (ORDER BY claim_count DESC) AS rank\nFROM ModelCounts;",
+      "performance": {
+        "response_time_seconds": 1.03,
+        "input_tokens": 45761,
+        "output_tokens": 159,
+        "total_tokens": 45920
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_02",
+      "category": "Complex SQL",
+      "combined_score": 0.8525000000000001,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 25.575000000000003,
+      "max_points": 30,
+      "pretty_response": "SELECT region, model\nFROM sales_data\nGROUP BY region, model\nHAVING AVG(units_sold) > (\n    SELECT AVG(units_sold)\n    FROM sales_data\n);",
+      "performance": {
+        "response_time_seconds": 1.476,
+        "input_tokens": 8206,
+        "output_tokens": 205,
+        "total_tokens": 8411
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_03",
+      "category": "Complex SQL",
+      "combined_score": 0.85,
+      "accuracy": 0,
+      "reasoning": 1.0,
+      "weighted_points": 29.75,
+      "max_points": 35,
+      "pretty_response": "WITH CleanedWarrantyData AS (\n    -- CTE 1: Filter out missing data and negative repair costs\n    SELECT \n        model, \n        repair_cost\n    FROM warranty_claims\n    WHERE mileage IS NOT NULL \n      AND repair_cost > 0\n),\nModelAggregates AS (\n    -- CTE 2: Calculate the average repair cost per model\n    SELECT \n        model, \n        AVG(repair_cost) as avg_repair_cost\n    FROM CleanedWarrantyData\n    GROUP BY model\n),\nModelStats AS (\n    -- CTE 3: Calculate the median average cost to establish an outlier threshold\n    SELECT \n        model, \n        avg_repair_cost,\n        PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY avg_repair_cost) OVER () as global_median\n    FROM ModelAggregates\n)\n-- Final: Select models that are 20% above the global median as outliers\nSELECT \n    model, \n    avg_repair_cost\nFROM ModelStats\nWHERE avg_repair_cost > (global_median * 1.20)\nORDER BY avg_repair_cost DESC;",
+      "performance": {
+        "response_time_seconds": 2.244,
+        "input_tokens": 45761,
+        "output_tokens": 393,
+        "total_tokens": 46154
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_04",
+      "category": "Complex SQL",
+      "combined_score": 0.8,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 32.0,
+      "max_points": 40,
+      "pretty_response": "WITH TelemetryStats AS (\n    -- Calculate the moving average and standard deviation over a window of the last 3 readings\n    SELECT \n        vehicle_id,\n        timestamp,\n        engine_temp_c,\n        AVG(engine_temp_c) OVER (PARTITION BY vehicle_id ORDER BY timestamp ROWS BETWEEN 2 PRECEDING AND CURRENT ROW) as moving_avg,\n        STDEV(engine_temp_c) OVER (PARTITION BY vehicle_id ORDER BY timestamp ROWS BETWEEN 2 PRECEDING AND CURRENT ROW) as moving_stddev\n    FROM vehicle_telemetry\n),\nAnomalyDetection AS (\n    -- Identify rows where the engine_temp_c deviates by more than 2 standard deviations\n    SELECT \n        *,\n        ABS(engine_temp_c - moving_avg) as deviation\n    FROM TelemetryStats\n)\nSELECT \n    vehicle_id,\n    timestamp,\n    engine_temp_c,\n    moving_avg,\n    CASE \n        WHEN deviation > (2 * moving_stddev) THEN 'ANOMALY' \n        ELSE 'NORMAL' \n    END as status\nFROM AnomalyDetection\nWHERE moving_stddev > 0;",
+      "performance": {
+        "response_time_seconds": 2.016,
+        "input_tokens": 33152,
+        "output_tokens": 352,
+        "total_tokens": 33504
+      }
+    },
+    {
+      "task_file": "task_group10_complex_sql.json",
+      "task_id": "SQLC_05",
+      "category": "Complex SQL",
+      "combined_score": 0.7975000000000001,
+      "accuracy": 0,
+      "reasoning": 1.0,
+      "weighted_points": 35.8875,
+      "max_points": 45,
+      "pretty_response": "WITH RawClaims AS (\n    -- Step 1: Extract claim attributes from JSON and filter by dynamic criteria\n    SELECT \n        dealer_id,\n        DATE_TRUNC('month', claim_date) AS claim_month,\n        (metadata->>'severity')::INT AS severity_score,\n        1 AS claim_count\n    FROM claims\n    WHERE claim_date >= CURRENT_DATE - INTERVAL '12 months'\n),\nDealerMonthlyStats AS (\n    -- Step 2: Aggregate metrics per dealer per month\n    SELECT \n        dealer_id,\n        claim_month,\n        SUM(claim_count) AS total_claims,\n        AVG(severity_score) AS avg_severity\n    FROM RawClaims\n    GROUP BY 1, 2\n),\nMonthlyChange AS (\n    -- Step 3: Use Window Functions to calculate MoM growth\n    SELECT \n        dealer_id,\n        claim_month,\n        total_claims,\n        avg_severity,\n        LAG(avg_severity) OVER (PARTITION BY dealer_id ORDER BY claim_month) AS prev_month_severity\n    FROM DealerMonthlyStats\n),\nTrendAnalysis AS (\n    -- Step 4: Calculate percentage change\n    SELECT \n        *,\n        (avg_severity - prev_month_severity) / NULLIF(prev_month_severity, 0) AS mom_change_pct\n    FROM MonthlyChange\n),\nPerformanceClassification AS (\n    -- Step 5: Classify trends based on 3-month rolling average to smooth volatility\n    SELECT \n        *,\n        AVG(mom_change_pct) OVER (PARTITION BY dealer_id ORDER BY claim_month ROWS BETWEEN 2 PRECEDING AND CURRENT ROW) AS rolling_avg_trend\n    FROM TrendAnalysis\n)\n-- Final Selection: Identify dealers with significant improvements or declines\nSELECT \n    dealer_id,\n    claim_month,\n    avg_severity,\n    mom_change_pct,\n    CASE \n        WHEN rolling_avg_trend < -0.1 THEN 'Improving Quality'\n        WHEN rolling_avg_trend > 0.1 THEN 'Declining Quality'\n        ELSE 'Stable'\n    END AS trend_status\nFROM PerformanceClassification\nWHERE claim_month = DATE_TRUNC('month', CURRENT_DATE - INTERVAL '1 month')\nORDER BY rolling_avg_trend ASC;",
+      "performance": {
+        "response_time_seconds": 2.472,
+        "input_tokens": 144,
+        "output_tokens": 566,
+        "total_tokens": 710
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_01",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6792063492063491,
+      "accuracy": 0.273015873015873,
+      "reasoning": 1.0,
+      "weighted_points": 10.188095238095237,
+      "max_points": 15,
+      "pretty_response": "The AI does not provide the correct answer because the prompt fails to specify the dataset, time frame, or context required to identify which model is the \"top-selling\" one.",
+      "performance": {
+        "response_time_seconds": 0.875,
+        "input_tokens": 122,
+        "output_tokens": 39,
+        "total_tokens": 161
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_02",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6405882352941176,
+      "accuracy": 0.17647058823529413,
+      "reasoning": 1.0,
+      "weighted_points": 9.608823529411763,
+      "max_points": 15,
+      "pretty_response": "No. Without specifying the product category (e.g., cars, smartphones, appliances), the brand, or the timeframe, there is insufficient data to identify a specific model. Warranty claim rates and reliability rankings vary significantly by industry and manufacturer, and \"warranty issues\" is too broad a term to yield a singular, factual identification.",
+      "performance": {
+        "response_time_seconds": 0.904,
+        "input_tokens": 123,
+        "output_tokens": 69,
+        "total_tokens": 192
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_03",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6225,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 12.450000000000001,
+      "max_points": 20,
+      "pretty_response": "Reallocate marketing budget and supply chain resources from underperforming regions to high-growth markets, while implementing a localized product-market fit strategy in stagnant areas to recover baseline revenue.",
+      "performance": {
+        "response_time_seconds": 1.073,
+        "input_tokens": 119,
+        "output_tokens": 38,
+        "total_tokens": 157
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_04",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.6725,
+      "accuracy": 0,
+      "reasoning": 1.0,
+      "weighted_points": 13.45,
+      "max_points": 20,
+      "pretty_response": "To identify anomalies, I require specific context or a dataset. Generally, anomaly detection is approached through three primary methods:\n\n1.  **Statistical Methods:** Used for univariate data (e.g., Z-score, Interquartile Range) to flag data points that deviate significantly from the mean.\n2.  **Machine Learning (Unsupervised):** Used for complex, multivariate data. Common algorithms include:\n    *   **Isolation Forests:** Isolates anomalies by randomly partitioning features.\n    *   **Local Outlier Factor (LOF):** Measures the local density deviation of a data point relative to its neighbors.\n    *   **One-Class SVM:** Defines a boundary around \"normal\" data points.\n3.  **Domain-Specific Heuristics:**\n    *   **Cybersecurity:** Identifying deviations from baseline network traffic patterns.\n    *   **Finance:** Detecting fraudulent transactions based on velocity or behavioral patterns.\n    *   **Manufacturing:** Identifying sensor readings that fall outside of threshold parameters.",
+      "performance": {
+        "response_time_seconds": 2.078,
+        "input_tokens": 122,
+        "output_tokens": 322,
+        "total_tokens": 444
+      }
+    },
+    {
+      "task_file": "task_group11_prompt_efficiency.json",
+      "task_id": "PEFF_05",
+      "category": "Prompt Efficiency",
+      "combined_score": 0.7475,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 18.6875,
+      "max_points": 25,
+      "pretty_response": "SELECT \n    c.customer_name, \n    SUM(o.total_amount) AS total_spent\nFROM customers c\nJOIN orders o ON c.customer_id = o.customer_id\nGROUP BY c.customer_id, c.customer_name\nORDER BY total_spent DESC\nLIMIT 5;",
+      "performance": {
+        "response_time_seconds": 1.027,
+        "input_tokens": 130,
+        "output_tokens": 133,
+        "total_tokens": 263
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_01",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.45255161023947155,
+      "accuracy": 0.03137902559867878,
+      "reasoning": 0.8,
+      "weighted_points": 9.051032204789431,
+      "max_points": 20,
+      "pretty_response": "The Ford F150 warranty policy (2024-2026 models) provides a comprehensive factory coverage of $7,500 aggregate per year for 3 years/36,000 miles (except Canada, which offers unlimited mileage). Coverage is subject to a $100 deductible and requires maintenance at Ford-authorized dealers. \n\nSpecific component coverage includes:\n*   **Transmission:** Up to $2,500 per repair (3 years/36,000 miles).\n*   **Engine:** Up to $3,200 per major repair (5 years/60,000 miles).\n*   **Electronics/Infotainment:** Up to $1,500 (3 years/36,000 miles).\n*   **Wear-out Items:** Battery, water pump, alternator, and starter are limited to the first 12 months/12,000 miles.\n\nKey exclusions include normal maintenance (brakes, oil, tires), misuse (towing over 14,000 lbs, off-roading, submersion over 24 inches), environmental factors, and unauthorized modifications. Claims over $500 require pre-approval, and valid maintenance records (oil changes every 10,000 miles) are mandatory for eligibility.",
+      "performance": {
+        "response_time_seconds": 1.414,
+        "input_tokens": 1146,
+        "output_tokens": 289,
+        "total_tokens": 1435
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_02",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.6147058823529411,
+      "accuracy": 0.11176470588235295,
+      "reasoning": 1.0,
+      "weighted_points": 12.294117647058822,
+      "max_points": 20,
+      "pretty_response": "The primary objective of the initiative is to reduce warranty claims by 25% within 18 months through data-driven quality improvements and root cause analysis.",
+      "performance": {
+        "response_time_seconds": 0.906,
+        "input_tokens": 522,
+        "output_tokens": 35,
+        "total_tokens": 557
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_03",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.45630750605326875,
+      "accuracy": 0.053268765133171914,
+      "reasoning": 1.0,
+      "weighted_points": 11.407687651331718,
+      "max_points": 25,
+      "pretty_response": "### 1. Database Specifications\n*   **Platforms:** Google BigQuery (Primary Data Warehouse), PostgreSQL 13+ (Transactional Backup).\n*   **Data Formats:** Parquet (storage), JSON (APIs).\n*   **Partitioning/Clustering:** Partition `warranty_claims` by `claim_date` (monthly); Cluster by `model`, `region`, `dealer_id`.\n*   **Retention:** Minimum 7 years.\n*   **Replication:** Multi-region (US, EU, Asia).\n*   **Security:** Role-based encryption, field-level masking for PII, mandatory logging for claims > $5,000.\n*   **Backup/Recovery:** Daily backups; 30-day point-in-time recovery; 4-hour RTO, 1-hour RPO.\n\n### 2. Naming Conventions\n*   **Tables:** lowercase_with_underscores.\n    *   *Prefixes:* `stg_` (Staging), `temp_` (Temporary), `v_` (Views), `mv_` (Materialized Views), `sp_` (Stored Procedures).\n*   **Columns:** lowercase_with_underscores.\n    *   *Restrictions:* No abbreviations (e.g., `claim_date` not `clm_dt`).\n    *   *Suffixes:* `_amount` (currency), `_count` (integers), `_rate` (0.0-1.0), `_date` (dates).\n*   **Foreign Keys:** `{table_name}_id` format.\n\n### 3. SQL Standards & Requirements\n*   **Language:** BigQuery SQL.\n*   **Case Sensitivity:** Keywords must be UPPERCASE; identifiers must be lowercase.\n*   **Formatting:** 2-space indentation; 100-character line limit; explicit JOINs (INNER, LEFT, FULL) only.\n*   **Query Optimization:** \n    *   Filter early with `WHERE` clauses.\n    *   Use qualified column names (`table.column`).\n    *   Use `APPROX_QUANTILES` for large datasets.\n    *   `GROUP BY` before `HAVING`.\n*   **Data Type Standards:**\n    *   Dates: `DATE` (YYYY-MM-DD).\n    *   Timestamps: `TIMESTAMP` (UTC).\n    *   Currency: `DECIMAL(12,2)`.\n    *   Percentages: `DECIMAL(3,2)`.\n    *   IDs: `INT64` (auto-increment) or `STRING`.\n*   **Performance Targets:** \n    *   Simple aggregations: < 5s. \n    *   Complex joins: < 30s. \n    *   Real-time dashboard queries: < 2s.",
+      "performance": {
+        "response_time_seconds": 2.478,
+        "input_tokens": 2105,
+        "output_tokens": 625,
+        "total_tokens": 2730
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_04",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.45822580645161287,
+      "accuracy": 0.25806451612903225,
+      "reasoning": 0.6,
+      "weighted_points": 11.455645161290322,
+      "max_points": 25,
+      "pretty_response": "The `repair_cost` field represents the total warranty repair cost in USD for a claim.",
+      "performance": {
+        "response_time_seconds": 0.973,
+        "input_tokens": 898,
+        "output_tokens": 94,
+        "total_tokens": 992
+      }
+    },
+    {
+      "task_file": "task_group12_document_reading.json",
+      "task_id": "DOCREAD_05",
+      "category": "Document Reading & Extraction",
+      "combined_score": 0.6531804281345565,
+      "accuracy": 0.20795107033639143,
+      "reasoning": 1.0,
+      "weighted_points": 19.595412844036694,
+      "max_points": 30,
+      "pretty_response": "The Ford Advanced Analytics Program identifies 5 key analytical objectives. Below is the synthesis of the primary questions and the essential data fields required for each:",
+      "performance": {
+        "response_time_seconds": 2.026,
+        "input_tokens": 1061,
+        "output_tokens": 452,
+        "total_tokens": 1513
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_01",
+      "category": "Website Development",
+      "combined_score": 0.645,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 12.9,
+      "max_points": 20,
+      "pretty_response": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <style>\n        table {\n            width: 100%;\n            border-collapse: collapse;\n            font-family: Arial, sans-serif;\n        }\n        th, td {\n            padding: 12px;\n            border: 1px solid #ddd;\n            text-align: left;\n        }\n        th {\n            background-color: #f4f4f4;\n        }\n        tr:nth-child(even) {\n            background-color: #f9f9f9;\n        }\n    </style>\n</head>\n<body>\n\n    <h2>Monthly Sales Report</h2>\n\n    <table>\n        <thead>\n            <tr>\n                <th>Product</th>\n                <th>Units Sold</th>\n                <th>Revenue</th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr>\n                <td>Widget A</td>\n                <td>150</td>\n                <td>$1,500.00</td>\n            </tr>\n            <tr>\n                <td>Widget B</td>\n                <td>85</td>\n                <td>$2,125.00</td>\n            </tr>\n            <tr>\n                <td>Widget C</td>\n                <td>200</td>\n                <td>$4,000.00</td>\n            </tr>\n        </tbody>\n    </table>\n\n</body>\n</html>",
+      "performance": {
+        "response_time_seconds": 1.285,
+        "input_tokens": 120,
+        "output_tokens": 318,
+        "total_tokens": 438
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_02",
+      "category": "Website Development",
+      "combined_score": 0.75,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 15.0,
+      "max_points": 20,
+      "pretty_response": "// Add event listener to the dropdown\ndocument.getElementById('regionSelect').addEventListener('change', function() {\n    const selectedRegion = this.value;\n    const table = document.getElementById('myTable');\n    const rows = table.getElementsByTagName('tr');\n\n    // Start from index 1 to skip the table header\n    for (let i = 1; i < rows.length; i++) {\n        const row = rows[i];\n        // Assuming region is in the second column (index 1)\n        const regionCell = row.getElementsByTagName('td')[1];\n        \n        if (regionCell) {\n            const regionText = regionCell.textContent || regionCell.innerText;\n            \n            // Show row if \"All\" is selected or if text matches\n            if (selectedRegion === \"All\" || regionText === selectedRegion) {\n                row.style.display = \"\";\n            } else {\n                row.style.display = \"none\";\n            }\n        }\n    }\n});",
+      "performance": {
+        "response_time_seconds": 1.82,
+        "input_tokens": 124,
+        "output_tokens": 375,
+        "total_tokens": 499
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_03",
+      "category": "Website Development",
+      "combined_score": 0.7475,
+      "accuracy": 0,
+      "reasoning": 0.8,
+      "weighted_points": 18.6875,
+      "max_points": 25,
+      "pretty_response": "import React, { useState, useMemo } from 'react';\n\nconst WarrantyClaimsTable = ({ claims }) => {\n  const [filterStatus, setFilterStatus] = useState('All');\n  const [sortConfig, setSortConfig] = useState({ key: 'date', direction: 'desc' });\n\n  const handleSort = (key) => {\n    let direction = 'asc';\n    if (sortConfig.key === key && sortConfig.direction === 'asc') {\n      direction = 'desc';\n    }\n    setSortConfig({ key, direction });\n  };\n\n  const filteredAndSortedClaims = useMemo(() => {\n    let processedClaims = [...claims];\n\n    // Filtering\n    if (filterStatus !== 'All') {\n      processedClaims = processedClaims.filter(c => c.status === filterStatus);\n    }\n\n    // Sorting\n    processedClaims.sort((a, b) => {\n      if (a[sortConfig.key] < b[sortConfig.key]) return sortConfig.direction === 'asc' ? -1 : 1;\n      if (a[sortConfig.key] > b[sortConfig.key]) return sortConfig.direction === 'asc' ? 1 : -1;\n      return 0;\n    });\n\n    return processedClaims;\n  }, [claims, filterStatus, sortConfig]);\n\n  return (\n    <div>\n      <select onChange={(e) => setFilterStatus(e.target.value)}>\n        <option value=\"All\">All Statuses</option>\n        <option value=\"Pending\">Pending</option>\n        <option value=\"Approved\">Approved</option>\n        <option value=\"Rejected\">Rejected</option>\n      </select>\n\n      <table>\n        <thead>\n          <tr>\n            <th onClick={() => handleSort('id')}>ID</th>\n            <th onClick={() => handleSort('customer')}>Customer</th>\n            <th onClick={() => handleSort('status')}>Status</th>\n            <th onClick={() => handleSort('date')}>Date</th>\n          </tr>\n        </thead>\n        <tbody>\n          {filteredAndSortedClaims.map(claim => (\n            <tr key={claim.id}>\n              <td>{claim.id}</td>\n              <td>{claim.customer}</td>\n              <td>{claim.status}</td>\n              <td>{claim.date}</td>\n            </tr>\n          ))}\n        </tbody>\n      </table>\n    </div>\n  );\n};\n\nexport default WarrantyClaimsTable;",
+      "performance": {
+        "response_time_seconds": 1.771,
+        "input_tokens": 117,
+        "output_tokens": 550,
+        "total_tokens": 667
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_04",
+      "category": "Website Development",
+      "combined_score": 0.7475,
+      "accuracy": 0,
+      "reasoning": 1.0,
+      "weighted_points": 18.6875,
+      "max_points": 25,
+      "pretty_response": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Dashboard</title>\n    <script src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n    <style>\n        body { font-family: sans-serif; background: #f4f7f6; padding: 20px; }\n        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }\n        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }\n        h2 { margin-top: 0; }\n    </style>\n</head>\n<body>\n\n<div class=\"grid\">\n    <div class=\"card\">\n        <h2>Sales Trends</h2>\n        <canvas id=\"salesChart\"></canvas>\n    </div>\n    <div class=\"card\">\n        <h2>Warranty Distribution</h2>\n        <canvas id=\"warrantyChart\"></canvas>\n    </div>\n</div>\n\n<script>\n    // Sales Trends (Line Chart)\n    new Chart(document.getElementById('salesChart'), {\n        type: 'line',\n        data: {\n            labels: ['Jan', 'Feb', 'Mar', 'Apr'],\n            datasets: [{ label: 'Sales ($)', data: [1200, 1900, 3000, 2500], borderColor: '#3498db' }]\n        }\n    });\n\n    // Warranty Distribution (Pie Chart)\n    new Chart(document.getElementById('warrantyChart'), {\n        type: 'pie',\n        data: {\n            labels: ['Active', 'Expired', 'Pending'],\n            datasets: [{ data: [65, 25, 10], backgroundColor: ['#2ecc71', '#e74c3c', '#f1c40f'] }]\n        }\n    });\n</script>\n\n</body>\n</html>",
+      "performance": {
+        "response_time_seconds": 2.355,
+        "input_tokens": 129,
+        "output_tokens": 508,
+        "total_tokens": 637
+      }
+    },
+    {
+      "task_file": "task_group13_website_dev.json",
+      "task_id": "WEB_05",
+      "category": "Website Development",
+      "combined_score": 0.7449999999999999,
+      "accuracy": 0,
+      "reasoning": 1.0,
+      "weighted_points": 22.349999999999998,
+      "max_points": 30,
+      "pretty_response": "import React, { useEffect, useState } from 'react';\nimport { PieChart, Pie, Cell, ResponsiveContainer, Legend } from 'recharts';\n\nconst WarrantyDashboard = () => {\n  const [data, setData] = useState([]);\n  const [filter, setFilter] = useState('All');\n\n  useEffect(() => {\n    fetch('http://localhost:5000/api/warranties')\n      .then(res => res.json())\n      .then(data => setData(data));\n  }, []);\n\n  const filteredData = filter === 'All' ? data : data.filter(d => d.status === filter);\n  \n  const chartData = [\n    { name: 'Active', value: data.filter(d => d.status === 'Active').length },\n    { name: 'Expired', value: data.filter(d => d.status === 'Expired').length },\n    { name: 'Expiring Soon', value: data.filter(d => d.status === 'Expiring Soon').length },\n  ];\n\n  return (\n    <div className=\"p-6\">\n      <h2>Warranty Dashboard</h2>\n      <select onChange={(e) => setFilter(e.target.value)}>\n        <option value=\"All\">All</option>\n        <option value=\"Active\">Active</option>\n        <option value=\"Expired\">Expired</option>\n      </select>\n      \n      <div style={{ height: 300 }}>\n        <ResponsiveContainer>\n          <PieChart>\n            <Pie data={chartData} dataKey=\"value\" nameKey=\"name\" fill=\"#8884d8\" />\n            <Legend />\n          </PieChart>\n        </ResponsiveContainer>\n      </div>\n\n      <ul>\n        {filteredData.map(item => (\n          <li key={item.id}>{item.product} - {item.status} (Expires: {item.expiry})</li>\n        ))}\n      </ul>\n    </div>\n  );\n};\nexport default WarrantyDashboard;",
+      "performance": {
+        "response_time_seconds": 3.093,
+        "input_tokens": 135,
+        "output_tokens": 844,
+        "total_tokens": 979
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_01",
+      "category": "Pipeline Development",
+      "combined_score": 0.43499999999999994,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 8.7,
+      "max_points": 20,
+      "pretty_response": "import pandas as pd\n\ndef run_pipeline(input_file, output_file):\n    # 1. Extraction: Load the CSV file\n    df = pd.read_csv(input_file)\n    \n    # 2. Cleaning: Remove nulls, strip whitespace, and normalize columns\n    df = df.dropna()\n    df.columns = [col.strip().lower().replace(' ', '_') for col in df.columns]\n    \n    # Example: Converting a 'price' column to numeric, coercing errors\n    if 'price' in df.columns:\n        df['price'] = pd.to_numeric(df['price'], errors='coerce')\n    \n    # 3. Aggregation: Group by a specific category (e.g., 'category') \n    # and calculate the mean of 'price'\n    if 'category' in df.columns and 'price' in df.columns:\n        aggregated_df = df.groupby('category')['price'].mean().reset_index()\n    else:\n        aggregated_df = df # Fallback if columns don't exist\n        \n    # 4. Output: Save the result to a new CSV file\n    aggregated_df.to_csv(output_file, index=False)\n    print(f\"Pipeline complete. Output saved to {output_file}\")\n\n# Execution\nrun_pipeline('input_data.csv', 'summary_output.csv')",
+      "performance": {
+        "response_time_seconds": 2.315,
+        "input_tokens": 131,
+        "output_tokens": 356,
+        "total_tokens": 487
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_02",
+      "category": "Pipeline Development",
+      "combined_score": 0.4800000000000001,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 9.600000000000001,
+      "max_points": 20,
+      "pretty_response": "import pandas as pd\n\ndef clean_csv(input_file, output_file):\n    try:\n        # Load the CSV\n        df = pd.read_csv(input_file)\n        \n        # Clean missing values (dropping rows with any missing values)\n        # Alternatively, use df.fillna(0) or other strategies as needed\n        df_cleaned = df.dropna()\n        \n        # Export to a new CSV\n        df_cleaned.to_csv(output_file, index=False)\n        print(f\"Successfully cleaned data saved to {output_file}\")\n        \n    except FileNotFoundError:\n        print(\"Error: The input file was not found.\")\n    except pd.errors.EmptyDataError:\n        print(\"Error: The provided CSV file is empty.\")\n    except Exception as e:\n        print(f\"An unexpected error occurred: {e}\")\n\n# Example usage:\n# clean_csv('input.csv', 'cleaned_output.csv')",
+      "performance": {
+        "response_time_seconds": 1.561,
+        "input_tokens": 125,
+        "output_tokens": 226,
+        "total_tokens": 351
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_02",
+      "category": "Pipeline Development",
+      "combined_score": 0.4800000000000001,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 9.600000000000001,
+      "max_points": 20,
+      "pretty_response": "import pandas as pd\n\ndef validate_warranty_claims(df):\n    # Ensure repair_cost is numeric, coerce errors to NaN\n    df['repair_cost'] = pd.to_numeric(df['repair_cost'], errors='coerce')\n    \n    # Define condition for valid records\n    is_valid = df['repair_cost'] > 0\n    \n    # Separate data based on condition\n    clean_data = df[is_valid].copy()\n    invalid_data = df[~is_valid].copy()\n    \n    # Flag invalid records\n    invalid_data['validation_error'] = 'repair_cost must be greater than 0'\n    \n    return clean_data, invalid_data\n\n# Example Usage:\n# df = pd.read_csv('warranty_claims.csv')\n# clean_df, invalid_df = validate_warranty_claims(df)",
+      "performance": {
+        "response_time_seconds": 1.466,
+        "input_tokens": 136,
+        "output_tokens": 207,
+        "total_tokens": 343
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_04",
+      "category": "Pipeline Development",
+      "combined_score": 0.3899999999999999,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 9.749999999999998,
+      "max_points": 25,
+      "pretty_response": "The orchestration approach utilizes **Apache Airflow** to define the pipeline as a Directed Acyclic Graph (DAG). This provides **idempotency** (the ability to safely re-run the job), **error handling** (automatic retries for transient failures), and **observability** through the Airflow UI, ensuring that data quality metrics are generated on a reliable daily schedule.",
+      "performance": {
+        "response_time_seconds": 2.479,
+        "input_tokens": 131,
+        "output_tokens": 570,
+        "total_tokens": 701
+      }
+    },
+    {
+      "task_file": "task_group14_pipeline_dev.json",
+      "task_id": "PIPE_05",
+      "category": "Pipeline Development",
+      "combined_score": 0.38999999999999996,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 11.7,
+      "max_points": 30,
+      "pretty_response": "The proposed architecture provides a production-grade DAG structure by separating ingestion, validation, transformation, and quality control into modular, idempotent tasks. By leveraging specialized tools (dbt for transformation and Great Expectations for quality) within the Airflow orchestrator, the pipeline ensures data integrity, maintainability, and clear dependency management, resulting in a reliable data platform.",
+      "performance": {
+        "response_time_seconds": 3.228,
+        "input_tokens": 133,
+        "output_tokens": 841,
+        "total_tokens": 974
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_01",
+      "category": "Architecture & Design",
+      "combined_score": 0.40893728222996517,
+      "accuracy": 0.03484320557491289,
+      "reasoning": 0.8,
+      "weighted_points": 8.178745644599303,
+      "max_points": 20,
+      "pretty_response": "Below is a sketch of a simple data architecture:",
+      "performance": {
+        "response_time_seconds": 1.284,
+        "input_tokens": 127,
+        "output_tokens": 145,
+        "total_tokens": 272
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_02",
+      "category": "Architecture & Design",
+      "combined_score": 0.5300354609929078,
+      "accuracy": 0.2375886524822695,
+      "reasoning": 1.0,
+      "weighted_points": 13.250886524822695,
+      "max_points": 25,
+      "pretty_response": "The recommended solution is a **Medallion Architecture built on a Databricks/Delta Lake foundation**, integrated with **Apache Kafka** for ingestion and **Snowflake** for high-performance analytical serving. This approach provides the elasticity to handle massive telematics volume, the flexibility to process semi-structured variety, and the low latency required for real-time sales reporting.",
+      "performance": {
+        "response_time_seconds": 2.436,
+        "input_tokens": 125,
+        "output_tokens": 439,
+        "total_tokens": 564
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_02",
+      "category": "Architecture & Design",
+      "combined_score": 0.4598648648648649,
+      "accuracy": 0.16216216216216217,
+      "reasoning": 0.8,
+      "weighted_points": 11.496621621621623,
+      "max_points": 25,
+      "pretty_response": "The optimal architecture uses **Apache Kafka** for reliable ingestion, **Apache Flink** for stateful stream processing and anomaly detection, and **Prometheus/Grafana** for alerting and visualization.",
+      "performance": {
+        "response_time_seconds": 2.432,
+        "input_tokens": 128,
+        "output_tokens": 406,
+        "total_tokens": 534
+      }
+    },
+    {
+      "task_file": "task_group15_architecture.json",
+      "task_id": "ARCH_04",
+      "category": "Architecture & Design",
+      "combined_score": 0.4927319587628866,
+      "accuracy": 0.14432989690721648,
+      "reasoning": 1.0,
+      "weighted_points": 14.781958762886598,
+      "max_points": 30,
+      "pretty_response": "The enterprise data ecosystem operates as a pipeline of refinement:\n1. **Ingestion:** Sources (Cloud Apps, DBs, IoT) push data via ETL/ELT pipelines to the **Data Lake**.\n2. **Processing:** The Lakehouse architecture applies **Medallion transformations** (Bronze $\\rightarrow$ Silver $\\rightarrow$ Gold) to clean, enrich, and aggregate data.\n3. **Serving:** The **Data Warehouse** acts as the central source of truth. Data is denormalized into **Data Marts** tailored for departmental performance.\n4. **Analytics:** BI platforms and ML models query the Marts to provide business insights, ensuring high performance by separating heavy analytical processing from raw source operations.",
+      "performance": {
+        "response_time_seconds": 2.589,
+        "input_tokens": 128,
+        "output_tokens": 463,
+        "total_tokens": 591
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_01",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.518169014084507,
+      "accuracy": 0.07042253521126761,
+      "reasoning": 0.6,
+      "weighted_points": 10.36338028169014,
+      "max_points": 20,
+      "pretty_response": "SELECT model, region \nFROM sales \nWHERE units_sold > 100000 \nGROUP BY model, region;",
+      "performance": {
+        "response_time_seconds": 1.848,
+        "input_tokens": 141,
+        "output_tokens": 143,
+        "total_tokens": 284
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_02",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.5335010940919037,
+      "accuracy": 0.0087527352297593,
+      "reasoning": 0.8,
+      "weighted_points": 10.670021881838075,
+      "max_points": 20,
+      "pretty_response": "The column `repair_cost` is likely stored as a **string (object) type** rather than a numeric type (int or float). When comparing strings, Python performs lexicographical comparison. In string comparison, a negative sign (`-`) often has a different sort order than digits, and \"200\" might be evaluated incorrectly against negative numbers depending on the string length and contents.\n\nTo fix this, you must convert the column to a numeric type before performing the comparison:\n\n```python\n# Convert the column to numeric, turning errors into NaN if necessary\ndf['repair_cost'] = pd.to_numeric(df['repair_cost'], errors='coerce')\n\n# Now perform the filter\nfiltered_df = df[df['repair_cost'] > 200]\n```",
+      "performance": {
+        "response_time_seconds": 1.422,
+        "input_tokens": 129,
+        "output_tokens": 169,
+        "total_tokens": 298
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_03",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.6165373961218836,
+      "accuracy": 0.11634349030470914,
+      "reasoning": 1.0,
+      "weighted_points": 15.41343490304709,
+      "max_points": 25,
+      "pretty_response": "The ETL pipeline hangs because it likely exhausts system resources (RAM/CPU) or encounters I/O bottlenecks when processing large datasets in memory.\n\n### Possible Issues:\n1.  **Memory Exhaustion:** Loading the entire dataset into memory (e.g., `pandas.read_csv` without chunking) causes memory swapping or crashes.\n2.  **Inefficient Joins/Aggregations:** Performing operations on non-indexed columns or using nested loops (O(n\u00b2)) causes execution time to scale exponentially.\n3.  **Single-Threaded Execution:** The script is not utilizing parallel processing, causing it to block on I/O-bound tasks.\n4.  **Database Bottlenecks:** Inserting records row-by-row instead of using bulk-load operations.\n\n### Proposed Solutions:\n1.  **Chunking/Streaming:** Process data in smaller batches using `chunksize` (Pandas) or generators.\n2.  **Vectorization/Parallelization:** Use libraries like Dask, Polars, or PySpark to distribute the workload across multiple cores/nodes.\n3.  **Database Optimization:** Ensure source/target tables have proper indexes, and use bulk insertion methods (e.g., `COPY` in PostgreSQL or `to_sql` with `method='multi'`).\n4.  **Incremental Loading:** Instead of full refreshes, implement watermark-based (delta) loading to process only new/updated records.",
+      "performance": {
+        "response_time_seconds": 2.623,
+        "input_tokens": 125,
+        "output_tokens": 458,
+        "total_tokens": 583
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_04",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.5789447938504542,
+      "accuracy": 0.02236198462613557,
+      "reasoning": 1.0,
+      "weighted_points": 14.473619846261354,
+      "max_points": 25,
+      "pretty_response": "To debug this issue, I would perform the following steps:\n\n1.  **Define the Scope:** Identify the specific time range or category where the discrepancy occurs.\n2.  **Row Count Reconciliation:** Compare `COUNT(*)` of the raw source table vs. the destination/aggregated table to see if data is being dropped during ingestion or processing.\n3.  **Null/Filter Analysis:** Check for `NULL` values in the join keys or filter criteria (e.g., `WHERE status = 'Approved'`). Often, aggregations exclude rows with nulls that aren't accounted for in the raw sum.\n4.  **Identify Duplicates:** Check for unintended Cartesian products (many-to-many joins) in the aggregation query that might be inflating totals, or redundant records that are being double-counted.\n5.  **Drill-Down Verification:** Select a single claim ID that is missing or incorrect and trace its lifecycle:\n    *   Does it exist in the raw source?\n    *   Does it satisfy the `WHERE` clauses in the aggregation logic?\n    *   Does it get transformed or aggregated correctly into the final output?\n6.  **Code Review:** Review the aggregation script/SQL for logic errors, such as incorrect grouping, improper use of `DISTINCT`, or casting issues (e.g., integer truncation).",
+      "performance": {
+        "response_time_seconds": 2.799,
+        "input_tokens": 127,
+        "output_tokens": 369,
+        "total_tokens": 496
+      }
+    },
+    {
+      "task_file": "task_group16_debugging.json",
+      "task_id": "DEBUG_05",
+      "category": "Debugging & Troubleshooting",
+      "combined_score": 0.6366666666666666,
+      "accuracy": 0.16666666666666666,
+      "reasoning": 1.0,
+      "weighted_points": 19.099999999999998,
+      "max_points": 30,
+      "pretty_response": "The inconsistency is likely caused by active stochastic layers (Dropout) or non-deterministic sampling parameters. To resolve this, ensure the model is in `model.eval()` mode, set `temperature=0` to force greedy decoding, disable all random data augmentations, and explicitly set global random seeds for all libraries (PyTorch, NumPy, and Python) to ensure bit-wise reproducibility across runs.",
+      "performance": {
+        "response_time_seconds": 2.503,
+        "input_tokens": 125,
+        "output_tokens": 485,
+        "total_tokens": 610
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_01",
+      "category": "Performance Optimization",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "-- If looking for exact matches:\nSELECT * FROM warranty_claims WHERE model = 'Escape';\n\n-- If looking for models starting with Escape:\nSELECT * FROM warranty_claims WHERE model LIKE 'Escape%';\n\n-- Performance note: Ensure an index exists on the 'model' column:\nCREATE INDEX idx_warranty_claims_model ON warranty_claims(model);",
+      "performance": {
+        "response_time_seconds": 1.799,
+        "input_tokens": 45742,
+        "output_tokens": 218,
+        "total_tokens": 45960
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_02",
+      "category": "Performance Optimization",
+      "combined_score": 0.45999999999999996,
+      "accuracy": 0.0,
+      "reasoning": 0.6,
+      "weighted_points": 9.2,
+      "max_points": 20,
+      "pretty_response": "df['revenue'] = df['units'] * df['model'].map(price_map)",
+      "performance": {
+        "response_time_seconds": 0.619,
+        "input_tokens": 158,
+        "output_tokens": 29,
+        "total_tokens": 187
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_03",
+      "category": "Performance Optimization",
+      "combined_score": 0.6009074573225516,
+      "accuracy": 0.07726864330637916,
+      "reasoning": 1.0,
+      "weighted_points": 15.02268643306379,
+      "max_points": 25,
+      "pretty_response": "The most effective approach for a join between these table sizes is a combination of **indexing** (the primary performance lever) and **restructuring/schema design** (to ensure data types match and cardinality is optimized).\n\n### 1. Indexing (The \"Quick Win\")\nEnsure that the join keys on both `sales` and `warranty` tables have B-Tree indexes. Without these, the database engine must perform a full table scan or a nested loop join, which is $O(N \times M)$ complexity.\n*   **Recommendation:** Create indexes on the foreign key columns used in the `JOIN` clause. If you have multi-column join keys, ensure you use composite indexes.\n\n### 2. Restructuring (Data/Query Optimization)\n*   **Data Types:** Ensure the data types of the join columns are identical (e.g., both are `BIGINT` or both are `INT`). If there is a type mismatch (e.g., `VARCHAR` vs `INT`), the database will perform implicit type casting, which prevents the use of indexes and kills performance.\n*   **Selectivity:** Only select the specific columns needed. Use `SELECT sales_id, warranty_id` instead of `SELECT *`.\n*   **Materialized Views:** If the underlying data doesn't change every second, create a **Materialized View** (or a summary table) that pre-joins the data. This shifts the compute cost from query time to write time.\n\n### 3. Partitioning (For Scalability)\n*   Partitioning is generally useful if you are frequently filtering by a time-series column (e.g., `sale_date`). If your join usually involves a specific date range, partitioning both tables by the same range allows the query optimizer to perform **Partition Pruning**, effectively ignoring data outside the scope of your query.\n\n### Conclusion\n**Start with Indexing.** If the join columns are indexed and the data types match, a 1M x 500K join will be handled efficiently by modern database query optimizers using Hash Joins or Merge Joins. Use Partitioning only if the query regularly includes a filter on a shared temporal column, and use Materialized Views if the performance requirement is sub-millisecond.",
+      "performance": {
+        "response_time_seconds": 2.28,
+        "input_tokens": 135,
+        "output_tokens": 475,
+        "total_tokens": 610
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_04",
+      "category": "Performance Optimization",
+      "combined_score": 0.6324113475177305,
+      "accuracy": 0.15602836879432624,
+      "reasoning": 1.0,
+      "weighted_points": 15.810283687943263,
+      "max_points": 25,
+      "pretty_response": "My conclusion is that optimizing a 10GB pipeline requires a multi-layered approach: **(1) I/O Efficiency** by switching to columnar formats (Parquet/ORC) and predicate pushdown to reduce data volume; **(2) Compute Scaling** by implementing distributed processing (Apache Spark/Dask) and increasing partition count to prevent memory bottlenecks; and **(3) Resource Management** by using chunked processing (lazy loading) to maintain a low memory footprint and setting appropriate timeout thresholds to account for transient network/disk latency.",
+      "performance": {
+        "response_time_seconds": 2.307,
+        "input_tokens": 124,
+        "output_tokens": 515,
+        "total_tokens": 639
+      }
+    },
+    {
+      "task_file": "task_group17_performance.json",
+      "task_id": "PERF_05",
+      "category": "Performance Optimization",
+      "combined_score": 0.6344939965694681,
+      "accuracy": 0.16123499142367068,
+      "reasoning": 1.0,
+      "weighted_points": 19.034819897084045,
+      "max_points": 30,
+      "pretty_response": "The optimal strategy for a billion-row data warehouse is a **tiered architecture** consisting of:\n1. **Partitioning by time** to enable partition pruning.\n2. **Columnar storage with Z-Ordering** to maximize data skipping and I/O efficiency.\n3. **Strategic Materialized Views** to offload repetitive heavy aggregations, accepting the trade-off of slight data latency for drastic gains in query speed.",
+      "performance": {
+        "response_time_seconds": 3.255,
+        "input_tokens": 128,
+        "output_tokens": 646,
+        "total_tokens": 774
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_01",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.626396866840731,
+      "accuracy": 0.1409921671018277,
+      "reasoning": 1.0,
+      "weighted_points": 12.52793733681462,
+      "max_points": 20,
+      "pretty_response": "The code fails because the function `calculate_mean` is not defined in the snippet, and it is not a built-in function in the `numpy` library (the correct NumPy function is `np.mean()`).\n\nTo fix the code, you should use `np.mean(data)` instead:\n\n```python\nimport numpy as np\ndata = np.array([1, 2, 3])\nresult = np.mean(data)\n```",
+      "performance": {
+        "response_time_seconds": 0.977,
+        "input_tokens": 140,
+        "output_tokens": 100,
+        "total_tokens": 240
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_02",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.6133644859813084,
+      "accuracy": 0.10841121495327102,
+      "reasoning": 1.0,
+      "weighted_points": 12.267289719626168,
+      "max_points": 20,
+      "pretty_response": "The SQL query `SELECT * FROM sales WHERE date > 2024` has three primary issues that could cause it to break or return incorrect results:\n\n1.  **Data Type Mismatch:** The column `date` is likely a `DATE`, `DATETIME`, or `TIMESTAMP` type. Comparing a date column to an integer (`2024`) is syntactically invalid or leads to implicit type conversion errors in many SQL dialects (e.g., PostgreSQL).\n2.  **Logic/Semantic Error:** Even if the database implicitly converts the integer to a date (e.g., `2024-01-01`), the query is ambiguous. Depending on the database engine, `2024` might be interpreted as a year, or it might be treated as a value equivalent to an epoch timestamp or a date representation that doesn't align with the column's format.\n3.  **Performance Issues:** Using `SELECT *` is considered a bad practice in production environments because it retrieves all columns, which increases I/O overhead and breaks applications if the underlying table schema changes.",
+      "performance": {
+        "response_time_seconds": 1.906,
+        "input_tokens": 127,
+        "output_tokens": 300,
+        "total_tokens": 427
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_03",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.64292817679558,
+      "accuracy": 0.18232044198895028,
+      "reasoning": 1.0,
+      "weighted_points": 16.0732044198895,
+      "max_points": 25,
+      "pretty_response": "from flask import abort\n\ndef get_user(user_id):\n    # 1. Validate input type\n    if not isinstance(user_id, int):\n        abort(400, description=\"Invalid ID format\")\n\n    try:\n        # 2. Correct filtering syntax\n        user = db.query(User).filter(User.id == user_id).first()\n        \n        # 3. Handle 'Not Found' explicitly\n        if not user:\n            abort(404, description=\"User not found\")\n            \n        return user\n    except Exception as e:\n        # 4. Log the error and return a generic message\n        logger.error(f\"Database error: {e}\")\n        abort(500, description=\"Internal server error\")",
+      "performance": {
+        "response_time_seconds": 2.302,
+        "input_tokens": 142,
+        "output_tokens": 509,
+        "total_tokens": 651
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_01",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.587391304347826,
+      "accuracy": 0.043478260869565216,
+      "reasoning": 1.0,
+      "weighted_points": 11.747826086956522,
+      "max_points": 20,
+      "pretty_response": "The data pipeline is missing several foundational components required for reliability, scalability, and observability. The critical gaps are as follows:\n\n1.  **Extraction/Ingestion:** A robust method to fetch data from source systems (APIs, databases, cloud storage) rather than assuming a static CSV file exists locally.\n2.  **Data Validation/Quality Checks:** Automated tests to ensure data integrity (e.g., schema validation, null checks, range checks) before the transformation step.\n3.  **Orchestration/Scheduling:** A mechanism to automate, trigger, and manage the execution flow (e.g., Airflow, Prefect, or Cron).\n4.  **Error Handling and Retries:** Logic to manage failed tasks, network timeouts, or partial data failures.\n5.  **Logging and Monitoring:** Observability tools to track pipeline performance, detect bottlenecks, and alert engineers when failures occur.\n6.  **Data Governance and Security:** Access controls, encryption, and audit logs to ensure compliance and data privacy.\n7.  **Storage/Data Warehouse:** A destination layer (e.g., Snowflake, BigQuery, S3) to host the exported data for downstream consumption.\n8.  **Data Cataloging:** Metadata management to track lineage and define what the data represents.",
+      "performance": {
+        "response_time_seconds": 1.615,
+        "input_tokens": 130,
+        "output_tokens": 271,
+        "total_tokens": 401
+      }
+    },
+    {
+      "task_file": "task_group18_code_review.json",
+      "task_id": "CODREV_05",
+      "category": "Code Review & Issue Detection",
+      "combined_score": 0.6140579710144928,
+      "accuracy": 0.11014492753623188,
+      "reasoning": 1.0,
+      "weighted_points": 18.421739130434784,
+      "max_points": 30,
+      "pretty_response": "The provided code is highly fragile and unsuitable for production. Here are 5+ critical issues:\n\n1.  **Lack of Error Handling:** There is no `try-except` block. If `read_file` fails (e.g., file not found, permission error) or `transform` crashes, the entire program will terminate abruptly.\n2.  **Hardcoded Filenames:** Hardcoding `\"data.csv\"` and `\"output.csv\"` makes the function rigid. It cannot be reused for different files without modifying the source code.\n3.  **Memory Exhaustion (Scalability):** The code reads the entire file into memory (`data = read_file(...)`). If the file is multi-gigabyte, the program will crash due to an `OutOfMemoryError`.\n4.  **No Resource Management:** It does not ensure file handles are closed properly. If an exception occurs, the file streams may remain open, leading to memory leaks or file locking issues.\n5.  **Lack of Logging/Monitoring:** There is no observability. If the process fails, there are no logs to indicate where in the pipeline (read, transform, or write) the failure occurred.\n6.  **Violation of Single Responsibility Principle:** The function is tightly coupled to IO operations and transformation logic, making it difficult to unit test without touching the file system.",
+      "performance": {
+        "response_time_seconds": 2.124,
+        "input_tokens": 152,
+        "output_tokens": 468,
+        "total_tokens": 620
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_01",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.7172222222222221,
+      "accuracy": 0.3680555555555556,
+      "reasoning": 1.0,
+      "weighted_points": 14.344444444444441,
+      "max_points": 20,
+      "pretty_response": "Use a `try-except` block to catch `ImportError` for graceful handling and fall back to the built-in `csv` or `sqlite3` modules for basic data manipulation when `pandas` is unavailable.",
+      "performance": {
+        "response_time_seconds": 2.314,
+        "input_tokens": 126,
+        "output_tokens": 335,
+        "total_tokens": 461
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_02",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.6089743589743589,
+      "accuracy": 0.29743589743589743,
+      "reasoning": 0.6,
+      "weighted_points": 12.179487179487179,
+      "max_points": 20,
+      "pretty_response": "The primary library for this task is **pandas**, supplemented by **openpyxl** (or **xlsxwriter**).",
+      "performance": {
+        "response_time_seconds": 1.381,
+        "input_tokens": 123,
+        "output_tokens": 168,
+        "total_tokens": 291
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_03",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.6226645768025078,
+      "accuracy": 0.13166144200626959,
+      "reasoning": 1.0,
+      "weighted_points": 15.566614420062693,
+      "max_points": 25,
+      "pretty_response": "To identify breaking changes and migrate effectively, follow these four steps:\n\n1.  **Consult the Changelog/Release Notes:** Review the official library documentation or GitHub \"Releases\" page. Look specifically for a \"Migration Guide\" or \"Breaking Changes\" section, which usually outlines deprecated functions and their modern replacements.\n2.  **Use Static Analysis Tools:** Run tools like `depcheck`, `eslint` (with plugins), or IDE-based inspection tools (e.g., PyCharm or VS Code\u2019s \"Quick Fix\" suggestions). These tools automatically flag deprecated code and often suggest the corrected API usage.\n3.  **Audit via Compiler/Runtime Warnings:** Set your environment to treat warnings as errors (e.g., `PYTHONWARNINGS=error` or compiler flags like `-Werror`). Execute your test suite; the stack traces will pinpoint exactly where deprecated functions are invoked.\n4.  **Implement Incrementally:** \n    *   **Create a wrapper:** If the change is complex, wrap the old function in a new function that handles the migration logic.\n    *   **Refactor with Tests:** Perform migrations in small, isolated commits while ensuring the test suite remains green to prevent regression.",
+      "performance": {
+        "response_time_seconds": 2.058,
+        "input_tokens": 122,
+        "output_tokens": 293,
+        "total_tokens": 415
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_04",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.6381350954478707,
+      "accuracy": 0.17033773861967694,
+      "reasoning": 1.0,
+      "weighted_points": 15.953377386196768,
+      "max_points": 25,
+      "pretty_response": "My evaluation follows a \"fit-for-purpose\" hierarchy: \n1. **Choose Pandas** if the dataset is small (< 1\u20132 GB), you require maximum ecosystem compatibility, or development speed is more critical than execution speed. \n2. **Choose Polars** if the dataset fits in memory but requires high performance, multi-threading, or efficient memory usage. It is currently the best choice for modern, performance-oriented data processing. \n3. **Choose Dask** only when the dataset exceeds single-machine RAM limits or you must scale processing across a distributed cluster.",
+      "performance": {
+        "response_time_seconds": 2.94,
+        "input_tokens": 127,
+        "output_tokens": 492,
+        "total_tokens": 619
+      }
+    },
+    {
+      "task_file": "task_group19_library_management.json",
+      "task_id": "LIBFIX_05",
+      "category": "Library & Dependency Management",
+      "combined_score": 0.5902150537634409,
+      "accuracy": 0.15053763440860216,
+      "reasoning": 0.8,
+      "weighted_points": 17.706451612903226,
+      "max_points": 30,
+      "pretty_response": "My conclusion is that dependency resolution should prioritize an automated **SAT-solving algorithm** that treats version constraints as logical predicates. When conflicts occur, the strategy must shift from strict version matching to **automated range expansion** (relaxing constraints) or **dependency isolation** (shimming) to ensure the runtime environment remains stable while accommodating the requirements of all 10 libraries.",
+      "performance": {
+        "response_time_seconds": 2.963,
+        "input_tokens": 121,
+        "output_tokens": 596,
+        "total_tokens": 717
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_01",
+      "category": "Communication & Documentation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "def calc(x, y):\n    \"\"\"\n    Calculate the result of multiplying two numbers and adding the quotient \n    of the first divided by the second.\n\n    Args:\n        x (float, int): The dividend and the first factor.\n        y (float, int): The divisor and the second factor. Must not be zero.\n\n    Returns:\n        float: The result of (x * y) + (x / y).\n\n    Raises:\n        ZeroDivisionError: If y is 0.\n    \"\"\"\n    return x * y + x / y",
+      "performance": {
+        "response_time_seconds": 1.227,
+        "input_tokens": 132,
+        "output_tokens": 133,
+        "total_tokens": 265
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_02",
+      "category": "Communication & Documentation",
+      "combined_score": 0.5455339805825242,
+      "accuracy": 0.038834951456310676,
+      "reasoning": 0.8,
+      "weighted_points": 10.910679611650485,
+      "max_points": 20,
+      "pretty_response": "A comment like `# do stuff` is non-descriptive and adds no value to the code. To improve it, replace the placeholder with a clear, concise description of *what* the code is doing or *why* it is being performed.",
+      "performance": {
+        "response_time_seconds": 1.368,
+        "input_tokens": 117,
+        "output_tokens": 126,
+        "total_tokens": 243
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_03",
+      "category": "Communication & Documentation",
+      "combined_score": 0.46,
+      "accuracy": 0.0,
+      "reasoning": 0.6,
+      "weighted_points": 11.5,
+      "max_points": 25,
+      "pretty_response": "### API Endpoint: `GET /api/v1/users`",
+      "performance": {
+        "response_time_seconds": 2.419,
+        "input_tokens": 121,
+        "output_tokens": 567,
+        "total_tokens": 688
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_04",
+      "category": "Communication & Documentation",
+      "combined_score": 0.5495918367346939,
+      "accuracy": 0.04897959183673469,
+      "reasoning": 0.8,
+      "weighted_points": 13.739795918367347,
+      "max_points": 25,
+      "pretty_response": "The query uses a modular approach to segment customers by comparing individual performance against a calculated company-wide average. The final output is a sorted list of customers who maintain an average order value higher than the corporate mean, paired with their total lifetime revenue.",
+      "performance": {
+        "response_time_seconds": 2.733,
+        "input_tokens": 120,
+        "output_tokens": 540,
+        "total_tokens": 660
+      }
+    },
+    {
+      "task_file": "task_group20_communication.json",
+      "task_id": "COMM_05",
+      "category": "Communication & Documentation",
+      "combined_score": 0.6061290322580645,
+      "accuracy": 0.09032258064516129,
+      "reasoning": 1.0,
+      "weighted_points": 18.183870967741935,
+      "max_points": 30,
+      "pretty_response": "# Project Title\n\nA brief description of what this project does and the problem it solves.\n\n## Table of Contents\n- [Setup](#setup)\n- [Usage](#usage)\n- [Architecture](#architecture)\n- [Troubleshooting](#troubleshooting)\n- [Contributing](#contributing)\n\n---\n\n## Setup\n\n1. **Clone the repository:**\n   ```bash\n   git clone https://github.com/yourusername/project.git\n   cd project\n   ```\n2. **Install dependencies:**\n   ```bash\n   npm install # or pip install -r requirements.txt\n   ```\n3. **Environment variables:**\n   Copy `.env.example` to `.env` and fill in your API keys and configuration settings.\n\n## Usage\n\nStart the application locally:\n```bash\nnpm start\n```\nOnce running, navigate to `http://localhost:3000` to interact with the interface. Use the API endpoints described in the `/docs` folder for programmatic access.\n\n## Architecture\n\nThe project follows a **Modular Monolith** architecture:\n*   **Client Layer:** Built with React/Next.js for the user interface.\n*   **Service Layer:** Business logic is decoupled into services, allowing for easy testing.\n*   **Data Access Layer:** Uses an ORM to interface with the PostgreSQL database.\n*   **API Layer:** RESTful endpoints provide communication between the client and services.\n\n## Troubleshooting\n\n*   **Port already in use:** Run `lsof -i :3000` to find the process and `kill -9 <PID>` to stop it.\n*   **Database connection failure:** Ensure your local Postgres server is running and the credentials in your `.env` file match your local settings.\n*   **Dependency errors:** Try deleting `node_modules` and running `npm install` again.\n\n## Contributing\n\nWe welcome contributions! Please follow these steps:\n1. Fork the repository.\n2. Create a new branch: `git checkout -b feature/your-feature-name`.\n3. Commit your changes: `git commit -m 'Add some feature'`.\n4. Push to the branch: `git push origin feature/your-feature-name`.\n5. Open a Pull Request.\n\nPlease ensure all tests pass (`npm test`) before submitting your PR.",
+      "performance": {
+        "response_time_seconds": 2.485,
+        "input_tokens": 118,
+        "output_tokens": 498,
+        "total_tokens": 616
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_01",
+      "category": "Security & Best Practices",
+      "combined_score": 0.6747858942065491,
+      "accuracy": 0.2619647355163728,
+      "reasoning": 1.0,
+      "weighted_points": 13.495717884130983,
+      "max_points": 20,
+      "pretty_response": "The code is vulnerable to **SQL Injection**. Because the `password` variable is directly concatenated into the SQL query string using an f-string, an attacker can input malicious SQL commands (e.g., `' OR '1'='1`) to manipulate the query, bypass authentication, or extract unauthorized data from the database.",
+      "performance": {
+        "response_time_seconds": 0.915,
+        "input_tokens": 133,
+        "output_tokens": 68,
+        "total_tokens": 201
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_02",
+      "category": "Security & Best Practices",
+      "combined_score": 0.6237618147448015,
+      "accuracy": 0.23440453686200377,
+      "reasoning": 0.8,
+      "weighted_points": 12.47523629489603,
+      "max_points": 20,
+      "pretty_response": "Storing API keys in configuration files risks exposure via version control, unauthorized filesystem access, and lack of auditability. The proper approach is to remove secrets from the codebase entirely and utilize dedicated **Secret Management services** (e.g., AWS Secrets Manager, HashiCorp Vault) or **CI/CD pipeline secrets** to inject credentials at runtime, ensuring they are encrypted and restricted by identity-based access control.",
+      "performance": {
+        "response_time_seconds": 2.566,
+        "input_tokens": 118,
+        "output_tokens": 457,
+        "total_tokens": 575
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_03",
+      "category": "Security & Best Practices",
+      "combined_score": 0.6124028268551237,
+      "accuracy": 0.10600706713780919,
+      "reasoning": 1.0,
+      "weighted_points": 15.310070671378092,
+      "max_points": 25,
+      "pretty_response": "1.  **Type Validation:** Ensure the input matches the expected data type (e.g., integer, string, boolean, date) to prevent type-mismatch errors or unexpected behavior.\n2.  **Length/Range Validation:** Check that strings are within defined length limits (e.g., maximum characters for usernames) and numbers fall within valid ranges (e.g., age must be 0\u2013120).\n3.  **Format/Pattern Validation (Regex):** Verify that inputs like email addresses, phone numbers, or zip codes adhere to a specific pattern using Regular Expressions.\n4.  **Allow-list (Whitelisting):** If the input must be one of a few specific options (e.g., a \"sort by\" parameter), compare it against a strict list of allowed values.\n5.  **Sanitization/Escaping:** Strip or escape characters that could be interpreted as code (e.g., HTML tags to prevent XSS, or SQL command characters to prevent SQL Injection).\n6.  **Presence Check:** Ensure mandatory fields are not empty or null.\n7.  **Character Set Validation:** Restrict input to expected character sets (e.g., ASCII, UTF-8) to prevent injection of malicious control characters or unexpected encoding attacks.\n8.  **Business Logic Validation:** Check if the input makes sense in the context of your application (e.g., a withdrawal amount cannot exceed the user's available account balance).",
+      "performance": {
+        "response_time_seconds": 1.715,
+        "input_tokens": 118,
+        "output_tokens": 335,
+        "total_tokens": 453
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_01",
+      "category": "Security & Best Practices",
+      "combined_score": 0.6104040404040404,
+      "accuracy": 0.10101010101010101,
+      "reasoning": 1.0,
+      "weighted_points": 12.208080808080808,
+      "max_points": 20,
+      "pretty_response": "A secure data pipeline requires a multi-layered security architecture: ensure **TLS 1.2+ encryption in transit**, **AES-256 encryption at rest** using managed keys, **network isolation** via VPC/Private Endpoints, **secrets management** via secure vaults, and the enforcement of the **Principle of Least Privilege (PoLP)** for all service identities and users to maintain data integrity and confidentiality.",
+      "performance": {
+        "response_time_seconds": 2.231,
+        "input_tokens": 122,
+        "output_tokens": 465,
+        "total_tokens": 587
+      }
+    },
+    {
+      "task_file": "task_group21_security.json",
+      "task_id": "SECURE_05",
+      "category": "Security & Best Practices",
+      "combined_score": 0.5980839895013123,
+      "accuracy": 0.07020997375328084,
+      "reasoning": 1.0,
+      "weighted_points": 17.94251968503937,
+      "max_points": 30,
+      "pretty_response": "### 1. Authentication & Session Management\n*   [ ] **Strong Auth:** Use Multi-Factor Authentication (MFA) for all administrative and user access.\n*   [ ] **Password Hashing:** Store passwords using slow, salted algorithms (Argon2id or bcrypt). Never store plaintext.\n*   [ ] **Secure Sessions:** Use cryptographically strong, random session IDs. Set `Secure`, `HttpOnly`, and `SameSite=Strict` flags on all cookies.\n*   [ ] **Timeout:** Implement absolute session timeouts and inactivity timeouts.\n\n### 2. Encryption & Data Protection\n*   [ ] **In-Transit:** Enforce TLS 1.3 for all traffic. Use HSTS (HTTP Strict Transport Security).\n*   [ ] **At-Rest:** Encrypt databases, backups, and sensitive configuration files (e.g., using AES-256).\n*   [ ] **Secret Management:** Never hardcode secrets. Use a Secret Manager (HashiCorp Vault, AWS Secrets Manager, etc.) and inject via environment variables.\n*   [ ] **Data Minimization:** Encrypt PII (Personally Identifiable Information) at the application level before database insertion.\n\n### 3. Input Validation & Output Encoding\n*   [ ] **Validation:** Implement strict allow-lists for all inputs (regex, type checking, range validation). Reject unknown inputs by default.\n*   [ ] **Parameterized Queries:** Use Prepared Statements/ORMs for all database interactions to prevent SQL Injection.\n*   [ ] **Encoding:** Context-aware output encoding (HTML, JS, CSS) to prevent Cross-Site Scripting (XSS).\n*   [ ] **Deserialization:** Avoid deserializing untrusted data. Use secure formats like JSON and validate schemas.\n\n### 4. Logging & Monitoring\n*   [ ] **Audit Trails:** Log all security-critical events (auth attempts, permission changes, data access).\n*   [ ] **Anonymization:** Ensure logs do not contain sensitive data (passwords, PII, session tokens).\n*   [ ] **Monitoring:** Set up real-time alerting for suspicious patterns (multiple failed logins, volume anomalies).\n*   [ ] **Log Integrity:** Forward logs to a centralized, write-only logging server (WORM storage).\n\n### 5. Infrastructure & Dependency Security\n*   [ ] **Dependency Scanning:** Use automated tools (e.g., `npm audit`, Snyk, Dependabot) to detect vulnerabilities in third-party libraries.\n*   [ ] **Principle of Least Privilege:** Run application processes as non-root users. Limit database permissions (e.g., no `DROP TABLE` access for the app user).\n*   [ ] **Attack Surface:** Disable all unnecessary ports, services, and default configurations.\n*   [ ] **Headers:** Implement security headers: `Content-Security-Policy` (CSP), `X-Content-Type-Options: nosniff`, and `X-Frame-Options: DENY`.\n\n### 6. Testing & CI/CD\n*   [ ] **SAST/DAST:** Integrate Static and Dynamic Analysis tools into the CI/CD pipeline.\n*   [ ] **Code Reviews:** Require mandatory security-focused peer reviews for every PR.\n*   [ ] **Penetration Testing:** Schedule regular external penetration tests and vulnerability assessments.",
+      "performance": {
+        "response_time_seconds": 3.1,
+        "input_tokens": 121,
+        "output_tokens": 746,
+        "total_tokens": 867
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_01",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "import unittest\n\ndef add(a, b):\n    return a + b\n\nclass TestAddFunction(unittest.TestCase):\n    def test_positive_integers(self):\n        self.assertEqual(add(1, 2), 3)\n\n    def test_negative_integers(self):\n        self.assertEqual(add(-1, -1), -2)\n        self.assertEqual(add(-1, 1), 0)\n\n    def test_zero(self):\n        self.assertEqual(add(0, 0), 0)\n        self.assertEqual(add(5, 0), 5)\n\n    def test_floats(self):\n        self.assertAlmostEqual(add(1.1, 2.2), 3.3, places=7)\n\n    def test_strings(self):\n        # Testing behavior with types that support '+'\n        self.assertEqual(add(\"hello \", \"world\"), \"hello world\")\n\n    def test_lists(self):\n        self.assertEqual(add([1], [2]), [1, 2])\n\nif __name__ == '__main__':\n    unittest.main()",
+      "performance": {
+        "response_time_seconds": 1.729,
+        "input_tokens": 125,
+        "output_tokens": 311,
+        "total_tokens": 436
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_01",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 11.399999999999999,
+      "max_points": 20,
+      "pretty_response": "To design a robust integration test for a \"Load -> Transform -> Save\" pipeline, you must verify that the components interact correctly, data integrity is maintained, and external dependencies behave as expected. Focus on the following key areas:\n\n### 1. Happy Path Scenarios\n*   **End-to-End Execution:** Verify that a valid CSV file is read, successfully transformed according to business rules, and persisted in the destination (database/file system) without errors.\n*   **Data Consistency:** Assert that the record count and data values in the destination match the expected transformed output of the source.\n\n### 2. Edge Case & Data Quality Scenarios\n*   **Malformed CSVs:** Test how the system handles missing headers, uneven columns, or incorrect data types.\n*   **Empty/Null Values:** Verify that the transformation logic correctly handles empty cells (e.g., assigning defaults or filtering them out).\n*   **Empty Files:** Test the system's behavior when an empty CSV is provided (should it fail gracefully or log a warning?).\n*   **Boundary Conditions:** Test maximum/minimum numeric values or unusually long strings to ensure no truncation or overflow occurs.\n\n### 3. Infrastructure & Error Handling\n*   **Destination Constraints:** Ensure that database constraints (unique keys, foreign keys) are triggered correctly during the \"Save\" step.\n*   **Atomicity:** If the save fails halfway, ensure the process either rolls back or logs partial success correctly based on business requirements.\n*   **Access Denied/Connectivity:** Simulate failure to read the source or write to the destination (e.g., file locked, database timeout) to verify robust error logging and cleanup.\n\n### 4. Verification Strategy\n*   **Setup:** Use a temporary file system or an in-memory database (e.g., SQLite or Testcontainers) to isolate the test environment.\n*   **Teardown:** Ensure the environment is reset (files deleted, DB tables truncated) after every test run.\n*   **Assertions:**\n    *   **Count:** `Assert(source_rows == destination_rows)`\n    *   **Content:** Compare expected vs. actual rows using deep equality checks.\n    *   **Logs:** Verify that appropriate success or error logs were generated during the execution.",
+      "performance": {
+        "response_time_seconds": 3.128,
+        "input_tokens": 122,
+        "output_tokens": 528,
+        "total_tokens": 650
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_03",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.5976696930393428,
+      "accuracy": 0.06917423259835712,
+      "reasoning": 1.0,
+      "weighted_points": 14.94174232598357,
+      "max_points": 25,
+      "pretty_response": "A robust data pipeline testing strategy must shift-left, ensuring data quality, schema integrity, and logic correctness at every stage of the CI/CD lifecycle.\n\n### 1. Unit Testing (Development Phase)\n*   **Purpose:** Test individual transformation functions, custom operators, or data cleaning logic in isolation.\n*   **Strategy:** Use frameworks like `pytest` or `unittest`. Mock external dependencies (e.g., S3, API calls) using libraries like `unittest.mock` or `moto`.\n*   **Focus:** Verify edge cases, null handling, and data type transformations.\n\n### 2. Integration Testing (Build/Staging Phase)\n*   **Purpose:** Validate the interaction between components (e.g., Spark/dbt models and the data warehouse).\n*   **Strategy:** \n    *   **Data Contracts:** Use tools like `Great Expectations` or `dbt tests` to validate schemas, primary key uniqueness, and non-null constraints before merging to the main branch.\n    *   **Environment Parity:** Spin up ephemeral containers (Docker/Testcontainers) to simulate the database/data lake to ensure the pipeline code integrates with actual storage APIs.\n\n### 3. End-to-End (E2E) Testing (Pre-Production Phase)\n*   **Purpose:** Verify the full data flow from raw ingestion to the final dashboard or output.\n*   **Strategy:** \n    *   **Sample Run:** Trigger the pipeline on a controlled subset of production-like data in a staging environment.\n    *   **Data Reconciliation:** Compare the row counts and checksums between the source (e.g., RDBMS) and destination (e.g., BigQuery/Snowflake) to ensure data lineage is intact.\n\n### 4. CI/CD Pipeline Integration\n*   **Linting/Static Analysis:** Automatically run `sqlfluff` for SQL and `flake8/black` for Python code quality in the CI pipeline.\n*   **Automated Deployment:** Deploy to staging upon merge to `develop`. Gate production deployment behind an automated suite that includes **Data Quality Checks** (e.g., verifying no data drift occurred during processing).\n*   **Rollback Strategy:** Maintain versioning on transformation code (dbt/Airflow DAGs); if E2E tests fail post-deployment, automate a revert to the previous container image/DAG version.",
+      "performance": {
+        "response_time_seconds": 2.768,
+        "input_tokens": 125,
+        "output_tokens": 569,
+        "total_tokens": 694
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_04",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.6445849297573435,
+      "accuracy": 0.18646232439335889,
+      "reasoning": 1.0,
+      "weighted_points": 16.114623243933586,
+      "max_points": 25,
+      "pretty_response": "To test a complex SQL query, follow these four steps:\n1. **Isolated Verification:** Use a subset of known data (a \"gold standard\" set) to verify output against manual calculations.\n2. **Boundary Testing:** Explicitly insert rows with `NULL`s, zeros, and negative values to verify filter and aggregate logic.\n3. **Execution Plan Audit:** Run `EXPLAIN ANALYZE` to check for full table scans, high-cost sorts, or improper index usage.\n4. **Invariant Validation:** Define constraints that must always be true (e.g., \"The result count cannot be greater than the source table count\") and verify them programmatically.",
+      "performance": {
+        "response_time_seconds": 3.361,
+        "input_tokens": 115,
+        "output_tokens": 694,
+        "total_tokens": 809
+      }
+    },
+    {
+      "task_file": "task_group22_testing.json",
+      "task_id": "TEST_05",
+      "category": "Testing & Quality Assurance",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 17.099999999999998,
+      "max_points": 30,
+      "pretty_response": "/tests\n\u251c\u2500\u2500 unit/                 # Isolated testing of individual functions/classes\n\u2502   \u251c\u2500\u2500 test_services.py  # Logic validation (mocks external dependencies)\n\u2502   \u2514\u2500\u2500 test_utils.py     # Helper function validation\n\u251c\u2500\u2500 integration/          # Testing interactions between components/services\n\u2502   \u251c\u2500\u2500 test_api.py       # API endpoint contracts (using real/test DB)\n\u2502   \u2514\u2500\u2500 test_db_layer.py  # Repository/ORM integration queries\n\u251c\u2500\u2500 performance/          # Stress, Load, and Soak testing\n\u2502   \u251c\u2500\u2500 load_test.js      # k6/JMeter scripts (simulating concurrency)\n\u2502   \u2514\u2500\u2500 latency_test.py   # Benchmark execution time thresholds\n\u251c\u2500\u2500 validation/           # Data integrity and schema validation\n\u2502   \u251c\u2500\u2500 test_schemas.py   # Pydantic/JSON schema enforcement\n\u2502   \u2514\u2500\u2500 test_data_flow.py # Integrity checks across service boundaries\n\u251c\u2500\u2500 conftest.py           # Shared fixtures (DB setup, Auth tokens)\n\u2514\u2500\u2500 pytest.ini            # Configuration and markers",
+      "performance": {
+        "response_time_seconds": 2.669,
+        "input_tokens": 122,
+        "output_tokens": 492,
+        "total_tokens": 614
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_01",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 22.799999999999997,
+      "max_points": 40,
+      "pretty_response": "The process successfully integrates three disparate datasets into a unified analytical view, cleanses them of invalid entries to ensure statistical integrity, derives five key performance indicators essential for business intelligence, and isolates anomalous data points that represent significant statistical deviations from the mean revenue.",
+      "performance": {
+        "response_time_seconds": 2.504,
+        "input_tokens": 128,
+        "output_tokens": 540,
+        "total_tokens": 668
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_02",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 25.65,
+      "max_points": 45,
+      "pretty_response": "import pandas as pd\nimport glob\nimport os\n\n# 1. Define schema mappings for files with varying headers\nschema_map = {\n    'file_type_a': {'old_name': 'Revenue', 'new_name': 'amount'},\n    'file_type_b': {'old_name': 'Total_Sales', 'new_name': 'amount'}\n}\n\ndef process_files(file_list):\n    all_data = []\n    \n    for file in file_list:\n        df = pd.read_csv(file)\n        # Normalize column names (schema handling)\n        df.rename(columns={'Total_Sales': 'amount', 'Revenue': 'amount'}, inplace=True)\n        all_data.append(df)\n        \n    combined_df = pd.concat(all_data, ignore_index=True)\n    \n    # 2. Handle Edge Cases (e.g., missing values, duplicates)\n    combined_df = combined_df.dropna(subset=['amount'])\n    combined_df['date'] = pd.to_datetime(combined_df['date'], errors='coerce')\n    \n    # 3. Derive 8 Metrics\n    # Metric 1: Tax (10%)\n    combined_df['tax'] = combined_df['amount'] * 0.10\n    # Metric 2: Net Amount\n    combined_df['net_amount'] = combined_df['amount'] - combined_df['tax']\n    # Metric 3: Profit Margin\n    combined_df['margin'] = (combined_df['amount'] - combined_df['costs']) / combined_df['amount']\n    # Metric 4: Rolling 7-day Avg\n    combined_df['rolling_avg'] = combined_df.groupby('category')['amount'].transform(lambda x: x.rolling(7).mean())\n    # Metric 5: Daily Growth Rate\n    combined_df['growth'] = combined_df['amount'].pct_change()\n    # Metric 6: Binary High Value Flag\n    combined_df['is_high_value'] = combined_df['amount'] > combined_df['amount'].quantile(0.75)\n    # Metric 7: Year\n    combined_df['year'] = combined_df['date'].dt.year\n    # Metric 8: Transaction Complexity (abs variance)\n    combined_df['volatility'] = combined_df.groupby('category')['amount'].transform('std')\n    \n    return combined_df\n\n# Execute\nfiles = glob.glob(\"path/to/csvs/*.csv\")\nfinal_df = process_files(files)",
+      "performance": {
+        "response_time_seconds": 3.114,
+        "input_tokens": 130,
+        "output_tokens": 722,
+        "total_tokens": 852
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_03",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 28.499999999999996,
+      "max_points": 50,
+      "pretty_response": "import pandas as pd\nimport numpy as np\nfrom sklearn.ensemble import RandomForestRegressor\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import StandardScaler\nfrom sklearn.impute import SimpleImputer\nfrom sklearn.pipeline import Pipeline\n\n# 1. Cleaning\ndf = pd.read_csv('messy_data.csv').drop_duplicates()\ndf['date'] = pd.to_datetime(df['date'], errors='coerce')\ndf['category'] = df['category'].str.lower().str.strip()\n\n# 2. Preprocessing Pipeline\nnumeric_features = df.select_dtypes(include=['int64', 'float64']).columns\nimputer = SimpleImputer(strategy='median')\nscaler = StandardScaler()\n\n# 3. Modeling\nX = df.drop('target', axis=1)\ny = df['target']\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)\n\nmodel = Pipeline([\n    ('imputer', imputer),\n    ('scaler', scaler),\n    ('regressor', RandomForestRegressor(n_estimators=100))\n])\n\nmodel.fit(X_train, y_train)\nscore = model.score(X_test, y_test)",
+      "performance": {
+        "response_time_seconds": 2.234,
+        "input_tokens": 131,
+        "output_tokens": 540,
+        "total_tokens": 671
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_04",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.6294795539033456,
+      "accuracy": 0.14869888475836432,
+      "reasoning": 1.0,
+      "weighted_points": 31.47397769516728,
+      "max_points": 50,
+      "pretty_response": "import pandas as pd\nfrom statsmodels.tsa.holtwinters import ExponentialSmoothing\n\n# Assuming df is your dataframe\n# 1. Anomaly Detection (using Z-score on residuals)\ndf['Z_Score'] = (df['Sales'] - df['Sales'].mean()) / df['Sales'].std()\nanomalies = df[abs(df['Z_Score']) > 3]\n\n# 2. Trend & Seasonal Pattern\n# Aggregating sales by period to view global trend\nmonthly_sales = df.groupby('Period')['Sales'].sum()\n\n# 3. Forecasting next period (Period 13)\nmodel = ExponentialSmoothing(monthly_sales, seasonal='add', seasonal_periods=4)\nmodel_fit = model.fit()\nforecast = model_fit.forecast(steps=1)\n\nprint(f\"Forecast for next period: {forecast[0]}\")",
+      "performance": {
+        "response_time_seconds": 2.245,
+        "input_tokens": 139,
+        "output_tokens": 505,
+        "total_tokens": 644
+      }
+    },
+    {
+      "task_file": "task_group23_saturation.json",
+      "task_id": "SAT_01",
+      "category": "Saturation & Complexity Limits",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 22.799999999999997,
+      "max_points": 40,
+      "pretty_response": "The pipeline concludes that model performance is highly dependent on effective normalization and feature selection. To improve, we suggest moving from static cleaning to automated pipeline cross-validation (e.g., using `sklearn.pipeline.Pipeline`) to prevent data leakage and improve generalization.",
+      "performance": {
+        "response_time_seconds": 2.437,
+        "input_tokens": 155,
+        "output_tokens": 511,
+        "total_tokens": 666
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_01",
+      "category": "Long-Context Handling",
+      "combined_score": 0.5806666666666666,
+      "accuracy": 0.22666666666666666,
+      "reasoning": 0.6,
+      "weighted_points": 23.226666666666663,
+      "max_points": 40,
+      "pretty_response": "Please provide the specification text so that I can generate the extraction table and mapping for you.",
+      "performance": {
+        "response_time_seconds": 0.686,
+        "input_tokens": 132,
+        "output_tokens": 65,
+        "total_tokens": 197
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_02",
+      "category": "Long-Context Handling",
+      "combined_score": 0.5095121951219512,
+      "accuracy": 0.04878048780487805,
+      "reasoning": 0.6,
+      "weighted_points": 22.928048780487806,
+      "max_points": 45,
+      "pretty_response": "Please paste the code below to begin.",
+      "performance": {
+        "response_time_seconds": 1.522,
+        "input_tokens": 128,
+        "output_tokens": 146,
+        "total_tokens": 274
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_03",
+      "category": "Long-Context Handling",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 28.499999999999996,
+      "max_points": 50,
+      "pretty_response": "To analyze 210+ million records without memory failure, utilize **distributed query execution** combined with **columnar partitioning** and **approximate aggregate functions** to reduce data movement and memory footprint during the execution phase.",
+      "performance": {
+        "response_time_seconds": 3.007,
+        "input_tokens": 157,
+        "output_tokens": 581,
+        "total_tokens": 738
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_01",
+      "category": "Long-Context Handling",
+      "combined_score": 0.5961800486618004,
+      "accuracy": 0.1654501216545012,
+      "reasoning": 0.8,
+      "weighted_points": 23.847201946472016,
+      "max_points": 40,
+      "pretty_response": "The system is ready. Please provide the initial requirements or the specific scope of the project, and I will initiate the 20-step workflow, tracking every decision and dependency using the provided matrix format.",
+      "performance": {
+        "response_time_seconds": 2.486,
+        "input_tokens": 140,
+        "output_tokens": 338,
+        "total_tokens": 478
+      }
+    },
+    {
+      "task_file": "task_group24_long_context.json",
+      "task_id": "LCTX_05",
+      "category": "Long-Context Handling",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 31.349999999999998,
+      "max_points": 55,
+      "pretty_response": "I am ready to perform the analysis. Please upload or paste the contents of the 5 specification documents. Once the input is provided, I will deliver a unified design document containing a cross-reference matrix, a conflict resolution summary, and the final integrated requirement set.",
+      "performance": {
+        "response_time_seconds": 1.76,
+        "input_tokens": 127,
+        "output_tokens": 242,
+        "total_tokens": 369
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_01",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 10.600000000000001,
+      "max_points": 20,
+      "pretty_response": "Please provide the details of the SQL task you would like me to solve (e.g., the table schema and the specific question/query requirement). Once you provide the prompt, I will provide the answer in the requested format.",
+      "performance": {
+        "response_time_seconds": 1.159,
+        "input_tokens": 117,
+        "output_tokens": 46,
+        "total_tokens": 163
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_02",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 11.399999999999999,
+      "max_points": 20,
+      "pretty_response": "import pandas as pd\n\ndef process_data(df, column_to_transform, transform_func):\n    \"\"\"\n    Processes a pandas DataFrame by removing duplicates, \n    dropping rows with missing values, and applying a function.\n    \"\"\"\n    # Remove duplicate rows\n    df_cleaned = df.drop_duplicates()\n    \n    # Remove rows with missing values\n    df_cleaned = df_cleaned.dropna()\n    \n    # Apply transformation to a specific column\n    if column_to_transform in df_cleaned.columns:\n        df_cleaned[column_to_transform] = df_cleaned[column_to_transform].apply(transform_func)\n    \n    return df_cleaned",
+      "performance": {
+        "response_time_seconds": 1.353,
+        "input_tokens": 116,
+        "output_tokens": 202,
+        "total_tokens": 318
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_03",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.6162222222222221,
+      "accuracy": 0.11555555555555555,
+      "reasoning": 1.0,
+      "weighted_points": 12.324444444444442,
+      "max_points": 20,
+      "pretty_response": "Please provide the dataset or describe the data you would like me to analyze. Once you provide the input, I will perform the analysis and return the findings in the required format.",
+      "performance": {
+        "response_time_seconds": 1.097,
+        "input_tokens": 115,
+        "output_tokens": 35,
+        "total_tokens": 150
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_04",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 17.099999999999998,
+      "max_points": 30,
+      "pretty_response": "I understand the instructions. Please provide the details of Task 4, and I will perform the analysis and provide the response according to your specified format.",
+      "performance": {
+        "response_time_seconds": 0.874,
+        "input_tokens": 122,
+        "output_tokens": 31,
+        "total_tokens": 153
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_05",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.5977345537757437,
+      "accuracy": 0.16933638443935928,
+      "reasoning": 0.8,
+      "weighted_points": 20.920709382151028,
+      "max_points": 35,
+      "pretty_response": "The quality of a code review is susceptible to a \"midpoint dip\" caused by cumulative cognitive fatigue. While a 50-line script is low in complexity, the reviewer's performance is affected by the preceding tasks. To prevent this degradation, the reviewer must utilize a standardized checklist to ensure consistent evaluation criteria regardless of the task number in the sequence.",
+      "performance": {
+        "response_time_seconds": 1.964,
+        "input_tokens": 127,
+        "output_tokens": 333,
+        "total_tokens": 460
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_06",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.642072072072072,
+      "accuracy": 0.18018018018018017,
+      "reasoning": 1.0,
+      "weighted_points": 22.472522522522517,
+      "max_points": 35,
+      "pretty_response": "The architecture should utilize **distributed sharding** for storage, **Apache Kafka** for asynchronous ingestion, a **Redis** caching layer, and a **tiered storage strategy** to move aged data to object storage, ensuring horizontal scalability and high availability as the dataset grows.",
+      "performance": {
+        "response_time_seconds": 2.366,
+        "input_tokens": 122,
+        "output_tokens": 386,
+        "total_tokens": 508
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_07",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 19.95,
+      "max_points": 35,
+      "pretty_response": "The original query suffers from performance degradation because the `YEAR()` function forces a full table scan, as the database must calculate the year for every single row to check the condition. By using a range comparison (SARGable approach), the database can perform an **Index Seek**, directly jumping to the relevant records in the B-Tree index, which significantly improves execution speed on large datasets.",
+      "performance": {
+        "response_time_seconds": 2.413,
+        "input_tokens": 119,
+        "output_tokens": 266,
+        "total_tokens": 385
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_08",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.6183280757097792,
+      "accuracy": 0.22082018927444794,
+      "reasoning": 0.8,
+      "weighted_points": 24.73312302839117,
+      "max_points": 40,
+      "pretty_response": "Please provide the specific API code snippet or the description of the security vulnerability you are tasked with auditing. Once you provide the code or the details of the security challenge, I will perform the audit and provide the answer in the requested format.",
+      "performance": {
+        "response_time_seconds": 0.995,
+        "input_tokens": 119,
+        "output_tokens": 47,
+        "total_tokens": 166
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_09",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 25.65,
+      "max_points": 45,
+      "pretty_response": "import numpy as np\n\nclass StandardScaler:\n    def fit(self, X):\n        self.mean = np.mean(X, axis=0)\n        self.std = np.std(X, axis=0)\n        return self\n\n    def transform(self, X):\n        return (X - self.mean) / self.std\n\nclass LinearRegression:\n    def fit(self, X, y):\n        # Adding bias term (column of 1s)\n        X_b = np.c_[np.ones((X.shape[0], 1)), X]\n        # Normal Equation: theta = (X^T * X)^-1 * X^T * y\n        self.theta = np.linalg.inv(X_b.T.dot(X_b)).dot(X_b.T).dot(y)\n        return self\n\n    def predict(self, X):\n        X_b = np.c_[np.ones((X.shape[0], 1)), X]\n        return X_b.dot(self.theta)\n\nclass Pipeline:\n    def __init__(self, steps):\n        self.steps = steps # List of (name, object) tuples\n\n    def fit(self, X, y):\n        current_data = X\n        for name, step in self.steps[:-1]:\n            current_data = step.fit(current_data).transform(current_data)\n        self.steps[-1][1].fit(current_data, y)\n        return self\n\n    def predict(self, X):\n        current_data = X\n        for name, step in self.steps[:-1]:\n            current_data = step.transform(current_data)\n        return self.steps[-1][1].predict(current_data)\n\n# Example Usage:\n# pipeline = Pipeline([('scaler', StandardScaler()), ('regressor', LinearRegression())])\n# pipeline.fit(X_train, y_train)\n# predictions = pipeline.predict(X_test)",
+      "performance": {
+        "response_time_seconds": 2.122,
+        "input_tokens": 123,
+        "output_tokens": 575,
+        "total_tokens": 698
+      }
+    },
+    {
+      "task_file": "task_group25_sustained_performance.json",
+      "task_id": "SUST_10",
+      "category": "Sustained Performance & Fatigue",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 25.65,
+      "max_points": 45,
+      "pretty_response": "The quality has significantly improved since Task 1. The implementation has evolved from a simple functional script into a robust, testable, and maintainable system. The integration tests provided ensure that components (Processor, Database, and Transformation logic) function correctly as a unified workflow, preventing regression as the project scales.",
+      "performance": {
+        "response_time_seconds": 2.745,
+        "input_tokens": 133,
+        "output_tokens": 561,
+        "total_tokens": 694
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_01",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.49000000000000005,
+      "accuracy": 0.0,
+      "reasoning": 0.6,
+      "weighted_points": 9.8,
+      "max_points": 20,
+      "pretty_response": "SELECT customer_id, SUM(revenue) AS total_revenue\nFROM orders\nGROUP BY customer_id\nORDER BY total_revenue DESC\nLIMIT 10;",
+      "performance": {
+        "response_time_seconds": 0.922,
+        "input_tokens": 145,
+        "output_tokens": 44,
+        "total_tokens": 189
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_02",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.586973293768546,
+      "accuracy": 0.142433234421365,
+      "reasoning": 0.8,
+      "weighted_points": 11.73946587537092,
+      "max_points": 20,
+      "pretty_response": "The AI switches cleanly to API design. By explicitly stating \"NEW TOPIC,\" you have signaled a context shift, allowing the AI to abandon the previous analytical frame and adopt a technical architecture role to provide a structured RESTful endpoint design.",
+      "performance": {
+        "response_time_seconds": 0.996,
+        "input_tokens": 139,
+        "output_tokens": 50,
+        "total_tokens": 189
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_03",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.6608108108108106,
+      "accuracy": 0.22702702702702704,
+      "reasoning": 1.0,
+      "weighted_points": 16.520270270270267,
+      "max_points": 25,
+      "pretty_response": "My conclusion is that while PostgreSQL provides internal memory caching (Shared Buffers), application-level caching patterns like Materialized Views or external sidecars like Redis are necessary for high-frequency, complex query results. The transition between topics is clear without explicit signposting.",
+      "performance": {
+        "response_time_seconds": 2.258,
+        "input_tokens": 137,
+        "output_tokens": 428,
+        "total_tokens": 565
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_04",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.6077952755905511,
+      "accuracy": 0.09448818897637795,
+      "reasoning": 1.0,
+      "weighted_points": 15.194881889763778,
+      "max_points": 25,
+      "pretty_response": "Yes, modern Large Language Models can effectively track these rapid context switches. Because the input provides the four tasks within a single prompt window, the model maintains the \"global context\" of the entire conversation thread. It avoids confusion by assigning each task its own specific domain logic and formatting requirements. However, if the instructions were extremely long or contradictory, the model might require clarification; in this concise case, it treats the prompt as a multi-step request and handles each sub-task independently and accurately.",
+      "performance": {
+        "response_time_seconds": 1.119,
+        "input_tokens": 151,
+        "output_tokens": 102,
+        "total_tokens": 253
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_01",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 11.399999999999999,
+      "max_points": 20,
+      "pretty_response": "The system follows a **Layered Architecture pattern**, where the Python script acts as the Orchestrator, the SQL query exists within the Data Access Layer (DAL), and the Error Handling acts as a boundary wrapper, ensuring no loss of context between execution states.",
+      "performance": {
+        "response_time_seconds": 2.076,
+        "input_tokens": 150,
+        "output_tokens": 457,
+        "total_tokens": 607
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_06",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.5962525879917184,
+      "accuracy": 0.16563146997929606,
+      "reasoning": 0.8,
+      "weighted_points": 14.906314699792961,
+      "max_points": 25,
+      "pretty_response": "The AI will attempt to deduce your intent based on the immediate conversational context. If a logical \"next step\" exists (like finishing an ETL cycle), it will guess; if the intent is truly ambiguous, it will ask for clarification. The result is typically a functional boilerplate, but its accuracy depends entirely on how well the previous context mirrors standard industry workflows.",
+      "performance": {
+        "response_time_seconds": 2.948,
+        "input_tokens": 140,
+        "output_tokens": 424,
+        "total_tokens": 564
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_07",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.6358536585365854,
+      "accuracy": 0.16463414634146342,
+      "reasoning": 1.0,
+      "weighted_points": 19.07560975609756,
+      "max_points": 30,
+      "pretty_response": "Yes, the implicit domain switch applies correctly. Both SQL query optimization and API response caching share the same fundamental performance engineering paradigm: minimizing expensive operations (disk/CPU vs. network/latency) by prioritizing data locality and reducing redundant processing.\n\nIn SQL, you optimize by reducing **I/O overhead** (indexing, query execution plans); in API caching, you optimize by reducing **upstream compute overhead** (cache hits, TTL management, cache-control headers). Both rely on the principle of \"Cost vs. Frequency\": identifying the most expensive, most frequently requested operations and serving them from a \"closer\" layer (the buffer cache for SQL; the CDN/Redis/Browser cache for APIs). The transition is conceptually sound because both domains treat \"latency reduction through data retrieval strategies\" as the primary mechanism for performance.",
+      "performance": {
+        "response_time_seconds": 1.407,
+        "input_tokens": 139,
+        "output_tokens": 167,
+        "total_tokens": 306
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_08",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 18.55,
+      "max_points": 35,
+      "pretty_response": "I have initialized the dual-context mode. Please provide your first request (e.g., \"Select users older than 25,\" or \"Calculate the average order value\"), and I will provide the synchronized Python/SQL implementation.",
+      "performance": {
+        "response_time_seconds": 1.432,
+        "input_tokens": 135,
+        "output_tokens": 189,
+        "total_tokens": 324
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_09",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 19.95,
+      "max_points": 35,
+      "pretty_response": "**Answer:** No, confusion does not occur. Python variables exist within the application's memory space, while SQL table identifiers exist within the database engine's schema. When using a database connector (like `sqlite3` or `psycopg2`), the Python variable is treated as a string literal (or parameterized input) by the database driver, which then passes that string to the SQL engine to be parsed. Because these environments are separated by an interface (the driver), the identifier names do not collide or conflict.",
+      "performance": {
+        "response_time_seconds": 2.163,
+        "input_tokens": 141,
+        "output_tokens": 406,
+        "total_tokens": 547
+      }
+    },
+    {
+      "task_file": "task_group26_context_switching.json",
+      "task_id": "SWITCH_10",
+      "category": "Context Switching & Task Clarity",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 21.200000000000003,
+      "max_points": 40,
+      "pretty_response": "The system achieves optimal performance by combining **Common Table Expressions (CTE)** for recursive SQL traversal and **LRU memoization** at the application layer to minimize I/O overhead, exposed through a lightweight **Flask API** with standard unit testing validation.",
+      "performance": {
+        "response_time_seconds": 3.31,
+        "input_tokens": 158,
+        "output_tokens": 743,
+        "total_tokens": 901
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_01",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "Please provide the article you would like me to summarize! You haven't included the text in your prompt yet. Once you provide the article, I will ensure the summary is exactly 100 words (\u00b15 words) and follows your requested format.",
+      "performance": {
+        "response_time_seconds": 0.904,
+        "input_tokens": 129,
+        "output_tokens": 52,
+        "total_tokens": 181
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_02",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 17.099999999999998,
+      "max_points": 30,
+      "pretty_response": "### Executive Summary\nWe are optimizing our core platform to bridge the gap between user intent and conversion. By streamlining the user journey and implementing data-driven personalization, we anticipate a 15% increase in conversion rates and a significant reduction in churn. This initiative transforms our product from a functional utility into an intuitive, high-velocity growth engine, directly aligning with our Q4 ARR targets and enhancing long-term customer lifetime value.\n\n### Strategic Recommendations (Ranked)\n1. **Frictionless Onboarding:** Overhaul the authentication and setup flow to reduce \"time-to-first-value\" by 40%, directly addressing our highest drop-off point.\n2. **Predictive Personalization:** Integrate behavioral triggers to deliver context-aware recommendations, increasing engagement depth and cross-sell potential.\n3. **Unified Analytics Dashboard:** Expose actionable user insights to internal stakeholders to accelerate iterative feature development and product-market fit refinement.\n\n### Implementation Notes\nThe rollout will utilize a phased, feature-flagged approach to mitigate risk. We will adopt a \"measure-then-scale\" methodology, prioritizing A/B testing on the onboarding flow before full-scale deployment. Engineering resources are allocated for a six-week sprint cycle, with bi-weekly stakeholder reviews to ensure alignment with shifting market signals. Success will be tracked via cohort analysis, specifically monitoring day-30 retention rates as our primary KPI.",
+      "performance": {
+        "response_time_seconds": 2.245,
+        "input_tokens": 146,
+        "output_tokens": 292,
+        "total_tokens": 438
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_03",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 19.95,
+      "max_points": 35,
+      "pretty_response": "**1. CTO (Technical Depth)**\nOur architecture implements an asynchronous event-driven microservices pattern using a gRPC-based communication layer to ensure low-latency inter-service orchestration. By decoupling the data ingestion pipeline from the processing engine via a Kafka message bus, we achieve high fault tolerance and horizontal scalability. We utilize stateful stream processing with ACID-compliant storage backends, optimizing query performance through distributed indexing. This modular infrastructure minimizes technical debt, supports CI/CD integration, and provides robust telemetry for real-time observability across the entire distributed system.",
+      "performance": {
+        "response_time_seconds": 2.051,
+        "input_tokens": 152,
+        "output_tokens": 318,
+        "total_tokens": 470
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_04",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 17.099999999999998,
+      "max_points": 30,
+      "pretty_response": "### 1. Feature Overview\nThis feature enables users to upload, crop, and save a personalized profile picture to their account settings. It enhances user identity and platform engagement by allowing for visual customization across the application interface.\n\n### 2. Acceptance Criteria\n*   Users must be able to upload images in JPG, PNG, or WEBP formats.\n*   The system must enforce a maximum file size limit of 5MB per upload.\n*   The UI must provide a cropping tool to ensure the image conforms to a 1:1 aspect ratio.\n*   Upon clicking \"Save,\" the image must be immediately updated and reflected in the user's header navigation.\n*   The system must display an error message if the file type or size constraints are violated.\n\n### 3. Technical Requirements\n*   Implement client-side validation to check file type and size before initiating the upload request.\n*   Utilize an S3-compatible cloud storage bucket for secure image hosting with CDN integration.\n*   Expose a REST API endpoint (POST /api/v1/user/avatar) that handles multipart/form-data requests.\n*   Trigger an asynchronous background process to generate optimized image thumbnails for various UI components.\n\n### 4. Edge Cases\n*   Handling of malformed or corrupted image files that pass initial extension checks.\n*   Behavior when a user attempts to upload an image while their network connection drops mid-transfer.\n*   System response when an image upload is attempted during a period of high concurrent traffic or S3 service latency.",
+      "performance": {
+        "response_time_seconds": 2.082,
+        "input_tokens": 160,
+        "output_tokens": 354,
+        "total_tokens": 514
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_05",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 19.95,
+      "max_points": 35,
+      "pretty_response": "### API Integration Guide\n\n#### Authentication\nAll requests to the API must be authenticated using an API Key provided in your dashboard. Include this key in the `Authorization` header using the `Bearer` scheme.\n\n```http\nGET /api/v1/resources HTTP/1.1\nHost: api.example.com\nAuthorization: Bearer YOUR_API_KEY\n```\n\n#### Pagination\nTo maintain performance, all list endpoints support cursor-based pagination. You can control the number of results per page using the `limit` parameter and navigate through the dataset using the `next_cursor` token returned in the response metadata.\n\n```http\nGET /api/v1/resources?limit=25&cursor=eyJpZCI6MTAxfQ== HTTP/1.1\nAuthorization: Bearer YOUR_API_KEY\n```",
+      "performance": {
+        "response_time_seconds": 2.8,
+        "input_tokens": 151,
+        "output_tokens": 551,
+        "total_tokens": 702
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_06",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 19.95,
+      "max_points": 35,
+      "pretty_response": "### 1. Executive Audience (CEO/CFO)\n**Subject: Strategic Migration to [Platform Name]**\nTo ensure long-term operational scalability and data security, we are initiating the migration to [Platform Name] effective [Date]. This transition is a key component of our fiscal strategy to reduce technical debt and optimize infrastructure costs by an estimated [X]%. \n\nThe project follows a phased rollout designed to mitigate operational risk and ensure business continuity. We have partnered with [Vendor/Internal Team] to ensure a seamless integration with existing workflows, safeguarding data integrity throughout the transition. The migration will be completed by [Date], positioning the company to leverage advanced analytics for better decision-making. By consolidating our systems, we reduce maintenance overhead and create a more agile digital environment. Regular status updates will be provided to ensure full visibility into project milestones and ROI. We are committed to a zero-downtime execution to protect our bottom line and maintain our competitive market advantage.\n\n### 2. Departmental Managers\n**Subject: Preparation for [Platform Name] Migration**\nAs we prepare for the transition to [Platform Name] on [Date], your leadership is essential in ensuring team readiness. This migration aims to streamline cross-departmental collaboration and provide your teams with more robust, intuitive tooling. \n\nWe recognize that adopting new systems impacts productivity; therefore, we have implemented a structured training program starting [Date]. Each department will receive tailored documentation and access to dedicated support channels to assist with the transition. Please prioritize attendance for your staff during scheduled training sessions to ensure a smooth adoption. We have identified key workflows within your department that will be affected and are working to minimize disruptions. Our goal is to empower your teams with enhanced capabilities while ensuring they feel fully supported. Detailed FAQs and a dedicated transition lead are available to address any concerns. Thank you for your continued support in driving this operational improvement.\n\n### 3. Individual Contributors\n**Subject: Getting Ready for Our Move to [Platform Name]**\nBig news! On [Date], we are migrating to [Platform Name] to make our day-to-day work faster and easier. This new system offers better collaboration tools, a more modern interface, and enhanced features designed to cut down on repetitive manual tasks.\n\nYou don\u2019t need to worry about losing your current data\u2014everything is being safely transferred. To help you get up to speed, we are hosting live workshops starting [Date] and have created a \"Quick Start\" guide available on the company intranet. You will find that most of your current tasks are even simpler to complete in the new environment. If you run into any issues or have questions, our Support Desk is ready to assist via [Channel]. We want this process to be as smooth as possible for you. Keep an eye on your inbox for your login credentials and further instructions coming next week!",
+      "performance": {
+        "response_time_seconds": 3.059,
+        "input_tokens": 176,
+        "output_tokens": 585,
+        "total_tokens": 761
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_07",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 17.099999999999998,
+      "max_points": 30,
+      "pretty_response": "Database indexing is a performance-tuning mechanism that creates a structured data lookup table to accelerate query retrieval times. By maintaining a pointer-based auxiliary structure, the database engine avoids expensive full-table scans, shifting O(n) linear search complexity toward O(log n) tree-based operations.",
+      "performance": {
+        "response_time_seconds": 2.298,
+        "input_tokens": 154,
+        "output_tokens": 465,
+        "total_tokens": 619
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_02",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.53,
+      "accuracy": 0.0,
+      "reasoning": 0.8,
+      "weighted_points": 15.9,
+      "max_points": 30,
+      "pretty_response": "Please provide the email content you wish to have compressed. I am ready to rewrite it to exactly 200 words (\u00b15 words) while retaining all requested key information.",
+      "performance": {
+        "response_time_seconds": 0.988,
+        "input_tokens": 160,
+        "output_tokens": 77,
+        "total_tokens": 237
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_09",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.48999999999999994,
+      "accuracy": 0.0,
+      "reasoning": 0.6,
+      "weighted_points": 17.15,
+      "max_points": 35,
+      "pretty_response": "**Business Case: Implementation of Automated Expense Management System**",
+      "performance": {
+        "response_time_seconds": 1.998,
+        "input_tokens": 147,
+        "output_tokens": 352,
+        "total_tokens": 499
+      }
+    },
+    {
+      "task_file": "task_group27_writing_generation.json",
+      "task_id": "WRITE_10",
+      "category": "Writing & Content Generation",
+      "combined_score": 0.57,
+      "accuracy": 0.0,
+      "reasoning": 1.0,
+      "weighted_points": 22.799999999999997,
+      "max_points": 40,
+      "pretty_response": "# Building Scalable Systems with Microservices Architecture\n\nIn the era of cloud-native development, monolithic applications often become bottlenecks. As your user base grows, deploying updates becomes risky, and scaling a single service often requires scaling the entire stack. Enter **Microservices Architecture**: a paradigm shift toward building applications as a collection of small, autonomous, and loosely coupled services.\n\n### Why Microservices?\nMicroservices decouple components, allowing teams to:\n*   **Scale Independently:** Only scale the services that need more resources.\n*   **Technology Agnostic:** Use the best tool for the job (e.g., Python for data processing, Go for high-concurrency microservices).\n*   **Fault Isolation:** A failure in the notification service shouldn't crash the payment gateway.\n\n### Core Principles for Scalability\n\n#### 1. Database-per-Service\nThe most common mistake is sharing a database across services. This creates tight coupling. Ensure each service owns its data schema. If services need to share data, use APIs or asynchronous messaging.\n\n#### 2. Asynchronous Communication\nSynchronous REST calls create \"distributed monoliths\" where services wait on each other. Use **Event-Driven Architecture** with message brokers like RabbitMQ or Apache Kafka. \n\n*Example: When an order is placed, instead of calling the Inventory API directly, publish an `OrderPlaced` event.*\n\n#### 3. Resilience Patterns\nNetwork calls fail. Build systems that expect failure by implementing:\n*   **Circuit Breakers:** Stop requests to a failing service to prevent cascading failures.\n*   **Retries with Exponential Backoff:** Gracefully handle temporary network jitters.\n\n### Implementation Example: A Simple Circuit Breaker (Python)\nUsing a library like `pycircuitbreaker` allows you to prevent system overload during outages.\n\n```python\nfrom circuitbreaker import circuit\n\n@circuit(failure_threshold=5, recovery_timeout=30)\ndef fetch_user_data(user_id):\n    # API call to a remote service\n    response = requests.get(f\"http://user-service/users/{user_id}\")\n    return response.json()\n```\n\n### Challenges to Watch For\n*   **Observability:** You cannot debug a distributed system without centralized logging (ELK stack) and distributed tracing (Jaeger/Zipkin).\n*   **Data Consistency:** Embrace **Eventual Consistency**. Use the *Saga Pattern* to manage distributed transactions across multiple services.\n\n### Conclusion\nTransitioning to microservices is not just a technical change\u2014it\u2019s an organizational one. Start by breaking off non-critical components into microservices to validate your infrastructure. Focus on automation, robust CI/CD pipelines, and deep monitoring. By embracing decentralization, you build systems that don\u2019t just handle scale\u2014they thrive under it.",
+      "performance": {
+        "response_time_seconds": 3.032,
+        "input_tokens": 133,
+        "output_tokens": 597,
+        "total_tokens": 730
+      }
+    }
+  ]
+}
